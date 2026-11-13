@@ -1,0 +1,16 @@
+
+# Python environment and cache
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# IDE settings
+.idea/
+.vscode/
+
+# Local secrets
+.env
+
+# Old test output
+results_test

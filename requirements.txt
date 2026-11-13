@@ -1,0 +1,2 @@
+# Standard library only; no third-party dependencies beyond the official MCP SDK.
+mcp[cli]==2.3.0

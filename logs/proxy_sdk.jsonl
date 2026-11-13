@@ -1,0 +1,494 @@
+{"timestamp_unix": 1794500055.6247172, "execution_id": "sdk-baseline-001", "event": "message_received", "request_id": 1, "method": "initialize", "tool": null}
+{"timestamp_unix": 1794500055.6247172, "execution_id": "sdk-baseline-001", "event": "request_forwarded", "request_id": 1, "method": "initialize", "tool": null}
+{"timestamp_unix": 1794500059.0278118, "execution_id": "sdk-baseline-001", "event": "upstream_response_received", "request_id": 1, "response_kind": "result"}
+{"timestamp_unix": 1794500059.0278118, "execution_id": "sdk-baseline-001", "event": "response_forwarded", "request_id": 1, "response_kind": "result"}
+{"timestamp_unix": 1794500059.0278118, "execution_id": "sdk-baseline-001", "event": "message_received", "request_id": null, "method": "notifications/initialized", "tool": null}
+{"timestamp_unix": 1794500059.0278118, "execution_id": "sdk-baseline-001", "event": "request_forwarded", "request_id": null, "method": "notifications/initialized", "tool": null}
+{"timestamp_unix": 1794500059.0465865, "execution_id": "sdk-baseline-001", "event": "message_received", "request_id": 2, "method": "tools/list", "tool": null}
+{"timestamp_unix": 1794500059.0475872, "execution_id": "sdk-baseline-001", "event": "request_forwarded", "request_id": 2, "method": "tools/list", "tool": null}
+{"timestamp_unix": 1794500059.0525846, "execution_id": "sdk-baseline-001", "event": "upstream_response_received", "request_id": 2, "response_kind": "result"}
+{"timestamp_unix": 1794500059.0535848, "execution_id": "sdk-baseline-001", "event": "response_forwarded", "request_id": 2, "response_kind": "result"}
+{"timestamp_unix": 1794500059.1027114, "execution_id": "sdk-baseline-001", "event": "message_received", "request_id": 3, "method": "tools/call", "tool": "get_company_revenue"}
+{"timestamp_unix": 1794500059.103711, "execution_id": "sdk-baseline-001", "event": "request_forwarded", "request_id": 3, "method": "tools/call", "tool": "get_company_revenue"}
+{"timestamp_unix": 1794500059.1322258, "execution_id": "sdk-baseline-001", "event": "upstream_response_received", "request_id": 3, "response_kind": "result"}
+{"timestamp_unix": 1794500059.133226, "execution_id": "sdk-baseline-001", "event": "response_forwarded", "request_id": 3, "response_kind": "result"}
+{"timestamp_unix": 1794502451.2413843, "execution_id": "baseline-001-1794502448577334600", "event": "message_received", "request_id": 1, "method": "initialize", "tool": null}
+{"timestamp_unix": 1794502451.359054, "execution_id": "baseline-001-1794502448577334600", "event": "request_forwarded", "request_id": 1, "method": "initialize", "tool": null}
+{"timestamp_unix": 1794502457.60808, "execution_id": "baseline-001-1794502448577334600", "event": "upstream_response_received", "request_id": 1, "response_kind": "result"}
+{"timestamp_unix": 1794502457.60808, "execution_id": "baseline-001-1794502448577334600", "event": "response_forwarded", "request_id": 1, "response_kind": "result"}
+{"timestamp_unix": 1794502457.60808, "execution_id": "baseline-001-1794502448577334600", "event": "message_received", "request_id": null, "method": "notifications/initialized", "tool": null}
+{"timestamp_unix": 1794502457.60808, "execution_id": "baseline-001-1794502448577334600", "event": "request_forwarded", "request_id": null, "method": "notifications/initialized", "tool": null}
+{"timestamp_unix": 1794502457.60808, "execution_id": "baseline-001-1794502448577334600", "event": "message_received", "request_id": 2, "method": "tools/list", "tool": null}
+{"timestamp_unix": 1794502457.60808, "execution_id": "baseline-001-1794502448577334600", "event": "request_forwarded", "request_id": 2, "method": "tools/list", "tool": null}
+{"timestamp_unix": 1794502457.6236994, "execution_id": "baseline-001-1794502448577334600", "event": "upstream_response_received", "request_id": 2, "response_kind": "result"}
+{"timestamp_unix": 1794502457.6236994, "execution_id": "baseline-001-1794502448577334600", "event": "response_forwarded", "request_id": 2, "response_kind": "result"}
+{"timestamp_unix": 1794502457.7798986, "execution_id": "baseline-001-1794502448577334600", "event": "message_received", "request_id": 3, "method": "tools/call", "tool": "get_company_revenue"}
+{"timestamp_unix": 1794502457.7798986, "execution_id": "baseline-001-1794502448577334600", "event": "request_forwarded", "request_id": 3, "method": "tools/call", "tool": "get_company_revenue"}
+{"timestamp_unix": 1794502457.7798986, "execution_id": "baseline-001-1794502448577334600", "event": "upstream_response_received", "request_id": 3, "response_kind": "result"}
+{"timestamp_unix": 1794502457.7955174, "execution_id": "baseline-001-1794502448577334600", "event": "response_forwarded", "request_id": 3, "response_kind": "result"}
+{"timestamp_unix": 1794502463.2815516, "execution_id": "baseline-002-1794502448577334600", "event": "message_received", "request_id": 1, "method": "initialize", "tool": null}
+{"timestamp_unix": 1794502463.299354, "execution_id": "baseline-002-1794502448577334600", "event": "request_forwarded", "request_id": 1, "method": "initialize", "tool": null}
+{"timestamp_unix": 1794502471.9075441, "execution_id": "baseline-002-1794502448577334600", "event": "upstream_response_received", "request_id": 1, "response_kind": "result"}
+{"timestamp_unix": 1794502471.9075441, "execution_id": "baseline-002-1794502448577334600", "event": "response_forwarded", "request_id": 1, "response_kind": "result"}
+{"timestamp_unix": 1794502473.169375, "execution_id": "baseline-003-1794502448577334600", "event": "message_received", "request_id": 1, "method": "initialize", "tool": null}
+{"timestamp_unix": 1794502473.1749406, "execution_id": "baseline-003-1794502448577334600", "event": "request_forwarded", "request_id": 1, "method": "initialize", "tool": null}
+{"timestamp_unix": 1794502476.7471375, "execution_id": "baseline-003-1794502448577334600", "event": "upstream_response_received", "request_id": 1, "response_kind": "result"}
+{"timestamp_unix": 1794502476.748138, "execution_id": "baseline-003-1794502448577334600", "event": "response_forwarded", "request_id": 1, "response_kind": "result"}
+{"timestamp_unix": 1794502476.75193, "execution_id": "baseline-003-1794502448577334600", "event": "message_received", "request_id": null, "method": "notifications/initialized", "tool": null}
+{"timestamp_unix": 1794502476.75193, "execution_id": "baseline-003-1794502448577334600", "event": "request_forwarded", "request_id": null, "method": "notifications/initialized", "tool": null}
+{"timestamp_unix": 1794502476.7600498, "execution_id": "baseline-003-1794502448577334600", "event": "message_received", "request_id": 2, "method": "tools/list", "tool": null}
+{"timestamp_unix": 1794502476.7600498, "execution_id": "baseline-003-1794502448577334600", "event": "request_forwarded", "request_id": 2, "method": "tools/list", "tool": null}
+{"timestamp_unix": 1794502476.7600498, "execution_id": "baseline-003-1794502448577334600", "event": "upstream_response_received", "request_id": 2, "response_kind": "result"}
+{"timestamp_unix": 1794502476.7600498, "execution_id": "baseline-003-1794502448577334600", "event": "response_forwarded", "request_id": 2, "response_kind": "result"}
+{"timestamp_unix": 1794502476.7600498, "execution_id": "baseline-003-1794502448577334600", "event": "message_received", "request_id": 3, "method": "tools/call", "tool": "get_company_revenue"}
+{"timestamp_unix": 1794502476.7600498, "execution_id": "baseline-003-1794502448577334600", "event": "request_forwarded", "request_id": 3, "method": "tools/call", "tool": "get_company_revenue"}
+{"timestamp_unix": 1794502476.7750568, "execution_id": "baseline-003-1794502448577334600", "event": "upstream_response_received", "request_id": 3, "response_kind": "result"}
+{"timestamp_unix": 1794502476.776055, "execution_id": "baseline-003-1794502448577334600", "event": "response_forwarded", "request_id": 3, "response_kind": "result"}
+{"timestamp_unix": 1794502829.557487, "execution_id": "baseline-001-1794502828828381000", "event": "message_received", "request_id": 1, "method": "initialize", "tool": null}
+{"timestamp_unix": 1794502829.5753934, "execution_id": "baseline-001-1794502828828381000", "event": "request_forwarded", "request_id": 1, "method": "initialize", "tool": null}
+{"timestamp_unix": 1794502833.3405495, "execution_id": "baseline-001-1794502828828381000", "event": "upstream_response_received", "request_id": 1, "response_kind": "result"}
+{"timestamp_unix": 1794502833.3405495, "execution_id": "baseline-001-1794502828828381000", "event": "response_forwarded", "request_id": 1, "response_kind": "result"}
+{"timestamp_unix": 1794502833.3563085, "execution_id": "baseline-001-1794502828828381000", "event": "message_received", "request_id": null, "method": "notifications/initialized", "tool": null}
+{"timestamp_unix": 1794502833.3569949, "execution_id": "baseline-001-1794502828828381000", "event": "request_forwarded", "request_id": null, "method": "notifications/initialized", "tool": null}
+{"timestamp_unix": 1794502833.3738647, "execution_id": "baseline-001-1794502828828381000", "event": "message_received", "request_id": 2, "method": "tools/list", "tool": null}
+{"timestamp_unix": 1794502833.3738647, "execution_id": "baseline-001-1794502828828381000", "event": "request_forwarded", "request_id": 2, "method": "tools/list", "tool": null}
+{"timestamp_unix": 1794502833.3738647, "execution_id": "baseline-001-1794502828828381000", "event": "upstream_response_received", "request_id": 2, "response_kind": "result"}
+{"timestamp_unix": 1794502833.3738647, "execution_id": "baseline-001-1794502828828381000", "event": "response_forwarded", "request_id": 2, "response_kind": "result"}
+{"timestamp_unix": 1794502833.3738647, "execution_id": "baseline-001-1794502828828381000", "event": "message_received", "request_id": 3, "method": "tools/call", "tool": "get_company_revenue"}
+{"timestamp_unix": 1794502833.3738647, "execution_id": "baseline-001-1794502828828381000", "event": "request_forwarded", "request_id": 3, "method": "tools/call", "tool": "get_company_revenue"}
+{"timestamp_unix": 1794502833.3904505, "execution_id": "baseline-001-1794502828828381000", "event": "upstream_response_received", "request_id": 3, "response_kind": "result"}
+{"timestamp_unix": 1794502833.3904505, "execution_id": "baseline-001-1794502828828381000", "event": "response_forwarded", "request_id": 3, "response_kind": "result"}
+{"timestamp_unix": 1794503093.3101208, "execution_id": "baseline-001-1794503092779253500", "event": "message_received", "request_id": 1, "method": "initialize", "tool": null}
+{"timestamp_unix": 1794503093.331246, "execution_id": "baseline-001-1794503092779253500", "event": "request_forwarded", "request_id": 1, "method": "initialize", "tool": null}
+{"timestamp_unix": 1794503096.1360826, "execution_id": "baseline-001-1794503092779253500", "event": "upstream_response_received", "request_id": 1, "response_kind": "result"}
+{"timestamp_unix": 1794503096.1360826, "execution_id": "baseline-001-1794503092779253500", "event": "response_forwarded", "request_id": 1, "response_kind": "result"}
+{"timestamp_unix": 1794503096.1390817, "execution_id": "baseline-001-1794503092779253500", "event": "message_received", "request_id": null, "method": "notifications/initialized", "tool": null}
+{"timestamp_unix": 1794503096.1400824, "execution_id": "baseline-001-1794503092779253500", "event": "request_forwarded", "request_id": null, "method": "notifications/initialized", "tool": null}
+{"timestamp_unix": 1794503096.1410818, "execution_id": "baseline-001-1794503092779253500", "event": "message_received", "request_id": 2, "method": "tools/list", "tool": null}
+{"timestamp_unix": 1794503096.1420834, "execution_id": "baseline-001-1794503092779253500", "event": "request_forwarded", "request_id": 2, "method": "tools/list", "tool": null}
+{"timestamp_unix": 1794503096.1467552, "execution_id": "baseline-001-1794503092779253500", "event": "upstream_response_received", "request_id": 2, "response_kind": "result"}
+{"timestamp_unix": 1794503096.1477556, "execution_id": "baseline-001-1794503092779253500", "event": "response_forwarded", "request_id": 2, "response_kind": "result"}
+{"timestamp_unix": 1794503096.1517549, "execution_id": "baseline-001-1794503092779253500", "event": "message_received", "request_id": 3, "method": "tools/call", "tool": "get_company_revenue"}
+{"timestamp_unix": 1794503096.1527555, "execution_id": "baseline-001-1794503092779253500", "event": "request_forwarded", "request_id": 3, "method": "tools/call", "tool": "get_company_revenue"}
+{"timestamp_unix": 1794503096.1567545, "execution_id": "baseline-001-1794503092779253500", "event": "upstream_response_received", "request_id": 3, "response_kind": "result"}
+{"timestamp_unix": 1794503096.1577556, "execution_id": "baseline-001-1794503092779253500", "event": "response_forwarded", "request_id": 3, "response_kind": "result"}
+{"timestamp_unix": 1794503097.2599301, "execution_id": "baseline-002-1794503092779253500", "event": "message_received", "request_id": 1, "method": "initialize", "tool": null}
+{"timestamp_unix": 1794503097.2599301, "execution_id": "baseline-002-1794503092779253500", "event": "request_forwarded", "request_id": 1, "method": "initialize", "tool": null}
+{"timestamp_unix": 1794503099.9098184, "execution_id": "baseline-002-1794503092779253500", "event": "upstream_response_received", "request_id": 1, "response_kind": "result"}
+{"timestamp_unix": 1794503099.9098184, "execution_id": "baseline-002-1794503092779253500", "event": "response_forwarded", "request_id": 1, "response_kind": "result"}
+{"timestamp_unix": 1794503099.9098184, "execution_id": "baseline-002-1794503092779253500", "event": "message_received", "request_id": null, "method": "notifications/initialized", "tool": null}
+{"timestamp_unix": 1794503099.9272697, "execution_id": "baseline-002-1794503092779253500", "event": "request_forwarded", "request_id": null, "method": "notifications/initialized", "tool": null}
+{"timestamp_unix": 1794503099.9282706, "execution_id": "baseline-002-1794503092779253500", "event": "message_received", "request_id": 2, "method": "tools/list", "tool": null}
+{"timestamp_unix": 1794503099.9292703, "execution_id": "baseline-002-1794503092779253500", "event": "request_forwarded", "request_id": 2, "method": "tools/list", "tool": null}
+{"timestamp_unix": 1794503099.9332705, "execution_id": "baseline-002-1794503092779253500", "event": "upstream_response_received", "request_id": 2, "response_kind": "result"}
+{"timestamp_unix": 1794503099.93427, "execution_id": "baseline-002-1794503092779253500", "event": "response_forwarded", "request_id": 2, "response_kind": "result"}
+{"timestamp_unix": 1794503099.936272, "execution_id": "baseline-002-1794503092779253500", "event": "message_received", "request_id": 3, "method": "tools/call", "tool": "get_company_revenue"}
+{"timestamp_unix": 1794503099.9372723, "execution_id": "baseline-002-1794503092779253500", "event": "request_forwarded", "request_id": 3, "method": "tools/call", "tool": "get_company_revenue"}
+{"timestamp_unix": 1794503099.94227, "execution_id": "baseline-002-1794503092779253500", "event": "upstream_response_received", "request_id": 3, "response_kind": "result"}
+{"timestamp_unix": 1794503099.9436078, "execution_id": "baseline-002-1794503092779253500", "event": "response_forwarded", "request_id": 3, "response_kind": "result"}
+{"timestamp_unix": 1794503100.8597696, "execution_id": "baseline-003-1794503092779253500", "event": "message_received", "request_id": 1, "method": "initialize", "tool": null}
+{"timestamp_unix": 1794503100.8597696, "execution_id": "baseline-003-1794503092779253500", "event": "request_forwarded", "request_id": 1, "method": "initialize", "tool": null}
+{"timestamp_unix": 1794503103.5443919, "execution_id": "baseline-003-1794503092779253500", "event": "upstream_response_received", "request_id": 1, "response_kind": "result"}
+{"timestamp_unix": 1794503103.5453913, "execution_id": "baseline-003-1794503092779253500", "event": "response_forwarded", "request_id": 1, "response_kind": "result"}
+{"timestamp_unix": 1794503103.5483925, "execution_id": "baseline-003-1794503092779253500", "event": "message_received", "request_id": null, "method": "notifications/initialized", "tool": null}
+{"timestamp_unix": 1794503103.5483925, "execution_id": "baseline-003-1794503092779253500", "event": "request_forwarded", "request_id": null, "method": "notifications/initialized", "tool": null}
+{"timestamp_unix": 1794503103.550391, "execution_id": "baseline-003-1794503092779253500", "event": "message_received", "request_id": 2, "method": "tools/list", "tool": null}
+{"timestamp_unix": 1794503103.550391, "execution_id": "baseline-003-1794503092779253500", "event": "request_forwarded", "request_id": 2, "method": "tools/list", "tool": null}
+{"timestamp_unix": 1794503103.554412, "execution_id": "baseline-003-1794503092779253500", "event": "upstream_response_received", "request_id": 2, "response_kind": "result"}
+{"timestamp_unix": 1794503103.5554261, "execution_id": "baseline-003-1794503092779253500", "event": "response_forwarded", "request_id": 2, "response_kind": "result"}
+{"timestamp_unix": 1794503103.5573926, "execution_id": "baseline-003-1794503092779253500", "event": "message_received", "request_id": 3, "method": "tools/call", "tool": "get_company_revenue"}
+{"timestamp_unix": 1794503103.558498, "execution_id": "baseline-003-1794503092779253500", "event": "request_forwarded", "request_id": 3, "method": "tools/call", "tool": "get_company_revenue"}
+{"timestamp_unix": 1794503103.5611498, "execution_id": "baseline-003-1794503092779253500", "event": "upstream_response_received", "request_id": 3, "response_kind": "result"}
+{"timestamp_unix": 1794503103.5611498, "execution_id": "baseline-003-1794503092779253500", "event": "response_forwarded", "request_id": 3, "response_kind": "result"}
+{"timestamp_unix": 1794503289.5005913, "execution_id": "baseline-001-1794503288940779900", "event": "message_received", "request_id": 1, "method": "initialize", "tool": null}
+{"timestamp_unix": 1794503289.5005913, "execution_id": "baseline-001-1794503288940779900", "event": "request_forwarded", "request_id": 1, "method": "initialize", "tool": null}
+{"timestamp_unix": 1794503292.6736357, "execution_id": "baseline-001-1794503288940779900", "event": "upstream_response_received", "request_id": 1, "response_kind": "result"}
+{"timestamp_unix": 1794503292.6746354, "execution_id": "baseline-001-1794503288940779900", "event": "response_forwarded", "request_id": 1, "response_kind": "result"}
+{"timestamp_unix": 1794503292.6766362, "execution_id": "baseline-001-1794503288940779900", "event": "message_received", "request_id": null, "method": "notifications/initialized", "tool": null}
+{"timestamp_unix": 1794503292.6786363, "execution_id": "baseline-001-1794503288940779900", "event": "request_forwarded", "request_id": null, "method": "notifications/initialized", "tool": null}
+{"timestamp_unix": 1794503292.6796365, "execution_id": "baseline-001-1794503288940779900", "event": "message_received", "request_id": 2, "method": "tools/list", "tool": null}
+{"timestamp_unix": 1794503292.6796365, "execution_id": "baseline-001-1794503288940779900", "event": "request_forwarded", "request_id": 2, "method": "tools/list", "tool": null}
+{"timestamp_unix": 1794503292.6844385, "execution_id": "baseline-001-1794503288940779900", "event": "upstream_response_received", "request_id": 2, "response_kind": "result"}
+{"timestamp_unix": 1794503292.6854393, "execution_id": "baseline-001-1794503288940779900", "event": "response_forwarded", "request_id": 2, "response_kind": "result"}
+{"timestamp_unix": 1794503292.689441, "execution_id": "baseline-001-1794503288940779900", "event": "message_received", "request_id": 3, "method": "tools/call", "tool": "get_company_revenue"}
+{"timestamp_unix": 1794503292.689441, "execution_id": "baseline-001-1794503288940779900", "event": "request_forwarded", "request_id": 3, "method": "tools/call", "tool": "get_company_revenue"}
+{"timestamp_unix": 1794503292.694439, "execution_id": "baseline-001-1794503288940779900", "event": "upstream_response_received", "request_id": 3, "response_kind": "result"}
+{"timestamp_unix": 1794503292.6954393, "execution_id": "baseline-001-1794503288940779900", "event": "response_forwarded", "request_id": 3, "response_kind": "result"}
+{"timestamp_unix": 1794503294.1675072, "execution_id": "baseline-002-1794503288940779900", "event": "message_received", "request_id": 1, "method": "initialize", "tool": null}
+{"timestamp_unix": 1794503294.168509, "execution_id": "baseline-002-1794503288940779900", "event": "request_forwarded", "request_id": 1, "method": "initialize", "tool": null}
+{"timestamp_unix": 1794503298.3091884, "execution_id": "baseline-002-1794503288940779900", "event": "upstream_response_received", "request_id": 1, "response_kind": "result"}
+{"timestamp_unix": 1794503298.3179252, "execution_id": "baseline-002-1794503288940779900", "event": "response_forwarded", "request_id": 1, "response_kind": "result"}
+{"timestamp_unix": 1794503298.3201933, "execution_id": "baseline-002-1794503288940779900", "event": "message_received", "request_id": null, "method": "notifications/initialized", "tool": null}
+{"timestamp_unix": 1794503298.3211932, "execution_id": "baseline-002-1794503288940779900", "event": "request_forwarded", "request_id": null, "method": "notifications/initialized", "tool": null}
+{"timestamp_unix": 1794503298.323193, "execution_id": "baseline-002-1794503288940779900", "event": "message_received", "request_id": 2, "method": "tools/list", "tool": null}
+{"timestamp_unix": 1794503298.3241932, "execution_id": "baseline-002-1794503288940779900", "event": "request_forwarded", "request_id": 2, "method": "tools/list", "tool": null}
+{"timestamp_unix": 1794503298.3281925, "execution_id": "baseline-002-1794503288940779900", "event": "upstream_response_received", "request_id": 2, "response_kind": "result"}
+{"timestamp_unix": 1794503298.3291924, "execution_id": "baseline-002-1794503288940779900", "event": "response_forwarded", "request_id": 2, "response_kind": "result"}
+{"timestamp_unix": 1794503298.3321924, "execution_id": "baseline-002-1794503288940779900", "event": "message_received", "request_id": 3, "method": "tools/call", "tool": "get_company_revenue"}
+{"timestamp_unix": 1794503298.3321924, "execution_id": "baseline-002-1794503288940779900", "event": "request_forwarded", "request_id": 3, "method": "tools/call", "tool": "get_company_revenue"}
+{"timestamp_unix": 1794503298.3374536, "execution_id": "baseline-002-1794503288940779900", "event": "upstream_response_received", "request_id": 3, "response_kind": "result"}
+{"timestamp_unix": 1794503298.338453, "execution_id": "baseline-002-1794503288940779900", "event": "response_forwarded", "request_id": 3, "response_kind": "result"}
+{"timestamp_unix": 1794503299.4413214, "execution_id": "baseline-003-1794503288940779900", "event": "message_received", "request_id": 1, "method": "initialize", "tool": null}
+{"timestamp_unix": 1794503299.442322, "execution_id": "baseline-003-1794503288940779900", "event": "request_forwarded", "request_id": 1, "method": "initialize", "tool": null}
+{"timestamp_unix": 1794503302.5512378, "execution_id": "baseline-003-1794503288940779900", "event": "upstream_response_received", "request_id": 1, "response_kind": "result"}
+{"timestamp_unix": 1794503302.5524085, "execution_id": "baseline-003-1794503288940779900", "event": "response_forwarded", "request_id": 1, "response_kind": "result"}
+{"timestamp_unix": 1794503302.55441, "execution_id": "baseline-003-1794503288940779900", "event": "message_received", "request_id": null, "method": "notifications/initialized", "tool": null}
+{"timestamp_unix": 1794503302.55541, "execution_id": "baseline-003-1794503288940779900", "event": "request_forwarded", "request_id": null, "method": "notifications/initialized", "tool": null}
+{"timestamp_unix": 1794503302.557409, "execution_id": "baseline-003-1794503288940779900", "event": "message_received", "request_id": 2, "method": "tools/list", "tool": null}
+{"timestamp_unix": 1794503302.557409, "execution_id": "baseline-003-1794503288940779900", "event": "request_forwarded", "request_id": 2, "method": "tools/list", "tool": null}
+{"timestamp_unix": 1794503302.561409, "execution_id": "baseline-003-1794503288940779900", "event": "upstream_response_received", "request_id": 2, "response_kind": "result"}
+{"timestamp_unix": 1794503302.5624092, "execution_id": "baseline-003-1794503288940779900", "event": "response_forwarded", "request_id": 2, "response_kind": "result"}
+{"timestamp_unix": 1794503302.564409, "execution_id": "baseline-003-1794503288940779900", "event": "message_received", "request_id": 3, "method": "tools/call", "tool": "get_company_revenue"}
+{"timestamp_unix": 1794503302.5654087, "execution_id": "baseline-003-1794503288940779900", "event": "request_forwarded", "request_id": 3, "method": "tools/call", "tool": "get_company_revenue"}
+{"timestamp_unix": 1794503302.571408, "execution_id": "baseline-003-1794503288940779900", "event": "upstream_response_received", "request_id": 3, "response_kind": "result"}
+{"timestamp_unix": 1794503302.572409, "execution_id": "baseline-003-1794503288940779900", "event": "response_forwarded", "request_id": 3, "response_kind": "result"}
+{"timestamp_unix": 1794508667.824515, "execution_id": "baseline-001-1794508666874882500", "event": "message_received", "request_id": 1, "method": "initialize", "tool": null}
+{"timestamp_unix": 1794508667.8430548, "execution_id": "baseline-001-1794508666874882500", "event": "request_forwarded", "request_id": 1, "method": "initialize", "tool": null}
+{"timestamp_unix": 1794508671.2995808, "execution_id": "baseline-001-1794508666874882500", "event": "upstream_response_received", "request_id": 1, "response_kind": "result"}
+{"timestamp_unix": 1794508671.3006194, "execution_id": "baseline-001-1794508666874882500", "event": "response_forwarded", "request_id": 1, "response_kind": "result"}
+{"timestamp_unix": 1794508671.3035846, "execution_id": "baseline-001-1794508666874882500", "event": "message_received", "request_id": null, "method": "notifications/initialized", "tool": null}
+{"timestamp_unix": 1794508671.3035846, "execution_id": "baseline-001-1794508666874882500", "event": "request_forwarded", "request_id": null, "method": "notifications/initialized", "tool": null}
+{"timestamp_unix": 1794508671.3068326, "execution_id": "baseline-001-1794508666874882500", "event": "message_received", "request_id": 2, "method": "tools/list", "tool": null}
+{"timestamp_unix": 1794508671.3078337, "execution_id": "baseline-001-1794508666874882500", "event": "request_forwarded", "request_id": 2, "method": "tools/list", "tool": null}
+{"timestamp_unix": 1794508671.3095405, "execution_id": "baseline-001-1794508666874882500", "event": "upstream_response_received", "request_id": 2, "response_kind": "result"}
+{"timestamp_unix": 1794508671.3095405, "execution_id": "baseline-001-1794508666874882500", "event": "response_forwarded", "request_id": 2, "response_kind": "result"}
+{"timestamp_unix": 1794508671.3095405, "execution_id": "baseline-001-1794508666874882500", "event": "message_received", "request_id": 3, "method": "tools/call", "tool": "get_company_revenue"}
+{"timestamp_unix": 1794508671.3095405, "execution_id": "baseline-001-1794508666874882500", "event": "request_forwarded", "request_id": 3, "method": "tools/call", "tool": "get_company_revenue"}
+{"timestamp_unix": 1794508671.3221211, "execution_id": "baseline-001-1794508666874882500", "event": "upstream_response_received", "request_id": 3, "response_kind": "result"}
+{"timestamp_unix": 1794508671.3231223, "execution_id": "baseline-001-1794508666874882500", "event": "response_forwarded", "request_id": 3, "response_kind": "result"}
+{"timestamp_unix": 1794509600.984443, "execution_id": "baseline-001-1794509600254866100", "event": "message_received", "request_id": 1, "method": "initialize", "tool": null}
+{"timestamp_unix": 1794509600.984443, "execution_id": "baseline-001-1794509600254866100", "event": "request_forwarded", "request_id": 1, "method": "initialize", "tool": null}
+{"timestamp_unix": 1794509604.435998, "execution_id": "baseline-001-1794509600254866100", "event": "upstream_response_received", "request_id": 1, "response_kind": "result"}
+{"timestamp_unix": 1794509604.436997, "execution_id": "baseline-001-1794509600254866100", "event": "response_forwarded", "request_id": 1, "response_kind": "result"}
+{"timestamp_unix": 1794509604.4872444, "execution_id": "baseline-001-1794509600254866100", "event": "message_received", "request_id": null, "method": "notifications/initialized", "tool": null}
+{"timestamp_unix": 1794509604.5028667, "execution_id": "baseline-001-1794509600254866100", "event": "request_forwarded", "request_id": null, "method": "notifications/initialized", "tool": null}
+{"timestamp_unix": 1794509604.5028667, "execution_id": "baseline-001-1794509600254866100", "event": "message_received", "request_id": 2, "method": "tools/list", "tool": null}
+{"timestamp_unix": 1794509604.5028667, "execution_id": "baseline-001-1794509600254866100", "event": "request_forwarded", "request_id": 2, "method": "tools/list", "tool": null}
+{"timestamp_unix": 1794509604.5028667, "execution_id": "baseline-001-1794509600254866100", "event": "upstream_response_received", "request_id": 2, "response_kind": "result"}
+{"timestamp_unix": 1794509604.5028667, "execution_id": "baseline-001-1794509600254866100", "event": "response_forwarded", "request_id": 2, "response_kind": "result"}
+{"timestamp_unix": 1794509604.5184877, "execution_id": "baseline-001-1794509600254866100", "event": "message_received", "request_id": 3, "method": "tools/call", "tool": "get_company_revenue"}
+{"timestamp_unix": 1794509604.5184877, "execution_id": "baseline-001-1794509600254866100", "event": "request_forwarded", "request_id": 3, "method": "tools/call", "tool": "get_company_revenue"}
+{"timestamp_unix": 1794509604.5335305, "execution_id": "baseline-001-1794509600254866100", "event": "upstream_response_received", "request_id": 3, "response_kind": "result"}
+{"timestamp_unix": 1794509604.5335305, "execution_id": "baseline-001-1794509600254866100", "event": "response_forwarded", "request_id": 3, "response_kind": "result"}
+{"timestamp_unix": 1794509605.8607738, "execution_id": "baseline-002-1794509600254866100", "event": "message_received", "request_id": 1, "method": "initialize", "tool": null}
+{"timestamp_unix": 1794509605.8607738, "execution_id": "baseline-002-1794509600254866100", "event": "request_forwarded", "request_id": 1, "method": "initialize", "tool": null}
+{"timestamp_unix": 1794509609.6880355, "execution_id": "baseline-002-1794509600254866100", "event": "upstream_response_received", "request_id": 1, "response_kind": "result"}
+{"timestamp_unix": 1794509609.6900349, "execution_id": "baseline-002-1794509600254866100", "event": "response_forwarded", "request_id": 1, "response_kind": "result"}
+{"timestamp_unix": 1794509609.6932833, "execution_id": "baseline-002-1794509600254866100", "event": "message_received", "request_id": null, "method": "notifications/initialized", "tool": null}
+{"timestamp_unix": 1794509609.6932833, "execution_id": "baseline-002-1794509600254866100", "event": "request_forwarded", "request_id": null, "method": "notifications/initialized", "tool": null}
+{"timestamp_unix": 1794509609.6932833, "execution_id": "baseline-002-1794509600254866100", "event": "message_received", "request_id": 2, "method": "tools/list", "tool": null}
+{"timestamp_unix": 1794509609.6932833, "execution_id": "baseline-002-1794509600254866100", "event": "request_forwarded", "request_id": 2, "method": "tools/list", "tool": null}
+{"timestamp_unix": 1794509609.6932833, "execution_id": "baseline-002-1794509600254866100", "event": "upstream_response_received", "request_id": 2, "response_kind": "result"}
+{"timestamp_unix": 1794509609.6932833, "execution_id": "baseline-002-1794509600254866100", "event": "response_forwarded", "request_id": 2, "response_kind": "result"}
+{"timestamp_unix": 1794509609.6932833, "execution_id": "baseline-002-1794509600254866100", "event": "message_received", "request_id": 3, "method": "tools/call", "tool": "get_company_revenue"}
+{"timestamp_unix": 1794509609.6932833, "execution_id": "baseline-002-1794509600254866100", "event": "request_forwarded", "request_id": 3, "method": "tools/call", "tool": "get_company_revenue"}
+{"timestamp_unix": 1794509609.7119148, "execution_id": "baseline-002-1794509600254866100", "event": "upstream_response_received", "request_id": 3, "response_kind": "result"}
+{"timestamp_unix": 1794509609.7139132, "execution_id": "baseline-002-1794509600254866100", "event": "response_forwarded", "request_id": 3, "response_kind": "result"}
+{"timestamp_unix": 1794509611.0274813, "execution_id": "baseline-003-1794509600254866100", "event": "message_received", "request_id": 1, "method": "initialize", "tool": null}
+{"timestamp_unix": 1794509611.0274813, "execution_id": "baseline-003-1794509600254866100", "event": "request_forwarded", "request_id": 1, "method": "initialize", "tool": null}
+{"timestamp_unix": 1794509614.3415506, "execution_id": "baseline-003-1794509600254866100", "event": "upstream_response_received", "request_id": 1, "response_kind": "result"}
+{"timestamp_unix": 1794509614.3415506, "execution_id": "baseline-003-1794509600254866100", "event": "response_forwarded", "request_id": 1, "response_kind": "result"}
+{"timestamp_unix": 1794509614.3415506, "execution_id": "baseline-003-1794509600254866100", "event": "message_received", "request_id": null, "method": "notifications/initialized", "tool": null}
+{"timestamp_unix": 1794509614.3415506, "execution_id": "baseline-003-1794509600254866100", "event": "request_forwarded", "request_id": null, "method": "notifications/initialized", "tool": null}
+{"timestamp_unix": 1794509614.3415506, "execution_id": "baseline-003-1794509600254866100", "event": "message_received", "request_id": 2, "method": "tools/list", "tool": null}
+{"timestamp_unix": 1794509614.3415506, "execution_id": "baseline-003-1794509600254866100", "event": "request_forwarded", "request_id": 2, "method": "tools/list", "tool": null}
+{"timestamp_unix": 1794509614.357172, "execution_id": "baseline-003-1794509600254866100", "event": "upstream_response_received", "request_id": 2, "response_kind": "result"}
+{"timestamp_unix": 1794509614.357172, "execution_id": "baseline-003-1794509600254866100", "event": "response_forwarded", "request_id": 2, "response_kind": "result"}
+{"timestamp_unix": 1794509614.361897, "execution_id": "baseline-003-1794509600254866100", "event": "message_received", "request_id": 3, "method": "tools/call", "tool": "get_company_revenue"}
+{"timestamp_unix": 1794509614.363895, "execution_id": "baseline-003-1794509600254866100", "event": "request_forwarded", "request_id": 3, "method": "tools/call", "tool": "get_company_revenue"}
+{"timestamp_unix": 1794509614.3678958, "execution_id": "baseline-003-1794509600254866100", "event": "upstream_response_received", "request_id": 3, "response_kind": "result"}
+{"timestamp_unix": 1794509614.3688972, "execution_id": "baseline-003-1794509600254866100", "event": "response_forwarded", "request_id": 3, "response_kind": "result"}
+{"timestamp_unix": 1794509913.7122056, "execution_id": "baseline-001-1794509912928058500", "event": "message_received", "request_id": 1, "method": "initialize", "tool": null}
+{"timestamp_unix": 1794509913.7122056, "execution_id": "baseline-001-1794509912928058500", "event": "request_forwarded", "request_id": 1, "method": "initialize", "tool": null}
+{"timestamp_unix": 1794509917.2616405, "execution_id": "baseline-001-1794509912928058500", "event": "upstream_response_received", "request_id": 1, "response_kind": "result"}
+{"timestamp_unix": 1794509917.2626426, "execution_id": "baseline-001-1794509912928058500", "event": "response_forwarded", "request_id": 1, "response_kind": "result"}
+{"timestamp_unix": 1794509917.2656648, "execution_id": "baseline-001-1794509912928058500", "event": "message_received", "request_id": null, "method": "notifications/initialized", "tool": null}
+{"timestamp_unix": 1794509917.2666411, "execution_id": "baseline-001-1794509912928058500", "event": "request_forwarded", "request_id": null, "method": "notifications/initialized", "tool": null}
+{"timestamp_unix": 1794509917.2676408, "execution_id": "baseline-001-1794509912928058500", "event": "message_received", "request_id": 2, "method": "tools/list", "tool": null}
+{"timestamp_unix": 1794509917.2686412, "execution_id": "baseline-001-1794509912928058500", "event": "request_forwarded", "request_id": 2, "method": "tools/list", "tool": null}
+{"timestamp_unix": 1794509917.2736418, "execution_id": "baseline-001-1794509912928058500", "event": "upstream_response_received", "request_id": 2, "response_kind": "result"}
+{"timestamp_unix": 1794509917.274641, "execution_id": "baseline-001-1794509912928058500", "event": "response_forwarded", "request_id": 2, "response_kind": "result"}
+{"timestamp_unix": 1794509917.278278, "execution_id": "baseline-001-1794509912928058500", "event": "message_received", "request_id": 3, "method": "tools/call", "tool": "get_company_revenue"}
+{"timestamp_unix": 1794509917.278278, "execution_id": "baseline-001-1794509912928058500", "event": "request_forwarded", "request_id": 3, "method": "tools/call", "tool": "get_company_revenue"}
+{"timestamp_unix": 1794509917.278278, "execution_id": "baseline-001-1794509912928058500", "event": "upstream_response_received", "request_id": 3, "response_kind": "result"}
+{"timestamp_unix": 1794509917.278278, "execution_id": "baseline-001-1794509912928058500", "event": "response_forwarded", "request_id": 3, "response_kind": "result"}
+{"timestamp_unix": 1794509918.3960326, "execution_id": "baseline-002-1794509912928058500", "event": "message_received", "request_id": 1, "method": "initialize", "tool": null}
+{"timestamp_unix": 1794509918.3970318, "execution_id": "baseline-002-1794509912928058500", "event": "request_forwarded", "request_id": 1, "method": "initialize", "tool": null}
+{"timestamp_unix": 1794509921.6557271, "execution_id": "baseline-002-1794509912928058500", "event": "upstream_response_received", "request_id": 1, "response_kind": "result"}
+{"timestamp_unix": 1794509921.6567273, "execution_id": "baseline-002-1794509912928058500", "event": "response_forwarded", "request_id": 1, "response_kind": "result"}
+{"timestamp_unix": 1794509921.6597266, "execution_id": "baseline-002-1794509912928058500", "event": "message_received", "request_id": null, "method": "notifications/initialized", "tool": null}
+{"timestamp_unix": 1794509921.6607263, "execution_id": "baseline-002-1794509912928058500", "event": "request_forwarded", "request_id": null, "method": "notifications/initialized", "tool": null}
+{"timestamp_unix": 1794509921.6657264, "execution_id": "baseline-002-1794509912928058500", "event": "message_received", "request_id": 2, "method": "tools/list", "tool": null}
+{"timestamp_unix": 1794509921.6667266, "execution_id": "baseline-002-1794509912928058500", "event": "request_forwarded", "request_id": 2, "method": "tools/list", "tool": null}
+{"timestamp_unix": 1794509921.6729968, "execution_id": "baseline-002-1794509912928058500", "event": "upstream_response_received", "request_id": 2, "response_kind": "result"}
+{"timestamp_unix": 1794509921.6729968, "execution_id": "baseline-002-1794509912928058500", "event": "response_forwarded", "request_id": 2, "response_kind": "result"}
+{"timestamp_unix": 1794509921.6784525, "execution_id": "baseline-002-1794509912928058500", "event": "message_received", "request_id": 3, "method": "tools/call", "tool": "get_company_revenue"}
+{"timestamp_unix": 1794509921.6784525, "execution_id": "baseline-002-1794509912928058500", "event": "request_forwarded", "request_id": 3, "method": "tools/call", "tool": "get_company_revenue"}
+{"timestamp_unix": 1794509921.6784525, "execution_id": "baseline-002-1794509912928058500", "event": "upstream_response_received", "request_id": 3, "response_kind": "result"}
+{"timestamp_unix": 1794509921.6784525, "execution_id": "baseline-002-1794509912928058500", "event": "response_forwarded", "request_id": 3, "response_kind": "result"}
+{"timestamp_unix": 1794509922.5693505, "execution_id": "baseline-003-1794509912928058500", "event": "message_received", "request_id": 1, "method": "initialize", "tool": null}
+{"timestamp_unix": 1794509922.5703502, "execution_id": "baseline-003-1794509912928058500", "event": "request_forwarded", "request_id": 1, "method": "initialize", "tool": null}
+{"timestamp_unix": 1794509927.7825263, "execution_id": "baseline-003-1794509912928058500", "event": "upstream_response_received", "request_id": 1, "response_kind": "result"}
+{"timestamp_unix": 1794509927.7835405, "execution_id": "baseline-003-1794509912928058500", "event": "response_forwarded", "request_id": 1, "response_kind": "result"}
+{"timestamp_unix": 1794509927.786137, "execution_id": "baseline-003-1794509912928058500", "event": "message_received", "request_id": null, "method": "notifications/initialized", "tool": null}
+{"timestamp_unix": 1794509927.7871368, "execution_id": "baseline-003-1794509912928058500", "event": "request_forwarded", "request_id": null, "method": "notifications/initialized", "tool": null}
+{"timestamp_unix": 1794509927.7881372, "execution_id": "baseline-003-1794509912928058500", "event": "message_received", "request_id": 2, "method": "tools/list", "tool": null}
+{"timestamp_unix": 1794509927.7881372, "execution_id": "baseline-003-1794509912928058500", "event": "request_forwarded", "request_id": 2, "method": "tools/list", "tool": null}
+{"timestamp_unix": 1794509927.8001842, "execution_id": "baseline-003-1794509912928058500", "event": "upstream_response_received", "request_id": 2, "response_kind": "result"}
+{"timestamp_unix": 1794509927.8011837, "execution_id": "baseline-003-1794509912928058500", "event": "response_forwarded", "request_id": 2, "response_kind": "result"}
+{"timestamp_unix": 1794509927.8031836, "execution_id": "baseline-003-1794509912928058500", "event": "message_received", "request_id": 3, "method": "tools/call", "tool": "get_company_revenue"}
+{"timestamp_unix": 1794509927.8041847, "execution_id": "baseline-003-1794509912928058500", "event": "request_forwarded", "request_id": 3, "method": "tools/call", "tool": "get_company_revenue"}
+{"timestamp_unix": 1794509927.8081832, "execution_id": "baseline-003-1794509912928058500", "event": "upstream_response_received", "request_id": 3, "response_kind": "result"}
+{"timestamp_unix": 1794509927.8091843, "execution_id": "baseline-003-1794509912928058500", "event": "response_forwarded", "request_id": 3, "response_kind": "result"}
+{"timestamp_unix": 1794510253.378157, "execution_id": "baseline-001-1794510252549336800", "event": "message_received", "request_id": 1, "method": "initialize", "tool": null}
+{"timestamp_unix": 1794510253.378157, "execution_id": "baseline-001-1794510252549336800", "event": "request_forwarded", "request_id": 1, "method": "initialize", "tool": null}
+{"timestamp_unix": 1794510256.3288965, "execution_id": "baseline-001-1794510252549336800", "event": "upstream_response_received", "request_id": 1, "response_kind": "result"}
+{"timestamp_unix": 1794510256.3288965, "execution_id": "baseline-001-1794510252549336800", "event": "response_forwarded", "request_id": 1, "response_kind": "result"}
+{"timestamp_unix": 1794510256.3288965, "execution_id": "baseline-001-1794510252549336800", "event": "message_received", "request_id": null, "method": "notifications/initialized", "tool": null}
+{"timestamp_unix": 1794510256.3288965, "execution_id": "baseline-001-1794510252549336800", "event": "request_forwarded", "request_id": null, "method": "notifications/initialized", "tool": null}
+{"timestamp_unix": 1794510256.3288965, "execution_id": "baseline-001-1794510252549336800", "event": "message_received", "request_id": 2, "method": "tools/list", "tool": null}
+{"timestamp_unix": 1794510256.3288965, "execution_id": "baseline-001-1794510252549336800", "event": "request_forwarded", "request_id": 2, "method": "tools/list", "tool": null}
+{"timestamp_unix": 1794510256.3288965, "execution_id": "baseline-001-1794510252549336800", "event": "upstream_response_received", "request_id": 2, "response_kind": "result"}
+{"timestamp_unix": 1794510256.3288965, "execution_id": "baseline-001-1794510252549336800", "event": "response_forwarded", "request_id": 2, "response_kind": "result"}
+{"timestamp_unix": 1794510256.3463075, "execution_id": "baseline-001-1794510252549336800", "event": "message_received", "request_id": 3, "method": "tools/call", "tool": "get_company_revenue"}
+{"timestamp_unix": 1794510256.3473067, "execution_id": "baseline-001-1794510252549336800", "event": "request_forwarded", "request_id": 3, "method": "tools/call", "tool": "get_company_revenue"}
+{"timestamp_unix": 1794510256.3513062, "execution_id": "baseline-001-1794510252549336800", "event": "upstream_response_received", "request_id": 3, "response_kind": "result"}
+{"timestamp_unix": 1794510256.3523068, "execution_id": "baseline-001-1794510252549336800", "event": "response_forwarded", "request_id": 3, "response_kind": "result"}
+{"timestamp_unix": 1794510257.3992476, "execution_id": "baseline-002-1794510252549336800", "event": "message_received", "request_id": 1, "method": "initialize", "tool": null}
+{"timestamp_unix": 1794510257.3992476, "execution_id": "baseline-002-1794510252549336800", "event": "request_forwarded", "request_id": 1, "method": "initialize", "tool": null}
+{"timestamp_unix": 1794510260.5059297, "execution_id": "baseline-002-1794510252549336800", "event": "upstream_response_received", "request_id": 1, "response_kind": "result"}
+{"timestamp_unix": 1794510260.5069299, "execution_id": "baseline-002-1794510252549336800", "event": "response_forwarded", "request_id": 1, "response_kind": "result"}
+{"timestamp_unix": 1794510260.5089312, "execution_id": "baseline-002-1794510252549336800", "event": "message_received", "request_id": null, "method": "notifications/initialized", "tool": null}
+{"timestamp_unix": 1794510260.5099306, "execution_id": "baseline-002-1794510252549336800", "event": "request_forwarded", "request_id": null, "method": "notifications/initialized", "tool": null}
+{"timestamp_unix": 1794510260.51157, "execution_id": "baseline-002-1794510252549336800", "event": "message_received", "request_id": 2, "method": "tools/list", "tool": null}
+{"timestamp_unix": 1794510260.5125709, "execution_id": "baseline-002-1794510252549336800", "event": "request_forwarded", "request_id": 2, "method": "tools/list", "tool": null}
+{"timestamp_unix": 1794510260.5155702, "execution_id": "baseline-002-1794510252549336800", "event": "upstream_response_received", "request_id": 2, "response_kind": "result"}
+{"timestamp_unix": 1794510260.51657, "execution_id": "baseline-002-1794510252549336800", "event": "response_forwarded", "request_id": 2, "response_kind": "result"}
+{"timestamp_unix": 1794510260.5185702, "execution_id": "baseline-002-1794510252549336800", "event": "message_received", "request_id": 3, "method": "tools/call", "tool": "get_company_revenue"}
+{"timestamp_unix": 1794510260.5195704, "execution_id": "baseline-002-1794510252549336800", "event": "request_forwarded", "request_id": 3, "method": "tools/call", "tool": "get_company_revenue"}
+{"timestamp_unix": 1794510260.5235708, "execution_id": "baseline-002-1794510252549336800", "event": "upstream_response_received", "request_id": 3, "response_kind": "result"}
+{"timestamp_unix": 1794510260.5235708, "execution_id": "baseline-002-1794510252549336800", "event": "response_forwarded", "request_id": 3, "response_kind": "result"}
+{"timestamp_unix": 1794510261.4851112, "execution_id": "baseline-003-1794510252549336800", "event": "message_received", "request_id": 1, "method": "initialize", "tool": null}
+{"timestamp_unix": 1794510261.4851112, "execution_id": "baseline-003-1794510252549336800", "event": "request_forwarded", "request_id": 1, "method": "initialize", "tool": null}
+{"timestamp_unix": 1794510266.3696284, "execution_id": "baseline-003-1794510252549336800", "event": "upstream_response_received", "request_id": 1, "response_kind": "result"}
+{"timestamp_unix": 1794510266.370628, "execution_id": "baseline-003-1794510252549336800", "event": "response_forwarded", "request_id": 1, "response_kind": "result"}
+{"timestamp_unix": 1794510266.3726285, "execution_id": "baseline-003-1794510252549336800", "event": "message_received", "request_id": null, "method": "notifications/initialized", "tool": null}
+{"timestamp_unix": 1794510266.3746293, "execution_id": "baseline-003-1794510252549336800", "event": "request_forwarded", "request_id": null, "method": "notifications/initialized", "tool": null}
+{"timestamp_unix": 1794510266.375629, "execution_id": "baseline-003-1794510252549336800", "event": "message_received", "request_id": 2, "method": "tools/list", "tool": null}
+{"timestamp_unix": 1794510266.3766289, "execution_id": "baseline-003-1794510252549336800", "event": "request_forwarded", "request_id": 2, "method": "tools/list", "tool": null}
+{"timestamp_unix": 1794510266.3821068, "execution_id": "baseline-003-1794510252549336800", "event": "upstream_response_received", "request_id": 2, "response_kind": "result"}
+{"timestamp_unix": 1794510266.3851073, "execution_id": "baseline-003-1794510252549336800", "event": "response_forwarded", "request_id": 2, "response_kind": "result"}
+{"timestamp_unix": 1794510266.390105, "execution_id": "baseline-003-1794510252549336800", "event": "message_received", "request_id": 3, "method": "tools/call", "tool": "get_company_revenue"}
+{"timestamp_unix": 1794510266.3983629, "execution_id": "baseline-003-1794510252549336800", "event": "request_forwarded", "request_id": 3, "method": "tools/call", "tool": "get_company_revenue"}
+{"timestamp_unix": 1794510266.3983629, "execution_id": "baseline-003-1794510252549336800", "event": "upstream_response_received", "request_id": 3, "response_kind": "result"}
+{"timestamp_unix": 1794510266.3983629, "execution_id": "baseline-003-1794510252549336800", "event": "response_forwarded", "request_id": 3, "response_kind": "result"}
+{"timestamp_unix": 1794510917.5312145, "execution_id": "baseline-001-1794510916181798000", "event": "message_received", "request_id": 1, "method": "initialize", "tool": null}
+{"timestamp_unix": 1794510917.5466566, "execution_id": "baseline-001-1794510916181798000", "event": "request_forwarded", "request_id": 1, "method": "initialize", "tool": null}
+{"timestamp_unix": 1794510920.981738, "execution_id": "baseline-001-1794510916181798000", "event": "upstream_response_received", "request_id": 1, "response_kind": "result"}
+{"timestamp_unix": 1794510920.981738, "execution_id": "baseline-001-1794510916181798000", "event": "response_forwarded", "request_id": 1, "response_kind": "result"}
+{"timestamp_unix": 1794510920.981738, "execution_id": "baseline-001-1794510916181798000", "event": "message_received", "request_id": null, "method": "notifications/initialized", "tool": null}
+{"timestamp_unix": 1794510920.981738, "execution_id": "baseline-001-1794510916181798000", "event": "request_forwarded", "request_id": null, "method": "notifications/initialized", "tool": null}
+{"timestamp_unix": 1794510920.981738, "execution_id": "baseline-001-1794510916181798000", "event": "message_received", "request_id": 2, "method": "tools/list", "tool": null}
+{"timestamp_unix": 1794510920.9957452, "execution_id": "baseline-001-1794510916181798000", "event": "request_forwarded", "request_id": 2, "method": "tools/list", "tool": null}
+{"timestamp_unix": 1794510921.000284, "execution_id": "baseline-001-1794510916181798000", "event": "upstream_response_received", "request_id": 2, "response_kind": "result"}
+{"timestamp_unix": 1794510921.0012844, "execution_id": "baseline-001-1794510916181798000", "event": "response_forwarded", "request_id": 2, "response_kind": "result"}
+{"timestamp_unix": 1794510921.0052845, "execution_id": "baseline-001-1794510916181798000", "event": "message_received", "request_id": 3, "method": "tools/call", "tool": "get_company_revenue"}
+{"timestamp_unix": 1794510921.0062842, "execution_id": "baseline-001-1794510916181798000", "event": "request_forwarded", "request_id": 3, "method": "tools/call", "tool": "get_company_revenue"}
+{"timestamp_unix": 1794510921.010733, "execution_id": "baseline-001-1794510916181798000", "event": "upstream_response_received", "request_id": 3, "response_kind": "result"}
+{"timestamp_unix": 1794510921.0123346, "execution_id": "baseline-001-1794510916181798000", "event": "response_forwarded", "request_id": 3, "response_kind": "result"}
+{"timestamp_unix": 1794510922.7383246, "execution_id": "baseline-002-1794510916181798000", "event": "message_received", "request_id": 1, "method": "initialize", "tool": null}
+{"timestamp_unix": 1794510922.739325, "execution_id": "baseline-002-1794510916181798000", "event": "request_forwarded", "request_id": 1, "method": "initialize", "tool": null}
+{"timestamp_unix": 1794510925.4566014, "execution_id": "baseline-002-1794510916181798000", "event": "upstream_response_received", "request_id": 1, "response_kind": "result"}
+{"timestamp_unix": 1794510925.4576018, "execution_id": "baseline-002-1794510916181798000", "event": "response_forwarded", "request_id": 1, "response_kind": "result"}
+{"timestamp_unix": 1794510925.4596019, "execution_id": "baseline-002-1794510916181798000", "event": "message_received", "request_id": null, "method": "notifications/initialized", "tool": null}
+{"timestamp_unix": 1794510925.4596019, "execution_id": "baseline-002-1794510916181798000", "event": "request_forwarded", "request_id": null, "method": "notifications/initialized", "tool": null}
+{"timestamp_unix": 1794510925.461602, "execution_id": "baseline-002-1794510916181798000", "event": "message_received", "request_id": 2, "method": "tools/list", "tool": null}
+{"timestamp_unix": 1794510925.462089, "execution_id": "baseline-002-1794510916181798000", "event": "request_forwarded", "request_id": 2, "method": "tools/list", "tool": null}
+{"timestamp_unix": 1794510925.462089, "execution_id": "baseline-002-1794510916181798000", "event": "upstream_response_received", "request_id": 2, "response_kind": "result"}
+{"timestamp_unix": 1794510925.462089, "execution_id": "baseline-002-1794510916181798000", "event": "response_forwarded", "request_id": 2, "response_kind": "result"}
+{"timestamp_unix": 1794510925.462089, "execution_id": "baseline-002-1794510916181798000", "event": "message_received", "request_id": 3, "method": "tools/call", "tool": "get_company_revenue"}
+{"timestamp_unix": 1794510925.462089, "execution_id": "baseline-002-1794510916181798000", "event": "request_forwarded", "request_id": 3, "method": "tools/call", "tool": "get_company_revenue"}
+{"timestamp_unix": 1794510925.462089, "execution_id": "baseline-002-1794510916181798000", "event": "upstream_response_received", "request_id": 3, "response_kind": "result"}
+{"timestamp_unix": 1794510925.462089, "execution_id": "baseline-002-1794510916181798000", "event": "response_forwarded", "request_id": 3, "response_kind": "result"}
+{"timestamp_unix": 1794510926.7528296, "execution_id": "baseline-003-1794510916181798000", "event": "message_received", "request_id": 1, "method": "initialize", "tool": null}
+{"timestamp_unix": 1794510926.7528296, "execution_id": "baseline-003-1794510916181798000", "event": "request_forwarded", "request_id": 1, "method": "initialize", "tool": null}
+{"timestamp_unix": 1794510929.43317, "execution_id": "baseline-003-1794510916181798000", "event": "upstream_response_received", "request_id": 1, "response_kind": "result"}
+{"timestamp_unix": 1794510929.4341698, "execution_id": "baseline-003-1794510916181798000", "event": "response_forwarded", "request_id": 1, "response_kind": "result"}
+{"timestamp_unix": 1794510929.436172, "execution_id": "baseline-003-1794510916181798000", "event": "message_received", "request_id": null, "method": "notifications/initialized", "tool": null}
+{"timestamp_unix": 1794510929.4371722, "execution_id": "baseline-003-1794510916181798000", "event": "request_forwarded", "request_id": null, "method": "notifications/initialized", "tool": null}
+{"timestamp_unix": 1794510929.438171, "execution_id": "baseline-003-1794510916181798000", "event": "message_received", "request_id": 2, "method": "tools/list", "tool": null}
+{"timestamp_unix": 1794510929.439171, "execution_id": "baseline-003-1794510916181798000", "event": "request_forwarded", "request_id": 2, "method": "tools/list", "tool": null}
+{"timestamp_unix": 1794510929.4421701, "execution_id": "baseline-003-1794510916181798000", "event": "upstream_response_received", "request_id": 2, "response_kind": "result"}
+{"timestamp_unix": 1794510929.44317, "execution_id": "baseline-003-1794510916181798000", "event": "response_forwarded", "request_id": 2, "response_kind": "result"}
+{"timestamp_unix": 1794510929.4457426, "execution_id": "baseline-003-1794510916181798000", "event": "message_received", "request_id": 3, "method": "tools/call", "tool": "get_company_revenue"}
+{"timestamp_unix": 1794510929.4467437, "execution_id": "baseline-003-1794510916181798000", "event": "request_forwarded", "request_id": 3, "method": "tools/call", "tool": "get_company_revenue"}
+{"timestamp_unix": 1794510929.451743, "execution_id": "baseline-003-1794510916181798000", "event": "upstream_response_received", "request_id": 3, "response_kind": "result"}
+{"timestamp_unix": 1794510929.452743, "execution_id": "baseline-003-1794510916181798000", "event": "response_forwarded", "request_id": 3, "response_kind": "result"}
+{"timestamp_unix": 1794511299.7925146, "execution_id": "baseline-001-1794511298550398200", "event": "message_received", "request_id": 1, "method": "initialize", "tool": null}
+{"timestamp_unix": 1794511299.7943435, "execution_id": "baseline-001-1794511298550398200", "event": "request_forwarded", "request_id": 1, "method": "initialize", "tool": null}
+{"timestamp_unix": 1794511302.5612805, "execution_id": "baseline-001-1794511298550398200", "event": "upstream_response_received", "request_id": 1, "response_kind": "result"}
+{"timestamp_unix": 1794511302.5612805, "execution_id": "baseline-001-1794511298550398200", "event": "response_forwarded", "request_id": 1, "response_kind": "result"}
+{"timestamp_unix": 1794511302.5612805, "execution_id": "baseline-001-1794511298550398200", "event": "message_received", "request_id": null, "method": "notifications/initialized", "tool": null}
+{"timestamp_unix": 1794511302.5612805, "execution_id": "baseline-001-1794511298550398200", "event": "request_forwarded", "request_id": null, "method": "notifications/initialized", "tool": null}
+{"timestamp_unix": 1794511302.5612805, "execution_id": "baseline-001-1794511298550398200", "event": "message_received", "request_id": 2, "method": "tools/list", "tool": null}
+{"timestamp_unix": 1794511302.5612805, "execution_id": "baseline-001-1794511298550398200", "event": "request_forwarded", "request_id": 2, "method": "tools/list", "tool": null}
+{"timestamp_unix": 1794511302.5777175, "execution_id": "baseline-001-1794511298550398200", "event": "upstream_response_received", "request_id": 2, "response_kind": "result"}
+{"timestamp_unix": 1794511302.578718, "execution_id": "baseline-001-1794511298550398200", "event": "response_forwarded", "request_id": 2, "response_kind": "result"}
+{"timestamp_unix": 1794511302.5817177, "execution_id": "baseline-001-1794511298550398200", "event": "message_received", "request_id": 3, "method": "tools/call", "tool": "get_company_revenue"}
+{"timestamp_unix": 1794511302.5827177, "execution_id": "baseline-001-1794511298550398200", "event": "request_forwarded", "request_id": 3, "method": "tools/call", "tool": "get_company_revenue"}
+{"timestamp_unix": 1794511302.5867176, "execution_id": "baseline-001-1794511298550398200", "event": "upstream_response_received", "request_id": 3, "response_kind": "result"}
+{"timestamp_unix": 1794511302.5877197, "execution_id": "baseline-001-1794511298550398200", "event": "response_forwarded", "request_id": 3, "response_kind": "result"}
+{"timestamp_unix": 1794511304.2441177, "execution_id": "baseline-002-1794511298550398200", "event": "message_received", "request_id": 1, "method": "initialize", "tool": null}
+{"timestamp_unix": 1794511304.2451196, "execution_id": "baseline-002-1794511298550398200", "event": "request_forwarded", "request_id": 1, "method": "initialize", "tool": null}
+{"timestamp_unix": 1794511307.507048, "execution_id": "baseline-002-1794511298550398200", "event": "upstream_response_received", "request_id": 1, "response_kind": "result"}
+{"timestamp_unix": 1794511307.508048, "execution_id": "baseline-002-1794511298550398200", "event": "response_forwarded", "request_id": 1, "response_kind": "result"}
+{"timestamp_unix": 1794511307.5101447, "execution_id": "baseline-002-1794511298550398200", "event": "message_received", "request_id": null, "method": "notifications/initialized", "tool": null}
+{"timestamp_unix": 1794511307.5101447, "execution_id": "baseline-002-1794511298550398200", "event": "request_forwarded", "request_id": null, "method": "notifications/initialized", "tool": null}
+{"timestamp_unix": 1794511307.5101447, "execution_id": "baseline-002-1794511298550398200", "event": "message_received", "request_id": 2, "method": "tools/list", "tool": null}
+{"timestamp_unix": 1794511307.5101447, "execution_id": "baseline-002-1794511298550398200", "event": "request_forwarded", "request_id": 2, "method": "tools/list", "tool": null}
+{"timestamp_unix": 1794511307.525766, "execution_id": "baseline-002-1794511298550398200", "event": "upstream_response_received", "request_id": 2, "response_kind": "result"}
+{"timestamp_unix": 1794511307.5273054, "execution_id": "baseline-002-1794511298550398200", "event": "response_forwarded", "request_id": 2, "response_kind": "result"}
+{"timestamp_unix": 1794511307.530801, "execution_id": "baseline-002-1794511298550398200", "event": "message_received", "request_id": 3, "method": "tools/call", "tool": "get_company_revenue"}
+{"timestamp_unix": 1794511307.531802, "execution_id": "baseline-002-1794511298550398200", "event": "request_forwarded", "request_id": 3, "method": "tools/call", "tool": "get_company_revenue"}
+{"timestamp_unix": 1794511307.5358014, "execution_id": "baseline-002-1794511298550398200", "event": "upstream_response_received", "request_id": 3, "response_kind": "result"}
+{"timestamp_unix": 1794511307.5368013, "execution_id": "baseline-002-1794511298550398200", "event": "response_forwarded", "request_id": 3, "response_kind": "result"}
+{"timestamp_unix": 1794511308.5079668, "execution_id": "baseline-003-1794511298550398200", "event": "message_received", "request_id": 1, "method": "initialize", "tool": null}
+{"timestamp_unix": 1794511308.5089664, "execution_id": "baseline-003-1794511298550398200", "event": "request_forwarded", "request_id": 1, "method": "initialize", "tool": null}
+{"timestamp_unix": 1794511311.5577698, "execution_id": "baseline-003-1794511298550398200", "event": "upstream_response_received", "request_id": 1, "response_kind": "result"}
+{"timestamp_unix": 1794511311.5587697, "execution_id": "baseline-003-1794511298550398200", "event": "response_forwarded", "request_id": 1, "response_kind": "result"}
+{"timestamp_unix": 1794511311.55995, "execution_id": "baseline-003-1794511298550398200", "event": "message_received", "request_id": null, "method": "notifications/initialized", "tool": null}
+{"timestamp_unix": 1794511311.55995, "execution_id": "baseline-003-1794511298550398200", "event": "request_forwarded", "request_id": null, "method": "notifications/initialized", "tool": null}
+{"timestamp_unix": 1794511311.55995, "execution_id": "baseline-003-1794511298550398200", "event": "message_received", "request_id": 2, "method": "tools/list", "tool": null}
+{"timestamp_unix": 1794511311.55995, "execution_id": "baseline-003-1794511298550398200", "event": "request_forwarded", "request_id": 2, "method": "tools/list", "tool": null}
+{"timestamp_unix": 1794511311.55995, "execution_id": "baseline-003-1794511298550398200", "event": "upstream_response_received", "request_id": 2, "response_kind": "result"}
+{"timestamp_unix": 1794511311.55995, "execution_id": "baseline-003-1794511298550398200", "event": "response_forwarded", "request_id": 2, "response_kind": "result"}
+{"timestamp_unix": 1794511311.55995, "execution_id": "baseline-003-1794511298550398200", "event": "message_received", "request_id": 3, "method": "tools/call", "tool": "get_company_revenue"}
+{"timestamp_unix": 1794511311.55995, "execution_id": "baseline-003-1794511298550398200", "event": "request_forwarded", "request_id": 3, "method": "tools/call", "tool": "get_company_revenue"}
+{"timestamp_unix": 1794511311.5767083, "execution_id": "baseline-003-1794511298550398200", "event": "upstream_response_received", "request_id": 3, "response_kind": "result"}
+{"timestamp_unix": 1794511311.5770164, "execution_id": "baseline-003-1794511298550398200", "event": "response_forwarded", "request_id": 3, "response_kind": "result"}
+{"timestamp_unix": 1794511579.4135773, "execution_id": "baseline-001-1794511578439920800", "event": "message_received", "request_id": 1, "method": "initialize", "tool": null}
+{"timestamp_unix": 1794511579.4135773, "execution_id": "baseline-001-1794511578439920800", "event": "request_forwarded", "request_id": 1, "method": "initialize", "tool": null}
+{"timestamp_unix": 1794511586.2481203, "execution_id": "baseline-001-1794511578439920800", "event": "upstream_response_received", "request_id": 1, "response_kind": "result"}
+{"timestamp_unix": 1794511586.24912, "execution_id": "baseline-001-1794511578439920800", "event": "response_forwarded", "request_id": 1, "response_kind": "result"}
+{"timestamp_unix": 1794511586.2511194, "execution_id": "baseline-001-1794511578439920800", "event": "message_received", "request_id": null, "method": "notifications/initialized", "tool": null}
+{"timestamp_unix": 1794511586.2521203, "execution_id": "baseline-001-1794511578439920800", "event": "request_forwarded", "request_id": null, "method": "notifications/initialized", "tool": null}
+{"timestamp_unix": 1794511586.2531207, "execution_id": "baseline-001-1794511578439920800", "event": "message_received", "request_id": 2, "method": "tools/list", "tool": null}
+{"timestamp_unix": 1794511586.2541206, "execution_id": "baseline-001-1794511578439920800", "event": "request_forwarded", "request_id": 2, "method": "tools/list", "tool": null}
+{"timestamp_unix": 1794511586.2571204, "execution_id": "baseline-001-1794511578439920800", "event": "upstream_response_received", "request_id": 2, "response_kind": "result"}
+{"timestamp_unix": 1794511586.2581198, "execution_id": "baseline-001-1794511578439920800", "event": "response_forwarded", "request_id": 2, "response_kind": "result"}
+{"timestamp_unix": 1794511586.2611203, "execution_id": "baseline-001-1794511578439920800", "event": "message_received", "request_id": 3, "method": "tools/call", "tool": "get_company_revenue"}
+{"timestamp_unix": 1794511586.2621202, "execution_id": "baseline-001-1794511578439920800", "event": "request_forwarded", "request_id": 3, "method": "tools/call", "tool": "get_company_revenue"}
+{"timestamp_unix": 1794511586.2632616, "execution_id": "baseline-001-1794511578439920800", "event": "upstream_response_received", "request_id": 3, "response_kind": "result"}
+{"timestamp_unix": 1794511586.2632616, "execution_id": "baseline-001-1794511578439920800", "event": "response_forwarded", "request_id": 3, "response_kind": "result"}
+{"timestamp_unix": 1794511589.4631019, "execution_id": "baseline-002-1794511578439920800", "event": "message_received", "request_id": 1, "method": "initialize", "tool": null}
+{"timestamp_unix": 1794511589.4631019, "execution_id": "baseline-002-1794511578439920800", "event": "request_forwarded", "request_id": 1, "method": "initialize", "tool": null}
+{"timestamp_unix": 1794511592.1487615, "execution_id": "baseline-002-1794511578439920800", "event": "upstream_response_received", "request_id": 1, "response_kind": "result"}
+{"timestamp_unix": 1794511592.1497617, "execution_id": "baseline-002-1794511578439920800", "event": "response_forwarded", "request_id": 1, "response_kind": "result"}
+{"timestamp_unix": 1794511592.151761, "execution_id": "baseline-002-1794511578439920800", "event": "message_received", "request_id": null, "method": "notifications/initialized", "tool": null}
+{"timestamp_unix": 1794511592.1527605, "execution_id": "baseline-002-1794511578439920800", "event": "request_forwarded", "request_id": null, "method": "notifications/initialized", "tool": null}
+{"timestamp_unix": 1794511592.153761, "execution_id": "baseline-002-1794511578439920800", "event": "message_received", "request_id": 2, "method": "tools/list", "tool": null}
+{"timestamp_unix": 1794511592.1547613, "execution_id": "baseline-002-1794511578439920800", "event": "request_forwarded", "request_id": 2, "method": "tools/list", "tool": null}
+{"timestamp_unix": 1794511592.1577606, "execution_id": "baseline-002-1794511578439920800", "event": "upstream_response_received", "request_id": 2, "response_kind": "result"}
+{"timestamp_unix": 1794511592.1587596, "execution_id": "baseline-002-1794511578439920800", "event": "response_forwarded", "request_id": 2, "response_kind": "result"}
+{"timestamp_unix": 1794511592.1607609, "execution_id": "baseline-002-1794511578439920800", "event": "message_received", "request_id": 3, "method": "tools/call", "tool": "get_company_revenue"}
+{"timestamp_unix": 1794511592.1607609, "execution_id": "baseline-002-1794511578439920800", "event": "request_forwarded", "request_id": 3, "method": "tools/call", "tool": "get_company_revenue"}
+{"timestamp_unix": 1794511592.1629553, "execution_id": "baseline-002-1794511578439920800", "event": "upstream_response_received", "request_id": 3, "response_kind": "result"}
+{"timestamp_unix": 1794511592.1629553, "execution_id": "baseline-002-1794511578439920800", "event": "response_forwarded", "request_id": 3, "response_kind": "result"}
+{"timestamp_unix": 1794511593.0350146, "execution_id": "baseline-003-1794511578439920800", "event": "message_received", "request_id": 1, "method": "initialize", "tool": null}
+{"timestamp_unix": 1794511593.0360143, "execution_id": "baseline-003-1794511578439920800", "event": "request_forwarded", "request_id": 1, "method": "initialize", "tool": null}
+{"timestamp_unix": 1794511595.706694, "execution_id": "baseline-003-1794511578439920800", "event": "upstream_response_received", "request_id": 1, "response_kind": "result"}
+{"timestamp_unix": 1794511595.7076938, "execution_id": "baseline-003-1794511578439920800", "event": "response_forwarded", "request_id": 1, "response_kind": "result"}
+{"timestamp_unix": 1794511595.7096944, "execution_id": "baseline-003-1794511578439920800", "event": "message_received", "request_id": null, "method": "notifications/initialized", "tool": null}
+{"timestamp_unix": 1794511595.710695, "execution_id": "baseline-003-1794511578439920800", "event": "request_forwarded", "request_id": null, "method": "notifications/initialized", "tool": null}
+{"timestamp_unix": 1794511595.7116938, "execution_id": "baseline-003-1794511578439920800", "event": "message_received", "request_id": 2, "method": "tools/list", "tool": null}
+{"timestamp_unix": 1794511595.7136986, "execution_id": "baseline-003-1794511578439920800", "event": "request_forwarded", "request_id": 2, "method": "tools/list", "tool": null}
+{"timestamp_unix": 1794511595.7136986, "execution_id": "baseline-003-1794511578439920800", "event": "upstream_response_received", "request_id": 2, "response_kind": "result"}
+{"timestamp_unix": 1794511595.7136986, "execution_id": "baseline-003-1794511578439920800", "event": "response_forwarded", "request_id": 2, "response_kind": "result"}
+{"timestamp_unix": 1794511595.7136986, "execution_id": "baseline-003-1794511578439920800", "event": "message_received", "request_id": 3, "method": "tools/call", "tool": "get_company_revenue"}
+{"timestamp_unix": 1794511595.7136986, "execution_id": "baseline-003-1794511578439920800", "event": "request_forwarded", "request_id": 3, "method": "tools/call", "tool": "get_company_revenue"}
+{"timestamp_unix": 1794511595.7136986, "execution_id": "baseline-003-1794511578439920800", "event": "upstream_response_received", "request_id": 3, "response_kind": "result"}
+{"timestamp_unix": 1794511595.7136986, "execution_id": "baseline-003-1794511578439920800", "event": "response_forwarded", "request_id": 3, "response_kind": "result"}
+{"timestamp_unix": 1794566297.8838263, "execution_id": "baseline-001-1794566294158736000", "event": "message_received", "request_id": 1, "method": "initialize", "tool": null}
+{"timestamp_unix": 1794566297.9463081, "execution_id": "baseline-001-1794566294158736000", "event": "request_forwarded", "request_id": 1, "method": "initialize", "tool": null}
+{"timestamp_unix": 1794566303.0268695, "execution_id": "baseline-001-1794566294158736000", "event": "upstream_response_received", "request_id": 1, "response_kind": "result"}
+{"timestamp_unix": 1794566303.0278692, "execution_id": "baseline-001-1794566294158736000", "event": "response_forwarded", "request_id": 1, "response_kind": "result"}
+{"timestamp_unix": 1794566303.0318694, "execution_id": "baseline-001-1794566294158736000", "event": "message_received", "request_id": null, "method": "notifications/initialized", "tool": null}
+{"timestamp_unix": 1794566303.0318694, "execution_id": "baseline-001-1794566294158736000", "event": "request_forwarded", "request_id": null, "method": "notifications/initialized", "tool": null}
+{"timestamp_unix": 1794566303.0338695, "execution_id": "baseline-001-1794566294158736000", "event": "message_received", "request_id": 2, "method": "tools/list", "tool": null}
+{"timestamp_unix": 1794566303.0338695, "execution_id": "baseline-001-1794566294158736000", "event": "request_forwarded", "request_id": 2, "method": "tools/list", "tool": null}
+{"timestamp_unix": 1794566303.084442, "execution_id": "baseline-001-1794566294158736000", "event": "upstream_response_received", "request_id": 2, "response_kind": "result"}
+{"timestamp_unix": 1794566303.0854414, "execution_id": "baseline-001-1794566294158736000", "event": "response_forwarded", "request_id": 2, "response_kind": "result"}
+{"timestamp_unix": 1794566303.0884433, "execution_id": "baseline-001-1794566294158736000", "event": "message_received", "request_id": 3, "method": "tools/call", "tool": "get_company_revenue"}
+{"timestamp_unix": 1794566303.0894415, "execution_id": "baseline-001-1794566294158736000", "event": "request_forwarded", "request_id": 3, "method": "tools/call", "tool": "get_company_revenue"}
+{"timestamp_unix": 1794566303.09559, "execution_id": "baseline-001-1794566294158736000", "event": "upstream_response_received", "request_id": 3, "response_kind": "result"}
+{"timestamp_unix": 1794566303.09694, "execution_id": "baseline-001-1794566294158736000", "event": "response_forwarded", "request_id": 3, "response_kind": "result"}
+{"timestamp_unix": 1794566307.5261378, "execution_id": "baseline-002-1794566294158736000", "event": "message_received", "request_id": 1, "method": "initialize", "tool": null}
+{"timestamp_unix": 1794566307.5261378, "execution_id": "baseline-002-1794566294158736000", "event": "request_forwarded", "request_id": 1, "method": "initialize", "tool": null}
+{"timestamp_unix": 1794566311.50161, "execution_id": "baseline-002-1794566294158736000", "event": "upstream_response_received", "request_id": 1, "response_kind": "result"}
+{"timestamp_unix": 1794566311.50161, "execution_id": "baseline-002-1794566294158736000", "event": "response_forwarded", "request_id": 1, "response_kind": "result"}
+{"timestamp_unix": 1794566311.50161, "execution_id": "baseline-002-1794566294158736000", "event": "message_received", "request_id": null, "method": "notifications/initialized", "tool": null}
+{"timestamp_unix": 1794566311.50161, "execution_id": "baseline-002-1794566294158736000", "event": "request_forwarded", "request_id": null, "method": "notifications/initialized", "tool": null}
+{"timestamp_unix": 1794566311.50161, "execution_id": "baseline-002-1794566294158736000", "event": "message_received", "request_id": 2, "method": "tools/list", "tool": null}
+{"timestamp_unix": 1794566311.50161, "execution_id": "baseline-002-1794566294158736000", "event": "request_forwarded", "request_id": 2, "method": "tools/list", "tool": null}
+{"timestamp_unix": 1794566311.50161, "execution_id": "baseline-002-1794566294158736000", "event": "upstream_response_received", "request_id": 2, "response_kind": "result"}
+{"timestamp_unix": 1794566311.50161, "execution_id": "baseline-002-1794566294158736000", "event": "response_forwarded", "request_id": 2, "response_kind": "result"}
+{"timestamp_unix": 1794566311.50161, "execution_id": "baseline-002-1794566294158736000", "event": "message_received", "request_id": 3, "method": "tools/call", "tool": "get_company_revenue"}
+{"timestamp_unix": 1794566311.517231, "execution_id": "baseline-002-1794566294158736000", "event": "request_forwarded", "request_id": 3, "method": "tools/call", "tool": "get_company_revenue"}
+{"timestamp_unix": 1794566311.517231, "execution_id": "baseline-002-1794566294158736000", "event": "upstream_response_received", "request_id": 3, "response_kind": "result"}
+{"timestamp_unix": 1794566311.517231, "execution_id": "baseline-002-1794566294158736000", "event": "response_forwarded", "request_id": 3, "response_kind": "result"}
+{"timestamp_unix": 1794566312.7648458, "execution_id": "baseline-003-1794566294158736000", "event": "message_received", "request_id": 1, "method": "initialize", "tool": null}
+{"timestamp_unix": 1794566312.7648458, "execution_id": "baseline-003-1794566294158736000", "event": "request_forwarded", "request_id": 1, "method": "initialize", "tool": null}
+{"timestamp_unix": 1794566316.8658803, "execution_id": "baseline-003-1794566294158736000", "event": "upstream_response_received", "request_id": 1, "response_kind": "result"}
+{"timestamp_unix": 1794566316.8668802, "execution_id": "baseline-003-1794566294158736000", "event": "response_forwarded", "request_id": 1, "response_kind": "result"}
+{"timestamp_unix": 1794566316.8678813, "execution_id": "baseline-003-1794566294158736000", "event": "message_received", "request_id": null, "method": "notifications/initialized", "tool": null}
+{"timestamp_unix": 1794566316.8688796, "execution_id": "baseline-003-1794566294158736000", "event": "request_forwarded", "request_id": null, "method": "notifications/initialized", "tool": null}
+{"timestamp_unix": 1794566316.8708806, "execution_id": "baseline-003-1794566294158736000", "event": "message_received", "request_id": 2, "method": "tools/list", "tool": null}
+{"timestamp_unix": 1794566316.8708806, "execution_id": "baseline-003-1794566294158736000", "event": "request_forwarded", "request_id": 2, "method": "tools/list", "tool": null}
+{"timestamp_unix": 1794566316.87388, "execution_id": "baseline-003-1794566294158736000", "event": "upstream_response_received", "request_id": 2, "response_kind": "result"}
+{"timestamp_unix": 1794566316.8748798, "execution_id": "baseline-003-1794566294158736000", "event": "response_forwarded", "request_id": 2, "response_kind": "result"}
+{"timestamp_unix": 1794566316.8778794, "execution_id": "baseline-003-1794566294158736000", "event": "message_received", "request_id": 3, "method": "tools/call", "tool": "get_company_revenue"}
+{"timestamp_unix": 1794566316.8778794, "execution_id": "baseline-003-1794566294158736000", "event": "request_forwarded", "request_id": 3, "method": "tools/call", "tool": "get_company_revenue"}
+{"timestamp_unix": 1794566316.88288, "execution_id": "baseline-003-1794566294158736000", "event": "upstream_response_received", "request_id": 3, "response_kind": "result"}
+{"timestamp_unix": 1794566316.8838797, "execution_id": "baseline-003-1794566294158736000", "event": "response_forwarded", "request_id": 3, "response_kind": "result"}
+{"timestamp_unix": 1794566912.9440587, "execution_id": "baseline-001-1794566911483802200", "event": "message_received", "request_id": 1, "method": "initialize", "tool": null}
+{"timestamp_unix": 1794566912.9691706, "execution_id": "baseline-001-1794566911483802200", "event": "request_forwarded", "request_id": 1, "method": "initialize", "tool": null}
+{"timestamp_unix": 1794566917.0959687, "execution_id": "baseline-001-1794566911483802200", "event": "upstream_response_received", "request_id": 1, "response_kind": "result"}
+{"timestamp_unix": 1794566917.0959687, "execution_id": "baseline-001-1794566911483802200", "event": "response_forwarded", "request_id": 1, "response_kind": "result"}
+{"timestamp_unix": 1794566917.114769, "execution_id": "baseline-001-1794566911483802200", "event": "message_received", "request_id": null, "method": "notifications/initialized", "tool": null}
+{"timestamp_unix": 1794566917.1157696, "execution_id": "baseline-001-1794566911483802200", "event": "request_forwarded", "request_id": null, "method": "notifications/initialized", "tool": null}
+{"timestamp_unix": 1794566917.1167693, "execution_id": "baseline-001-1794566911483802200", "event": "message_received", "request_id": 2, "method": "tools/list", "tool": null}
+{"timestamp_unix": 1794566917.1177692, "execution_id": "baseline-001-1794566911483802200", "event": "request_forwarded", "request_id": 2, "method": "tools/list", "tool": null}
+{"timestamp_unix": 1794566917.121769, "execution_id": "baseline-001-1794566911483802200", "event": "upstream_response_received", "request_id": 2, "response_kind": "result"}
+{"timestamp_unix": 1794566917.1227686, "execution_id": "baseline-001-1794566911483802200", "event": "response_forwarded", "request_id": 2, "response_kind": "result"}
+{"timestamp_unix": 1794566917.1257687, "execution_id": "baseline-001-1794566911483802200", "event": "message_received", "request_id": 3, "method": "tools/call", "tool": "get_company_revenue"}
+{"timestamp_unix": 1794566917.1267688, "execution_id": "baseline-001-1794566911483802200", "event": "request_forwarded", "request_id": 3, "method": "tools/call", "tool": "get_company_revenue"}
+{"timestamp_unix": 1794566917.145903, "execution_id": "baseline-001-1794566911483802200", "event": "upstream_response_received", "request_id": 3, "response_kind": "result"}
+{"timestamp_unix": 1794566917.145903, "execution_id": "baseline-001-1794566911483802200", "event": "response_forwarded", "request_id": 3, "response_kind": "result"}
+{"timestamp_unix": 1794566919.3957953, "execution_id": "baseline-002-1794566911483802200", "event": "message_received", "request_id": 1, "method": "initialize", "tool": null}
+{"timestamp_unix": 1794566919.3957953, "execution_id": "baseline-002-1794566911483802200", "event": "request_forwarded", "request_id": 1, "method": "initialize", "tool": null}
+{"timestamp_unix": 1794566922.1456547, "execution_id": "baseline-002-1794566911483802200", "event": "upstream_response_received", "request_id": 1, "response_kind": "result"}
+{"timestamp_unix": 1794566922.1456547, "execution_id": "baseline-002-1794566911483802200", "event": "response_forwarded", "request_id": 1, "response_kind": "result"}
+{"timestamp_unix": 1794566922.1456547, "execution_id": "baseline-002-1794566911483802200", "event": "message_received", "request_id": null, "method": "notifications/initialized", "tool": null}
+{"timestamp_unix": 1794566922.1456547, "execution_id": "baseline-002-1794566911483802200", "event": "request_forwarded", "request_id": null, "method": "notifications/initialized", "tool": null}
+{"timestamp_unix": 1794566922.1456547, "execution_id": "baseline-002-1794566911483802200", "event": "message_received", "request_id": 2, "method": "tools/list", "tool": null}
+{"timestamp_unix": 1794566922.1456547, "execution_id": "baseline-002-1794566911483802200", "event": "request_forwarded", "request_id": 2, "method": "tools/list", "tool": null}
+{"timestamp_unix": 1794566922.1456547, "execution_id": "baseline-002-1794566911483802200", "event": "upstream_response_received", "request_id": 2, "response_kind": "result"}
+{"timestamp_unix": 1794566922.1456547, "execution_id": "baseline-002-1794566911483802200", "event": "response_forwarded", "request_id": 2, "response_kind": "result"}
+{"timestamp_unix": 1794566922.1456547, "execution_id": "baseline-002-1794566911483802200", "event": "message_received", "request_id": 3, "method": "tools/call", "tool": "get_company_revenue"}
+{"timestamp_unix": 1794566922.1456547, "execution_id": "baseline-002-1794566911483802200", "event": "request_forwarded", "request_id": 3, "method": "tools/call", "tool": "get_company_revenue"}
+{"timestamp_unix": 1794566922.165559, "execution_id": "baseline-002-1794566911483802200", "event": "upstream_response_received", "request_id": 3, "response_kind": "result"}
+{"timestamp_unix": 1794566922.1665592, "execution_id": "baseline-002-1794566911483802200", "event": "response_forwarded", "request_id": 3, "response_kind": "result"}
+{"timestamp_unix": 1794566923.095624, "execution_id": "baseline-003-1794566911483802200", "event": "message_received", "request_id": 1, "method": "initialize", "tool": null}
+{"timestamp_unix": 1794566923.095624, "execution_id": "baseline-003-1794566911483802200", "event": "request_forwarded", "request_id": 1, "method": "initialize", "tool": null}
+{"timestamp_unix": 1794566926.0973508, "execution_id": "baseline-003-1794566911483802200", "event": "upstream_response_received", "request_id": 1, "response_kind": "result"}
+{"timestamp_unix": 1794566926.0973508, "execution_id": "baseline-003-1794566911483802200", "event": "response_forwarded", "request_id": 1, "response_kind": "result"}
+{"timestamp_unix": 1794566926.0973508, "execution_id": "baseline-003-1794566911483802200", "event": "message_received", "request_id": null, "method": "notifications/initialized", "tool": null}
+{"timestamp_unix": 1794566926.0973508, "execution_id": "baseline-003-1794566911483802200", "event": "request_forwarded", "request_id": null, "method": "notifications/initialized", "tool": null}
+{"timestamp_unix": 1794566926.0973508, "execution_id": "baseline-003-1794566911483802200", "event": "message_received", "request_id": 2, "method": "tools/list", "tool": null}
+{"timestamp_unix": 1794566926.0973508, "execution_id": "baseline-003-1794566911483802200", "event": "request_forwarded", "request_id": 2, "method": "tools/list", "tool": null}
+{"timestamp_unix": 1794566926.0973508, "execution_id": "baseline-003-1794566911483802200", "event": "upstream_response_received", "request_id": 2, "response_kind": "result"}
+{"timestamp_unix": 1794566926.1147792, "execution_id": "baseline-003-1794566911483802200", "event": "response_forwarded", "request_id": 2, "response_kind": "result"}
+{"timestamp_unix": 1794566926.117051, "execution_id": "baseline-003-1794566911483802200", "event": "message_received", "request_id": 3, "method": "tools/call", "tool": "get_company_revenue"}
+{"timestamp_unix": 1794566926.117051, "execution_id": "baseline-003-1794566911483802200", "event": "request_forwarded", "request_id": 3, "method": "tools/call", "tool": "get_company_revenue"}
+{"timestamp_unix": 1794566926.1498127, "execution_id": "baseline-003-1794566911483802200", "event": "upstream_response_received", "request_id": 3, "response_kind": "result"}
+{"timestamp_unix": 1794566926.1498127, "execution_id": "baseline-003-1794566911483802200", "event": "response_forwarded", "request_id": 3, "response_kind": "result"}

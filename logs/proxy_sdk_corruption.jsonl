@@ -1,0 +1,576 @@
+{"timestamp_unix": 1794501495.2482374, "execution_id": "sdk-corruption-001", "event": "message_received", "request_id": 1, "method": "initialize", "tool": null}
+{"timestamp_unix": 1794501495.2492368, "execution_id": "sdk-corruption-001", "event": "request_forwarded", "request_id": 1, "method": "initialize", "tool": null}
+{"timestamp_unix": 1794501498.2233233, "execution_id": "sdk-corruption-001", "event": "upstream_response_received", "request_id": 1, "response_kind": "result"}
+{"timestamp_unix": 1794501498.2242954, "execution_id": "sdk-corruption-001", "event": "response_forwarded", "request_id": 1, "response_kind": "result"}
+{"timestamp_unix": 1794501498.2242954, "execution_id": "sdk-corruption-001", "event": "message_received", "request_id": null, "method": "notifications/initialized", "tool": null}
+{"timestamp_unix": 1794501498.2242954, "execution_id": "sdk-corruption-001", "event": "request_forwarded", "request_id": null, "method": "notifications/initialized", "tool": null}
+{"timestamp_unix": 1794501498.2242954, "execution_id": "sdk-corruption-001", "event": "message_received", "request_id": 2, "method": "tools/list", "tool": null}
+{"timestamp_unix": 1794501498.2242954, "execution_id": "sdk-corruption-001", "event": "request_forwarded", "request_id": 2, "method": "tools/list", "tool": null}
+{"timestamp_unix": 1794501498.2242954, "execution_id": "sdk-corruption-001", "event": "upstream_response_received", "request_id": 2, "response_kind": "result"}
+{"timestamp_unix": 1794501498.2390397, "execution_id": "sdk-corruption-001", "event": "response_forwarded", "request_id": 2, "response_kind": "result"}
+{"timestamp_unix": 1794501498.246041, "execution_id": "sdk-corruption-001", "event": "message_received", "request_id": 3, "method": "tools/call", "tool": "get_company_revenue"}
+{"timestamp_unix": 1794501498.246041, "execution_id": "sdk-corruption-001", "event": "fault_injected", "request_id": 3, "tool": "get_company_revenue", "fault_type": "corruption", "call_number_for_tool": 1}
+{"timestamp_unix": 1794501498.2470403, "execution_id": "sdk-corruption-001", "event": "request_forwarded", "request_id": 3, "method": "tools/call", "tool": "get_company_revenue"}
+{"timestamp_unix": 1794501498.3231835, "execution_id": "sdk-corruption-001", "event": "upstream_response_received", "request_id": 3, "response_kind": "result"}
+{"timestamp_unix": 1794501498.3231835, "execution_id": "sdk-corruption-001", "event": "corruption_applied", "request_id": 3, "tool": "get_company_revenue", "target_text": "\"revenue\": 120", "replacement_text": "\"revenue\": 999", "call_number_for_tool": 1}
+{"timestamp_unix": 1794501498.3231835, "execution_id": "sdk-corruption-001", "event": "response_forwarded", "request_id": 3, "response_kind": "result"}
+{"timestamp_unix": 1794502535.022834, "execution_id": "corruption-001-1794502448577334600", "event": "message_received", "request_id": 1, "method": "initialize", "tool": null}
+{"timestamp_unix": 1794502535.022834, "execution_id": "corruption-001-1794502448577334600", "event": "request_forwarded", "request_id": 1, "method": "initialize", "tool": null}
+{"timestamp_unix": 1794502539.733205, "execution_id": "corruption-001-1794502448577334600", "event": "upstream_response_received", "request_id": 1, "response_kind": "result"}
+{"timestamp_unix": 1794502539.7342038, "execution_id": "corruption-001-1794502448577334600", "event": "response_forwarded", "request_id": 1, "response_kind": "result"}
+{"timestamp_unix": 1794502539.735205, "execution_id": "corruption-001-1794502448577334600", "event": "message_received", "request_id": null, "method": "notifications/initialized", "tool": null}
+{"timestamp_unix": 1794502539.7362049, "execution_id": "corruption-001-1794502448577334600", "event": "request_forwarded", "request_id": null, "method": "notifications/initialized", "tool": null}
+{"timestamp_unix": 1794502539.7414575, "execution_id": "corruption-001-1794502448577334600", "event": "message_received", "request_id": 2, "method": "tools/list", "tool": null}
+{"timestamp_unix": 1794502539.7417269, "execution_id": "corruption-001-1794502448577334600", "event": "request_forwarded", "request_id": 2, "method": "tools/list", "tool": null}
+{"timestamp_unix": 1794502539.7457283, "execution_id": "corruption-001-1794502448577334600", "event": "upstream_response_received", "request_id": 2, "response_kind": "result"}
+{"timestamp_unix": 1794502539.7467287, "execution_id": "corruption-001-1794502448577334600", "event": "response_forwarded", "request_id": 2, "response_kind": "result"}
+{"timestamp_unix": 1794502539.7756243, "execution_id": "corruption-001-1794502448577334600", "event": "message_received", "request_id": 3, "method": "tools/call", "tool": "get_company_revenue"}
+{"timestamp_unix": 1794502539.776625, "execution_id": "corruption-001-1794502448577334600", "event": "fault_injected", "request_id": 3, "tool": "get_company_revenue", "fault_type": "corruption", "call_number_for_tool": 1}
+{"timestamp_unix": 1794502539.776625, "execution_id": "corruption-001-1794502448577334600", "event": "request_forwarded", "request_id": 3, "method": "tools/call", "tool": "get_company_revenue"}
+{"timestamp_unix": 1794502539.7816231, "execution_id": "corruption-001-1794502448577334600", "event": "upstream_response_received", "request_id": 3, "response_kind": "result"}
+{"timestamp_unix": 1794502539.7826235, "execution_id": "corruption-001-1794502448577334600", "event": "corruption_applied", "request_id": 3, "tool": "get_company_revenue", "target_text": "\"revenue\": 120", "replacement_text": "\"revenue\": 999", "call_number_for_tool": 1}
+{"timestamp_unix": 1794502539.7836237, "execution_id": "corruption-001-1794502448577334600", "event": "response_forwarded", "request_id": 3, "response_kind": "result"}
+{"timestamp_unix": 1794502541.2122238, "execution_id": "corruption-002-1794502448577334600", "event": "message_received", "request_id": 1, "method": "initialize", "tool": null}
+{"timestamp_unix": 1794502541.213225, "execution_id": "corruption-002-1794502448577334600", "event": "request_forwarded", "request_id": 1, "method": "initialize", "tool": null}
+{"timestamp_unix": 1794502546.1734123, "execution_id": "corruption-002-1794502448577334600", "event": "upstream_response_received", "request_id": 1, "response_kind": "result"}
+{"timestamp_unix": 1794502546.1734123, "execution_id": "corruption-002-1794502448577334600", "event": "response_forwarded", "request_id": 1, "response_kind": "result"}
+{"timestamp_unix": 1794502546.1734123, "execution_id": "corruption-002-1794502448577334600", "event": "message_received", "request_id": null, "method": "notifications/initialized", "tool": null}
+{"timestamp_unix": 1794502546.1734123, "execution_id": "corruption-002-1794502448577334600", "event": "request_forwarded", "request_id": null, "method": "notifications/initialized", "tool": null}
+{"timestamp_unix": 1794502546.1734123, "execution_id": "corruption-002-1794502448577334600", "event": "message_received", "request_id": 2, "method": "tools/list", "tool": null}
+{"timestamp_unix": 1794502546.1734123, "execution_id": "corruption-002-1794502448577334600", "event": "request_forwarded", "request_id": 2, "method": "tools/list", "tool": null}
+{"timestamp_unix": 1794502546.1945777, "execution_id": "corruption-002-1794502448577334600", "event": "upstream_response_received", "request_id": 2, "response_kind": "result"}
+{"timestamp_unix": 1794502546.1955776, "execution_id": "corruption-002-1794502448577334600", "event": "response_forwarded", "request_id": 2, "response_kind": "result"}
+{"timestamp_unix": 1794502546.1968594, "execution_id": "corruption-002-1794502448577334600", "event": "message_received", "request_id": 3, "method": "tools/call", "tool": "get_company_revenue"}
+{"timestamp_unix": 1794502546.1968594, "execution_id": "corruption-002-1794502448577334600", "event": "fault_injected", "request_id": 3, "tool": "get_company_revenue", "fault_type": "corruption", "call_number_for_tool": 1}
+{"timestamp_unix": 1794502546.1968594, "execution_id": "corruption-002-1794502448577334600", "event": "request_forwarded", "request_id": 3, "method": "tools/call", "tool": "get_company_revenue"}
+{"timestamp_unix": 1794502546.2094553, "execution_id": "corruption-002-1794502448577334600", "event": "upstream_response_received", "request_id": 3, "response_kind": "result"}
+{"timestamp_unix": 1794502546.2097607, "execution_id": "corruption-002-1794502448577334600", "event": "corruption_applied", "request_id": 3, "tool": "get_company_revenue", "target_text": "\"revenue\": 120", "replacement_text": "\"revenue\": 999", "call_number_for_tool": 1}
+{"timestamp_unix": 1794502546.2097607, "execution_id": "corruption-002-1794502448577334600", "event": "response_forwarded", "request_id": 3, "response_kind": "result"}
+{"timestamp_unix": 1794502547.2533913, "execution_id": "corruption-003-1794502448577334600", "event": "message_received", "request_id": 1, "method": "initialize", "tool": null}
+{"timestamp_unix": 1794502547.2533913, "execution_id": "corruption-003-1794502448577334600", "event": "request_forwarded", "request_id": 1, "method": "initialize", "tool": null}
+{"timestamp_unix": 1794502550.547007, "execution_id": "corruption-003-1794502448577334600", "event": "upstream_response_received", "request_id": 1, "response_kind": "result"}
+{"timestamp_unix": 1794502550.547007, "execution_id": "corruption-003-1794502448577334600", "event": "response_forwarded", "request_id": 1, "response_kind": "result"}
+{"timestamp_unix": 1794502550.5490072, "execution_id": "corruption-003-1794502448577334600", "event": "message_received", "request_id": null, "method": "notifications/initialized", "tool": null}
+{"timestamp_unix": 1794502550.5490072, "execution_id": "corruption-003-1794502448577334600", "event": "request_forwarded", "request_id": null, "method": "notifications/initialized", "tool": null}
+{"timestamp_unix": 1794502550.5510077, "execution_id": "corruption-003-1794502448577334600", "event": "message_received", "request_id": 2, "method": "tools/list", "tool": null}
+{"timestamp_unix": 1794502550.5510077, "execution_id": "corruption-003-1794502448577334600", "event": "request_forwarded", "request_id": 2, "method": "tools/list", "tool": null}
+{"timestamp_unix": 1794502550.5532222, "execution_id": "corruption-003-1794502448577334600", "event": "upstream_response_received", "request_id": 2, "response_kind": "result"}
+{"timestamp_unix": 1794502550.5532222, "execution_id": "corruption-003-1794502448577334600", "event": "response_forwarded", "request_id": 2, "response_kind": "result"}
+{"timestamp_unix": 1794502550.5532222, "execution_id": "corruption-003-1794502448577334600", "event": "message_received", "request_id": 3, "method": "tools/call", "tool": "get_company_revenue"}
+{"timestamp_unix": 1794502550.5532222, "execution_id": "corruption-003-1794502448577334600", "event": "fault_injected", "request_id": 3, "tool": "get_company_revenue", "fault_type": "corruption", "call_number_for_tool": 1}
+{"timestamp_unix": 1794502550.5532222, "execution_id": "corruption-003-1794502448577334600", "event": "request_forwarded", "request_id": 3, "method": "tools/call", "tool": "get_company_revenue"}
+{"timestamp_unix": 1794502550.5532222, "execution_id": "corruption-003-1794502448577334600", "event": "upstream_response_received", "request_id": 3, "response_kind": "result"}
+{"timestamp_unix": 1794502550.5532222, "execution_id": "corruption-003-1794502448577334600", "event": "corruption_applied", "request_id": 3, "tool": "get_company_revenue", "target_text": "\"revenue\": 120", "replacement_text": "\"revenue\": 999", "call_number_for_tool": 1}
+{"timestamp_unix": 1794502550.5532222, "execution_id": "corruption-003-1794502448577334600", "event": "response_forwarded", "request_id": 3, "response_kind": "result"}
+{"timestamp_unix": 1794502853.1615286, "execution_id": "corruption-001-1794502828828381000", "event": "message_received", "request_id": 1, "method": "initialize", "tool": null}
+{"timestamp_unix": 1794502853.2251136, "execution_id": "corruption-001-1794502828828381000", "event": "request_forwarded", "request_id": 1, "method": "initialize", "tool": null}
+{"timestamp_unix": 1794502857.0261354, "execution_id": "corruption-001-1794502828828381000", "event": "upstream_response_received", "request_id": 1, "response_kind": "result"}
+{"timestamp_unix": 1794502857.0271351, "execution_id": "corruption-001-1794502828828381000", "event": "response_forwarded", "request_id": 1, "response_kind": "result"}
+{"timestamp_unix": 1794502857.0301363, "execution_id": "corruption-001-1794502828828381000", "event": "message_received", "request_id": null, "method": "notifications/initialized", "tool": null}
+{"timestamp_unix": 1794502857.0311353, "execution_id": "corruption-001-1794502828828381000", "event": "request_forwarded", "request_id": null, "method": "notifications/initialized", "tool": null}
+{"timestamp_unix": 1794502857.0331364, "execution_id": "corruption-001-1794502828828381000", "event": "message_received", "request_id": 2, "method": "tools/list", "tool": null}
+{"timestamp_unix": 1794502857.035136, "execution_id": "corruption-001-1794502828828381000", "event": "request_forwarded", "request_id": 2, "method": "tools/list", "tool": null}
+{"timestamp_unix": 1794502857.0408118, "execution_id": "corruption-001-1794502828828381000", "event": "upstream_response_received", "request_id": 2, "response_kind": "result"}
+{"timestamp_unix": 1794502857.0418124, "execution_id": "corruption-001-1794502828828381000", "event": "response_forwarded", "request_id": 2, "response_kind": "result"}
+{"timestamp_unix": 1794502857.0448136, "execution_id": "corruption-001-1794502828828381000", "event": "message_received", "request_id": 3, "method": "tools/call", "tool": "get_company_revenue"}
+{"timestamp_unix": 1794502857.0458117, "execution_id": "corruption-001-1794502828828381000", "event": "fault_injected", "request_id": 3, "tool": "get_company_revenue", "fault_type": "corruption", "call_number_for_tool": 1}
+{"timestamp_unix": 1794502857.0468125, "execution_id": "corruption-001-1794502828828381000", "event": "request_forwarded", "request_id": 3, "method": "tools/call", "tool": "get_company_revenue"}
+{"timestamp_unix": 1794502857.0518107, "execution_id": "corruption-001-1794502828828381000", "event": "upstream_response_received", "request_id": 3, "response_kind": "result"}
+{"timestamp_unix": 1794502857.052811, "execution_id": "corruption-001-1794502828828381000", "event": "corruption_applied", "request_id": 3, "tool": "get_company_revenue", "target_text": "\"revenue\": 120", "replacement_text": "\"revenue\": 999", "call_number_for_tool": 1}
+{"timestamp_unix": 1794502857.0538118, "execution_id": "corruption-001-1794502828828381000", "event": "response_forwarded", "request_id": 3, "response_kind": "result"}
+{"timestamp_unix": 1794503143.442567, "execution_id": "corruption-001-1794503092779253500", "event": "message_received", "request_id": 1, "method": "initialize", "tool": null}
+{"timestamp_unix": 1794503143.442567, "execution_id": "corruption-001-1794503092779253500", "event": "request_forwarded", "request_id": 1, "method": "initialize", "tool": null}
+{"timestamp_unix": 1794503146.4138887, "execution_id": "corruption-001-1794503092779253500", "event": "upstream_response_received", "request_id": 1, "response_kind": "result"}
+{"timestamp_unix": 1794503146.4149244, "execution_id": "corruption-001-1794503092779253500", "event": "response_forwarded", "request_id": 1, "response_kind": "result"}
+{"timestamp_unix": 1794503146.4178908, "execution_id": "corruption-001-1794503092779253500", "event": "message_received", "request_id": null, "method": "notifications/initialized", "tool": null}
+{"timestamp_unix": 1794503146.4178908, "execution_id": "corruption-001-1794503092779253500", "event": "request_forwarded", "request_id": null, "method": "notifications/initialized", "tool": null}
+{"timestamp_unix": 1794503146.4188895, "execution_id": "corruption-001-1794503092779253500", "event": "message_received", "request_id": 2, "method": "tools/list", "tool": null}
+{"timestamp_unix": 1794503146.4198892, "execution_id": "corruption-001-1794503092779253500", "event": "request_forwarded", "request_id": 2, "method": "tools/list", "tool": null}
+{"timestamp_unix": 1794503146.4228892, "execution_id": "corruption-001-1794503092779253500", "event": "upstream_response_received", "request_id": 2, "response_kind": "result"}
+{"timestamp_unix": 1794503146.4248905, "execution_id": "corruption-001-1794503092779253500", "event": "response_forwarded", "request_id": 2, "response_kind": "result"}
+{"timestamp_unix": 1794503146.427597, "execution_id": "corruption-001-1794503092779253500", "event": "message_received", "request_id": 3, "method": "tools/call", "tool": "get_company_revenue"}
+{"timestamp_unix": 1794503146.4285965, "execution_id": "corruption-001-1794503092779253500", "event": "fault_injected", "request_id": 3, "tool": "get_company_revenue", "fault_type": "corruption", "call_number_for_tool": 1}
+{"timestamp_unix": 1794503146.4285965, "execution_id": "corruption-001-1794503092779253500", "event": "request_forwarded", "request_id": 3, "method": "tools/call", "tool": "get_company_revenue"}
+{"timestamp_unix": 1794503146.432597, "execution_id": "corruption-001-1794503092779253500", "event": "upstream_response_received", "request_id": 3, "response_kind": "result"}
+{"timestamp_unix": 1794503146.4335964, "execution_id": "corruption-001-1794503092779253500", "event": "corruption_applied", "request_id": 3, "tool": "get_company_revenue", "target_text": "\"revenue\": 120", "replacement_text": "\"revenue\": 999", "call_number_for_tool": 1}
+{"timestamp_unix": 1794503146.434597, "execution_id": "corruption-001-1794503092779253500", "event": "response_forwarded", "request_id": 3, "response_kind": "result"}
+{"timestamp_unix": 1794503147.3603332, "execution_id": "corruption-002-1794503092779253500", "event": "message_received", "request_id": 1, "method": "initialize", "tool": null}
+{"timestamp_unix": 1794503147.3603332, "execution_id": "corruption-002-1794503092779253500", "event": "request_forwarded", "request_id": 1, "method": "initialize", "tool": null}
+{"timestamp_unix": 1794503150.2252402, "execution_id": "corruption-002-1794503092779253500", "event": "upstream_response_received", "request_id": 1, "response_kind": "result"}
+{"timestamp_unix": 1794503150.2262414, "execution_id": "corruption-002-1794503092779253500", "event": "response_forwarded", "request_id": 1, "response_kind": "result"}
+{"timestamp_unix": 1794503150.2282414, "execution_id": "corruption-002-1794503092779253500", "event": "message_received", "request_id": null, "method": "notifications/initialized", "tool": null}
+{"timestamp_unix": 1794503150.2292411, "execution_id": "corruption-002-1794503092779253500", "event": "request_forwarded", "request_id": null, "method": "notifications/initialized", "tool": null}
+{"timestamp_unix": 1794503150.2302418, "execution_id": "corruption-002-1794503092779253500", "event": "message_received", "request_id": 2, "method": "tools/list", "tool": null}
+{"timestamp_unix": 1794503150.2312415, "execution_id": "corruption-002-1794503092779253500", "event": "request_forwarded", "request_id": 2, "method": "tools/list", "tool": null}
+{"timestamp_unix": 1794503150.2342408, "execution_id": "corruption-002-1794503092779253500", "event": "upstream_response_received", "request_id": 2, "response_kind": "result"}
+{"timestamp_unix": 1794503150.2342408, "execution_id": "corruption-002-1794503092779253500", "event": "response_forwarded", "request_id": 2, "response_kind": "result"}
+{"timestamp_unix": 1794503150.2372406, "execution_id": "corruption-002-1794503092779253500", "event": "message_received", "request_id": 3, "method": "tools/call", "tool": "get_company_revenue"}
+{"timestamp_unix": 1794503150.2372406, "execution_id": "corruption-002-1794503092779253500", "event": "fault_injected", "request_id": 3, "tool": "get_company_revenue", "fault_type": "corruption", "call_number_for_tool": 1}
+{"timestamp_unix": 1794503150.2382405, "execution_id": "corruption-002-1794503092779253500", "event": "request_forwarded", "request_id": 3, "method": "tools/call", "tool": "get_company_revenue"}
+{"timestamp_unix": 1794503150.2413595, "execution_id": "corruption-002-1794503092779253500", "event": "upstream_response_received", "request_id": 3, "response_kind": "result"}
+{"timestamp_unix": 1794503150.2413595, "execution_id": "corruption-002-1794503092779253500", "event": "corruption_applied", "request_id": 3, "tool": "get_company_revenue", "target_text": "\"revenue\": 120", "replacement_text": "\"revenue\": 999", "call_number_for_tool": 1}
+{"timestamp_unix": 1794503150.2413595, "execution_id": "corruption-002-1794503092779253500", "event": "response_forwarded", "request_id": 3, "response_kind": "result"}
+{"timestamp_unix": 1794503151.1410718, "execution_id": "corruption-003-1794503092779253500", "event": "message_received", "request_id": 1, "method": "initialize", "tool": null}
+{"timestamp_unix": 1794503151.1410718, "execution_id": "corruption-003-1794503092779253500", "event": "request_forwarded", "request_id": 1, "method": "initialize", "tool": null}
+{"timestamp_unix": 1794503154.141115, "execution_id": "corruption-003-1794503092779253500", "event": "upstream_response_received", "request_id": 1, "response_kind": "result"}
+{"timestamp_unix": 1794503154.141115, "execution_id": "corruption-003-1794503092779253500", "event": "response_forwarded", "request_id": 1, "response_kind": "result"}
+{"timestamp_unix": 1794503154.141115, "execution_id": "corruption-003-1794503092779253500", "event": "message_received", "request_id": null, "method": "notifications/initialized", "tool": null}
+{"timestamp_unix": 1794503154.141115, "execution_id": "corruption-003-1794503092779253500", "event": "request_forwarded", "request_id": null, "method": "notifications/initialized", "tool": null}
+{"timestamp_unix": 1794503154.141115, "execution_id": "corruption-003-1794503092779253500", "event": "message_received", "request_id": 2, "method": "tools/list", "tool": null}
+{"timestamp_unix": 1794503154.141115, "execution_id": "corruption-003-1794503092779253500", "event": "request_forwarded", "request_id": 2, "method": "tools/list", "tool": null}
+{"timestamp_unix": 1794503154.1567366, "execution_id": "corruption-003-1794503092779253500", "event": "upstream_response_received", "request_id": 2, "response_kind": "result"}
+{"timestamp_unix": 1794503154.1567366, "execution_id": "corruption-003-1794503092779253500", "event": "response_forwarded", "request_id": 2, "response_kind": "result"}
+{"timestamp_unix": 1794503154.1567366, "execution_id": "corruption-003-1794503092779253500", "event": "message_received", "request_id": 3, "method": "tools/call", "tool": "get_company_revenue"}
+{"timestamp_unix": 1794503154.1567366, "execution_id": "corruption-003-1794503092779253500", "event": "fault_injected", "request_id": 3, "tool": "get_company_revenue", "fault_type": "corruption", "call_number_for_tool": 1}
+{"timestamp_unix": 1794503154.1567366, "execution_id": "corruption-003-1794503092779253500", "event": "request_forwarded", "request_id": 3, "method": "tools/call", "tool": "get_company_revenue"}
+{"timestamp_unix": 1794503154.1567366, "execution_id": "corruption-003-1794503092779253500", "event": "upstream_response_received", "request_id": 3, "response_kind": "result"}
+{"timestamp_unix": 1794503154.1567366, "execution_id": "corruption-003-1794503092779253500", "event": "corruption_applied", "request_id": 3, "tool": "get_company_revenue", "target_text": "\"revenue\": 120", "replacement_text": "\"revenue\": 999", "call_number_for_tool": 1}
+{"timestamp_unix": 1794503154.1567366, "execution_id": "corruption-003-1794503092779253500", "event": "response_forwarded", "request_id": 3, "response_kind": "result"}
+{"timestamp_unix": 1794503340.1505125, "execution_id": "corruption-001-1794503288940779900", "event": "message_received", "request_id": 1, "method": "initialize", "tool": null}
+{"timestamp_unix": 1794503340.1505125, "execution_id": "corruption-001-1794503288940779900", "event": "request_forwarded", "request_id": 1, "method": "initialize", "tool": null}
+{"timestamp_unix": 1794503342.909882, "execution_id": "corruption-001-1794503288940779900", "event": "upstream_response_received", "request_id": 1, "response_kind": "result"}
+{"timestamp_unix": 1794503342.9108827, "execution_id": "corruption-001-1794503288940779900", "event": "response_forwarded", "request_id": 1, "response_kind": "result"}
+{"timestamp_unix": 1794503342.9138834, "execution_id": "corruption-001-1794503288940779900", "event": "message_received", "request_id": null, "method": "notifications/initialized", "tool": null}
+{"timestamp_unix": 1794503342.9146373, "execution_id": "corruption-001-1794503288940779900", "event": "request_forwarded", "request_id": null, "method": "notifications/initialized", "tool": null}
+{"timestamp_unix": 1794503342.9146373, "execution_id": "corruption-001-1794503288940779900", "event": "message_received", "request_id": 2, "method": "tools/list", "tool": null}
+{"timestamp_unix": 1794503342.9146373, "execution_id": "corruption-001-1794503288940779900", "event": "request_forwarded", "request_id": 2, "method": "tools/list", "tool": null}
+{"timestamp_unix": 1794503342.9146373, "execution_id": "corruption-001-1794503288940779900", "event": "upstream_response_received", "request_id": 2, "response_kind": "result"}
+{"timestamp_unix": 1794503342.9146373, "execution_id": "corruption-001-1794503288940779900", "event": "response_forwarded", "request_id": 2, "response_kind": "result"}
+{"timestamp_unix": 1794503342.9146373, "execution_id": "corruption-001-1794503288940779900", "event": "message_received", "request_id": 3, "method": "tools/call", "tool": "get_company_revenue"}
+{"timestamp_unix": 1794503342.9146373, "execution_id": "corruption-001-1794503288940779900", "event": "fault_injected", "request_id": 3, "tool": "get_company_revenue", "fault_type": "corruption", "call_number_for_tool": 1}
+{"timestamp_unix": 1794503342.9146373, "execution_id": "corruption-001-1794503288940779900", "event": "request_forwarded", "request_id": 3, "method": "tools/call", "tool": "get_company_revenue"}
+{"timestamp_unix": 1794503342.9146373, "execution_id": "corruption-001-1794503288940779900", "event": "upstream_response_received", "request_id": 3, "response_kind": "result"}
+{"timestamp_unix": 1794503342.9146373, "execution_id": "corruption-001-1794503288940779900", "event": "corruption_applied", "request_id": 3, "tool": "get_company_revenue", "target_text": "\"revenue\": 120", "replacement_text": "\"revenue\": 999", "call_number_for_tool": 1}
+{"timestamp_unix": 1794503342.9146373, "execution_id": "corruption-001-1794503288940779900", "event": "response_forwarded", "request_id": 3, "response_kind": "result"}
+{"timestamp_unix": 1794503343.8379822, "execution_id": "corruption-002-1794503288940779900", "event": "message_received", "request_id": 1, "method": "initialize", "tool": null}
+{"timestamp_unix": 1794503343.8389814, "execution_id": "corruption-002-1794503288940779900", "event": "request_forwarded", "request_id": 1, "method": "initialize", "tool": null}
+{"timestamp_unix": 1794503346.6144857, "execution_id": "corruption-002-1794503288940779900", "event": "upstream_response_received", "request_id": 1, "response_kind": "result"}
+{"timestamp_unix": 1794503346.6144857, "execution_id": "corruption-002-1794503288940779900", "event": "response_forwarded", "request_id": 1, "response_kind": "result"}
+{"timestamp_unix": 1794503346.6144857, "execution_id": "corruption-002-1794503288940779900", "event": "message_received", "request_id": null, "method": "notifications/initialized", "tool": null}
+{"timestamp_unix": 1794503346.6144857, "execution_id": "corruption-002-1794503288940779900", "event": "request_forwarded", "request_id": null, "method": "notifications/initialized", "tool": null}
+{"timestamp_unix": 1794503346.6144857, "execution_id": "corruption-002-1794503288940779900", "event": "message_received", "request_id": 2, "method": "tools/list", "tool": null}
+{"timestamp_unix": 1794503346.6144857, "execution_id": "corruption-002-1794503288940779900", "event": "request_forwarded", "request_id": 2, "method": "tools/list", "tool": null}
+{"timestamp_unix": 1794503346.6144857, "execution_id": "corruption-002-1794503288940779900", "event": "upstream_response_received", "request_id": 2, "response_kind": "result"}
+{"timestamp_unix": 1794503346.6301067, "execution_id": "corruption-002-1794503288940779900", "event": "response_forwarded", "request_id": 2, "response_kind": "result"}
+{"timestamp_unix": 1794503346.6331525, "execution_id": "corruption-002-1794503288940779900", "event": "message_received", "request_id": 3, "method": "tools/call", "tool": "get_company_revenue"}
+{"timestamp_unix": 1794503346.6341517, "execution_id": "corruption-002-1794503288940779900", "event": "fault_injected", "request_id": 3, "tool": "get_company_revenue", "fault_type": "corruption", "call_number_for_tool": 1}
+{"timestamp_unix": 1794503346.6341517, "execution_id": "corruption-002-1794503288940779900", "event": "request_forwarded", "request_id": 3, "method": "tools/call", "tool": "get_company_revenue"}
+{"timestamp_unix": 1794503346.6381526, "execution_id": "corruption-002-1794503288940779900", "event": "upstream_response_received", "request_id": 3, "response_kind": "result"}
+{"timestamp_unix": 1794503346.6391518, "execution_id": "corruption-002-1794503288940779900", "event": "corruption_applied", "request_id": 3, "tool": "get_company_revenue", "target_text": "\"revenue\": 120", "replacement_text": "\"revenue\": 999", "call_number_for_tool": 1}
+{"timestamp_unix": 1794503346.640152, "execution_id": "corruption-002-1794503288940779900", "event": "response_forwarded", "request_id": 3, "response_kind": "result"}
+{"timestamp_unix": 1794503347.5570087, "execution_id": "corruption-003-1794503288940779900", "event": "message_received", "request_id": 1, "method": "initialize", "tool": null}
+{"timestamp_unix": 1794503347.5570087, "execution_id": "corruption-003-1794503288940779900", "event": "request_forwarded", "request_id": 1, "method": "initialize", "tool": null}
+{"timestamp_unix": 1794503350.4004695, "execution_id": "corruption-003-1794503288940779900", "event": "upstream_response_received", "request_id": 1, "response_kind": "result"}
+{"timestamp_unix": 1794503350.40147, "execution_id": "corruption-003-1794503288940779900", "event": "response_forwarded", "request_id": 1, "response_kind": "result"}
+{"timestamp_unix": 1794503350.4034715, "execution_id": "corruption-003-1794503288940779900", "event": "message_received", "request_id": null, "method": "notifications/initialized", "tool": null}
+{"timestamp_unix": 1794503350.4034715, "execution_id": "corruption-003-1794503288940779900", "event": "request_forwarded", "request_id": null, "method": "notifications/initialized", "tool": null}
+{"timestamp_unix": 1794503350.40547, "execution_id": "corruption-003-1794503288940779900", "event": "message_received", "request_id": 2, "method": "tools/list", "tool": null}
+{"timestamp_unix": 1794503350.40547, "execution_id": "corruption-003-1794503288940779900", "event": "request_forwarded", "request_id": 2, "method": "tools/list", "tool": null}
+{"timestamp_unix": 1794503350.4084706, "execution_id": "corruption-003-1794503288940779900", "event": "upstream_response_received", "request_id": 2, "response_kind": "result"}
+{"timestamp_unix": 1794503350.4094703, "execution_id": "corruption-003-1794503288940779900", "event": "response_forwarded", "request_id": 2, "response_kind": "result"}
+{"timestamp_unix": 1794503350.4114707, "execution_id": "corruption-003-1794503288940779900", "event": "message_received", "request_id": 3, "method": "tools/call", "tool": "get_company_revenue"}
+{"timestamp_unix": 1794503350.4124703, "execution_id": "corruption-003-1794503288940779900", "event": "fault_injected", "request_id": 3, "tool": "get_company_revenue", "fault_type": "corruption", "call_number_for_tool": 1}
+{"timestamp_unix": 1794503350.4134703, "execution_id": "corruption-003-1794503288940779900", "event": "request_forwarded", "request_id": 3, "method": "tools/call", "tool": "get_company_revenue"}
+{"timestamp_unix": 1794503350.4142685, "execution_id": "corruption-003-1794503288940779900", "event": "upstream_response_received", "request_id": 3, "response_kind": "result"}
+{"timestamp_unix": 1794503350.4142685, "execution_id": "corruption-003-1794503288940779900", "event": "corruption_applied", "request_id": 3, "tool": "get_company_revenue", "target_text": "\"revenue\": 120", "replacement_text": "\"revenue\": 999", "call_number_for_tool": 1}
+{"timestamp_unix": 1794503350.4142685, "execution_id": "corruption-003-1794503288940779900", "event": "response_forwarded", "request_id": 3, "response_kind": "result"}
+{"timestamp_unix": 1794508686.1972446, "execution_id": "corruption-001-1794508666874882500", "event": "message_received", "request_id": 1, "method": "initialize", "tool": null}
+{"timestamp_unix": 1794508686.254463, "execution_id": "corruption-001-1794508666874882500", "event": "request_forwarded", "request_id": 1, "method": "initialize", "tool": null}
+{"timestamp_unix": 1794508688.9254403, "execution_id": "corruption-001-1794508666874882500", "event": "upstream_response_received", "request_id": 1, "response_kind": "result"}
+{"timestamp_unix": 1794508688.9254403, "execution_id": "corruption-001-1794508666874882500", "event": "response_forwarded", "request_id": 1, "response_kind": "result"}
+{"timestamp_unix": 1794508688.9284413, "execution_id": "corruption-001-1794508666874882500", "event": "message_received", "request_id": null, "method": "notifications/initialized", "tool": null}
+{"timestamp_unix": 1794508688.9294403, "execution_id": "corruption-001-1794508666874882500", "event": "request_forwarded", "request_id": null, "method": "notifications/initialized", "tool": null}
+{"timestamp_unix": 1794508688.9304407, "execution_id": "corruption-001-1794508666874882500", "event": "message_received", "request_id": 2, "method": "tools/list", "tool": null}
+{"timestamp_unix": 1794508688.9304407, "execution_id": "corruption-001-1794508666874882500", "event": "request_forwarded", "request_id": 2, "method": "tools/list", "tool": null}
+{"timestamp_unix": 1794508688.9334402, "execution_id": "corruption-001-1794508666874882500", "event": "upstream_response_received", "request_id": 2, "response_kind": "result"}
+{"timestamp_unix": 1794508688.9344397, "execution_id": "corruption-001-1794508666874882500", "event": "response_forwarded", "request_id": 2, "response_kind": "result"}
+{"timestamp_unix": 1794508688.9364402, "execution_id": "corruption-001-1794508666874882500", "event": "message_received", "request_id": 3, "method": "tools/call", "tool": "get_company_revenue"}
+{"timestamp_unix": 1794508688.9382296, "execution_id": "corruption-001-1794508666874882500", "event": "fault_injected", "request_id": 3, "tool": "get_company_revenue", "fault_type": "corruption", "call_number_for_tool": 1}
+{"timestamp_unix": 1794508688.9386008, "execution_id": "corruption-001-1794508666874882500", "event": "request_forwarded", "request_id": 3, "method": "tools/call", "tool": "get_company_revenue"}
+{"timestamp_unix": 1794508688.9426007, "execution_id": "corruption-001-1794508666874882500", "event": "upstream_response_received", "request_id": 3, "response_kind": "result"}
+{"timestamp_unix": 1794508688.9436014, "execution_id": "corruption-001-1794508666874882500", "event": "corruption_applied", "request_id": 3, "tool": "get_company_revenue", "target_text": "\"revenue\": 120", "replacement_text": "\"revenue\": 999", "call_number_for_tool": 1}
+{"timestamp_unix": 1794508688.944601, "execution_id": "corruption-001-1794508666874882500", "event": "response_forwarded", "request_id": 3, "response_kind": "result"}
+{"timestamp_unix": 1794509648.675415, "execution_id": "corruption-001-1794509600254866100", "event": "message_received", "request_id": 1, "method": "initialize", "tool": null}
+{"timestamp_unix": 1794509648.675415, "execution_id": "corruption-001-1794509600254866100", "event": "request_forwarded", "request_id": 1, "method": "initialize", "tool": null}
+{"timestamp_unix": 1794509651.7296298, "execution_id": "corruption-001-1794509600254866100", "event": "upstream_response_received", "request_id": 1, "response_kind": "result"}
+{"timestamp_unix": 1794509651.7306304, "execution_id": "corruption-001-1794509600254866100", "event": "response_forwarded", "request_id": 1, "response_kind": "result"}
+{"timestamp_unix": 1794509651.7336304, "execution_id": "corruption-001-1794509600254866100", "event": "message_received", "request_id": null, "method": "notifications/initialized", "tool": null}
+{"timestamp_unix": 1794509651.7346306, "execution_id": "corruption-001-1794509600254866100", "event": "request_forwarded", "request_id": null, "method": "notifications/initialized", "tool": null}
+{"timestamp_unix": 1794509651.7366307, "execution_id": "corruption-001-1794509600254866100", "event": "message_received", "request_id": 2, "method": "tools/list", "tool": null}
+{"timestamp_unix": 1794509651.7376304, "execution_id": "corruption-001-1794509600254866100", "event": "request_forwarded", "request_id": 2, "method": "tools/list", "tool": null}
+{"timestamp_unix": 1794509651.7407904, "execution_id": "corruption-001-1794509600254866100", "event": "upstream_response_received", "request_id": 2, "response_kind": "result"}
+{"timestamp_unix": 1794509651.7407904, "execution_id": "corruption-001-1794509600254866100", "event": "response_forwarded", "request_id": 2, "response_kind": "result"}
+{"timestamp_unix": 1794509651.7407904, "execution_id": "corruption-001-1794509600254866100", "event": "message_received", "request_id": 3, "method": "tools/call", "tool": "get_company_revenue"}
+{"timestamp_unix": 1794509651.7407904, "execution_id": "corruption-001-1794509600254866100", "event": "fault_injected", "request_id": 3, "tool": "get_company_revenue", "fault_type": "corruption", "call_number_for_tool": 1}
+{"timestamp_unix": 1794509651.7407904, "execution_id": "corruption-001-1794509600254866100", "event": "request_forwarded", "request_id": 3, "method": "tools/call", "tool": "get_company_revenue"}
+{"timestamp_unix": 1794509651.7407904, "execution_id": "corruption-001-1794509600254866100", "event": "upstream_response_received", "request_id": 3, "response_kind": "result"}
+{"timestamp_unix": 1794509651.7407904, "execution_id": "corruption-001-1794509600254866100", "event": "corruption_applied", "request_id": 3, "tool": "get_company_revenue", "target_text": "\"revenue\": 120", "replacement_text": "\"revenue\": 999", "call_number_for_tool": 1}
+{"timestamp_unix": 1794509651.7407904, "execution_id": "corruption-001-1794509600254866100", "event": "response_forwarded", "request_id": 3, "response_kind": "result"}
+{"timestamp_unix": 1794509652.668046, "execution_id": "corruption-002-1794509600254866100", "event": "message_received", "request_id": 1, "method": "initialize", "tool": null}
+{"timestamp_unix": 1794509652.669046, "execution_id": "corruption-002-1794509600254866100", "event": "request_forwarded", "request_id": 1, "method": "initialize", "tool": null}
+{"timestamp_unix": 1794509655.3873856, "execution_id": "corruption-002-1794509600254866100", "event": "upstream_response_received", "request_id": 1, "response_kind": "result"}
+{"timestamp_unix": 1794509655.3883862, "execution_id": "corruption-002-1794509600254866100", "event": "response_forwarded", "request_id": 1, "response_kind": "result"}
+{"timestamp_unix": 1794509655.3910453, "execution_id": "corruption-002-1794509600254866100", "event": "message_received", "request_id": null, "method": "notifications/initialized", "tool": null}
+{"timestamp_unix": 1794509655.3910453, "execution_id": "corruption-002-1794509600254866100", "event": "request_forwarded", "request_id": null, "method": "notifications/initialized", "tool": null}
+{"timestamp_unix": 1794509655.3910453, "execution_id": "corruption-002-1794509600254866100", "event": "message_received", "request_id": 2, "method": "tools/list", "tool": null}
+{"timestamp_unix": 1794509655.3910453, "execution_id": "corruption-002-1794509600254866100", "event": "request_forwarded", "request_id": 2, "method": "tools/list", "tool": null}
+{"timestamp_unix": 1794509655.3910453, "execution_id": "corruption-002-1794509600254866100", "event": "upstream_response_received", "request_id": 2, "response_kind": "result"}
+{"timestamp_unix": 1794509655.3910453, "execution_id": "corruption-002-1794509600254866100", "event": "response_forwarded", "request_id": 2, "response_kind": "result"}
+{"timestamp_unix": 1794509655.3910453, "execution_id": "corruption-002-1794509600254866100", "event": "message_received", "request_id": 3, "method": "tools/call", "tool": "get_company_revenue"}
+{"timestamp_unix": 1794509655.3910453, "execution_id": "corruption-002-1794509600254866100", "event": "fault_injected", "request_id": 3, "tool": "get_company_revenue", "fault_type": "corruption", "call_number_for_tool": 1}
+{"timestamp_unix": 1794509655.3910453, "execution_id": "corruption-002-1794509600254866100", "event": "request_forwarded", "request_id": 3, "method": "tools/call", "tool": "get_company_revenue"}
+{"timestamp_unix": 1794509655.4106793, "execution_id": "corruption-002-1794509600254866100", "event": "upstream_response_received", "request_id": 3, "response_kind": "result"}
+{"timestamp_unix": 1794509655.4106793, "execution_id": "corruption-002-1794509600254866100", "event": "corruption_applied", "request_id": 3, "tool": "get_company_revenue", "target_text": "\"revenue\": 120", "replacement_text": "\"revenue\": 999", "call_number_for_tool": 1}
+{"timestamp_unix": 1794509655.411679, "execution_id": "corruption-002-1794509600254866100", "event": "response_forwarded", "request_id": 3, "response_kind": "result"}
+{"timestamp_unix": 1794509656.326078, "execution_id": "corruption-003-1794509600254866100", "event": "message_received", "request_id": 1, "method": "initialize", "tool": null}
+{"timestamp_unix": 1794509656.326078, "execution_id": "corruption-003-1794509600254866100", "event": "request_forwarded", "request_id": 1, "method": "initialize", "tool": null}
+{"timestamp_unix": 1794509659.0404413, "execution_id": "corruption-003-1794509600254866100", "event": "upstream_response_received", "request_id": 1, "response_kind": "result"}
+{"timestamp_unix": 1794509659.0404413, "execution_id": "corruption-003-1794509600254866100", "event": "response_forwarded", "request_id": 1, "response_kind": "result"}
+{"timestamp_unix": 1794509659.0404413, "execution_id": "corruption-003-1794509600254866100", "event": "message_received", "request_id": null, "method": "notifications/initialized", "tool": null}
+{"timestamp_unix": 1794509659.0404413, "execution_id": "corruption-003-1794509600254866100", "event": "request_forwarded", "request_id": null, "method": "notifications/initialized", "tool": null}
+{"timestamp_unix": 1794509659.0404413, "execution_id": "corruption-003-1794509600254866100", "event": "message_received", "request_id": 2, "method": "tools/list", "tool": null}
+{"timestamp_unix": 1794509659.0404413, "execution_id": "corruption-003-1794509600254866100", "event": "request_forwarded", "request_id": 2, "method": "tools/list", "tool": null}
+{"timestamp_unix": 1794509659.0404413, "execution_id": "corruption-003-1794509600254866100", "event": "upstream_response_received", "request_id": 2, "response_kind": "result"}
+{"timestamp_unix": 1794509659.0404413, "execution_id": "corruption-003-1794509600254866100", "event": "response_forwarded", "request_id": 2, "response_kind": "result"}
+{"timestamp_unix": 1794509659.0404413, "execution_id": "corruption-003-1794509600254866100", "event": "message_received", "request_id": 3, "method": "tools/call", "tool": "get_company_revenue"}
+{"timestamp_unix": 1794509659.0560596, "execution_id": "corruption-003-1794509600254866100", "event": "fault_injected", "request_id": 3, "tool": "get_company_revenue", "fault_type": "corruption", "call_number_for_tool": 1}
+{"timestamp_unix": 1794509659.0575101, "execution_id": "corruption-003-1794509600254866100", "event": "request_forwarded", "request_id": 3, "method": "tools/call", "tool": "get_company_revenue"}
+{"timestamp_unix": 1794509659.0615113, "execution_id": "corruption-003-1794509600254866100", "event": "upstream_response_received", "request_id": 3, "response_kind": "result"}
+{"timestamp_unix": 1794509659.06251, "execution_id": "corruption-003-1794509600254866100", "event": "corruption_applied", "request_id": 3, "tool": "get_company_revenue", "target_text": "\"revenue\": 120", "replacement_text": "\"revenue\": 999", "call_number_for_tool": 1}
+{"timestamp_unix": 1794509659.0635104, "execution_id": "corruption-003-1794509600254866100", "event": "response_forwarded", "request_id": 3, "response_kind": "result"}
+{"timestamp_unix": 1794509969.3298874, "execution_id": "corruption-001-1794509912928058500", "event": "message_received", "request_id": 1, "method": "initialize", "tool": null}
+{"timestamp_unix": 1794509969.3298874, "execution_id": "corruption-001-1794509912928058500", "event": "request_forwarded", "request_id": 1, "method": "initialize", "tool": null}
+{"timestamp_unix": 1794509972.5557148, "execution_id": "corruption-001-1794509912928058500", "event": "upstream_response_received", "request_id": 1, "response_kind": "result"}
+{"timestamp_unix": 1794509972.5557148, "execution_id": "corruption-001-1794509912928058500", "event": "response_forwarded", "request_id": 1, "response_kind": "result"}
+{"timestamp_unix": 1794509972.586953, "execution_id": "corruption-001-1794509912928058500", "event": "message_received", "request_id": null, "method": "notifications/initialized", "tool": null}
+{"timestamp_unix": 1794509972.586953, "execution_id": "corruption-001-1794509912928058500", "event": "request_forwarded", "request_id": null, "method": "notifications/initialized", "tool": null}
+{"timestamp_unix": 1794509972.6025739, "execution_id": "corruption-001-1794509912928058500", "event": "message_received", "request_id": 2, "method": "tools/list", "tool": null}
+{"timestamp_unix": 1794509972.6025739, "execution_id": "corruption-001-1794509912928058500", "event": "request_forwarded", "request_id": 2, "method": "tools/list", "tool": null}
+{"timestamp_unix": 1794509972.6025739, "execution_id": "corruption-001-1794509912928058500", "event": "upstream_response_received", "request_id": 2, "response_kind": "result"}
+{"timestamp_unix": 1794509972.6025739, "execution_id": "corruption-001-1794509912928058500", "event": "response_forwarded", "request_id": 2, "response_kind": "result"}
+{"timestamp_unix": 1794509972.6025739, "execution_id": "corruption-001-1794509912928058500", "event": "message_received", "request_id": 3, "method": "tools/call", "tool": "get_company_revenue"}
+{"timestamp_unix": 1794509972.6181939, "execution_id": "corruption-001-1794509912928058500", "event": "fault_injected", "request_id": 3, "tool": "get_company_revenue", "fault_type": "corruption", "call_number_for_tool": 1}
+{"timestamp_unix": 1794509972.6181939, "execution_id": "corruption-001-1794509912928058500", "event": "request_forwarded", "request_id": 3, "method": "tools/call", "tool": "get_company_revenue"}
+{"timestamp_unix": 1794509972.7783575, "execution_id": "corruption-001-1794509912928058500", "event": "upstream_response_received", "request_id": 3, "response_kind": "result"}
+{"timestamp_unix": 1794509972.7783575, "execution_id": "corruption-001-1794509912928058500", "event": "corruption_applied", "request_id": 3, "tool": "get_company_revenue", "target_text": "\"revenue\": 120", "replacement_text": "\"revenue\": 999", "call_number_for_tool": 1}
+{"timestamp_unix": 1794509972.7783575, "execution_id": "corruption-001-1794509912928058500", "event": "response_forwarded", "request_id": 3, "response_kind": "result"}
+{"timestamp_unix": 1794509974.326119, "execution_id": "corruption-002-1794509912928058500", "event": "message_received", "request_id": 1, "method": "initialize", "tool": null}
+{"timestamp_unix": 1794509974.3428655, "execution_id": "corruption-002-1794509912928058500", "event": "request_forwarded", "request_id": 1, "method": "initialize", "tool": null}
+{"timestamp_unix": 1794509977.714217, "execution_id": "corruption-002-1794509912928058500", "event": "upstream_response_received", "request_id": 1, "response_kind": "result"}
+{"timestamp_unix": 1794509977.7152407, "execution_id": "corruption-002-1794509912928058500", "event": "response_forwarded", "request_id": 1, "response_kind": "result"}
+{"timestamp_unix": 1794509977.718208, "execution_id": "corruption-002-1794509912928058500", "event": "message_received", "request_id": null, "method": "notifications/initialized", "tool": null}
+{"timestamp_unix": 1794509977.718208, "execution_id": "corruption-002-1794509912928058500", "event": "request_forwarded", "request_id": null, "method": "notifications/initialized", "tool": null}
+{"timestamp_unix": 1794509977.7202075, "execution_id": "corruption-002-1794509912928058500", "event": "message_received", "request_id": 2, "method": "tools/list", "tool": null}
+{"timestamp_unix": 1794509977.7202075, "execution_id": "corruption-002-1794509912928058500", "event": "request_forwarded", "request_id": 2, "method": "tools/list", "tool": null}
+{"timestamp_unix": 1794509977.723207, "execution_id": "corruption-002-1794509912928058500", "event": "upstream_response_received", "request_id": 2, "response_kind": "result"}
+{"timestamp_unix": 1794509977.7249234, "execution_id": "corruption-002-1794509912928058500", "event": "response_forwarded", "request_id": 2, "response_kind": "result"}
+{"timestamp_unix": 1794509977.7273593, "execution_id": "corruption-002-1794509912928058500", "event": "message_received", "request_id": 3, "method": "tools/call", "tool": "get_company_revenue"}
+{"timestamp_unix": 1794509977.7273593, "execution_id": "corruption-002-1794509912928058500", "event": "fault_injected", "request_id": 3, "tool": "get_company_revenue", "fault_type": "corruption", "call_number_for_tool": 1}
+{"timestamp_unix": 1794509977.728359, "execution_id": "corruption-002-1794509912928058500", "event": "request_forwarded", "request_id": 3, "method": "tools/call", "tool": "get_company_revenue"}
+{"timestamp_unix": 1794509977.7323587, "execution_id": "corruption-002-1794509912928058500", "event": "upstream_response_received", "request_id": 3, "response_kind": "result"}
+{"timestamp_unix": 1794509977.7333586, "execution_id": "corruption-002-1794509912928058500", "event": "corruption_applied", "request_id": 3, "tool": "get_company_revenue", "target_text": "\"revenue\": 120", "replacement_text": "\"revenue\": 999", "call_number_for_tool": 1}
+{"timestamp_unix": 1794509977.7333586, "execution_id": "corruption-002-1794509912928058500", "event": "response_forwarded", "request_id": 3, "response_kind": "result"}
+{"timestamp_unix": 1794509978.9377258, "execution_id": "corruption-003-1794509912928058500", "event": "message_received", "request_id": 1, "method": "initialize", "tool": null}
+{"timestamp_unix": 1794509978.938726, "execution_id": "corruption-003-1794509912928058500", "event": "request_forwarded", "request_id": 1, "method": "initialize", "tool": null}
+{"timestamp_unix": 1794509981.6801634, "execution_id": "corruption-003-1794509912928058500", "event": "upstream_response_received", "request_id": 1, "response_kind": "result"}
+{"timestamp_unix": 1794509981.6811652, "execution_id": "corruption-003-1794509912928058500", "event": "response_forwarded", "request_id": 1, "response_kind": "result"}
+{"timestamp_unix": 1794509981.684164, "execution_id": "corruption-003-1794509912928058500", "event": "message_received", "request_id": null, "method": "notifications/initialized", "tool": null}
+{"timestamp_unix": 1794509981.6851645, "execution_id": "corruption-003-1794509912928058500", "event": "request_forwarded", "request_id": null, "method": "notifications/initialized", "tool": null}
+{"timestamp_unix": 1794509981.6861641, "execution_id": "corruption-003-1794509912928058500", "event": "message_received", "request_id": 2, "method": "tools/list", "tool": null}
+{"timestamp_unix": 1794509981.6861641, "execution_id": "corruption-003-1794509912928058500", "event": "request_forwarded", "request_id": 2, "method": "tools/list", "tool": null}
+{"timestamp_unix": 1794509981.689164, "execution_id": "corruption-003-1794509912928058500", "event": "upstream_response_received", "request_id": 2, "response_kind": "result"}
+{"timestamp_unix": 1794509981.6901636, "execution_id": "corruption-003-1794509912928058500", "event": "response_forwarded", "request_id": 2, "response_kind": "result"}
+{"timestamp_unix": 1794509981.691373, "execution_id": "corruption-003-1794509912928058500", "event": "message_received", "request_id": 3, "method": "tools/call", "tool": "get_company_revenue"}
+{"timestamp_unix": 1794509981.691373, "execution_id": "corruption-003-1794509912928058500", "event": "fault_injected", "request_id": 3, "tool": "get_company_revenue", "fault_type": "corruption", "call_number_for_tool": 1}
+{"timestamp_unix": 1794509981.691373, "execution_id": "corruption-003-1794509912928058500", "event": "request_forwarded", "request_id": 3, "method": "tools/call", "tool": "get_company_revenue"}
+{"timestamp_unix": 1794509981.691373, "execution_id": "corruption-003-1794509912928058500", "event": "upstream_response_received", "request_id": 3, "response_kind": "result"}
+{"timestamp_unix": 1794509981.691373, "execution_id": "corruption-003-1794509912928058500", "event": "corruption_applied", "request_id": 3, "tool": "get_company_revenue", "target_text": "\"revenue\": 120", "replacement_text": "\"revenue\": 999", "call_number_for_tool": 1}
+{"timestamp_unix": 1794509981.691373, "execution_id": "corruption-003-1794509912928058500", "event": "response_forwarded", "request_id": 3, "response_kind": "result"}
+{"timestamp_unix": 1794510294.5437672, "execution_id": "corruption-001-1794510252549336800", "event": "message_received", "request_id": 1, "method": "initialize", "tool": null}
+{"timestamp_unix": 1794510294.5437672, "execution_id": "corruption-001-1794510252549336800", "event": "request_forwarded", "request_id": 1, "method": "initialize", "tool": null}
+{"timestamp_unix": 1794510297.2784755, "execution_id": "corruption-001-1794510252549336800", "event": "upstream_response_received", "request_id": 1, "response_kind": "result"}
+{"timestamp_unix": 1794510297.2794757, "execution_id": "corruption-001-1794510252549336800", "event": "response_forwarded", "request_id": 1, "response_kind": "result"}
+{"timestamp_unix": 1794510297.2814765, "execution_id": "corruption-001-1794510252549336800", "event": "message_received", "request_id": null, "method": "notifications/initialized", "tool": null}
+{"timestamp_unix": 1794510297.2824757, "execution_id": "corruption-001-1794510252549336800", "event": "request_forwarded", "request_id": null, "method": "notifications/initialized", "tool": null}
+{"timestamp_unix": 1794510297.2834754, "execution_id": "corruption-001-1794510252549336800", "event": "message_received", "request_id": 2, "method": "tools/list", "tool": null}
+{"timestamp_unix": 1794510297.2834754, "execution_id": "corruption-001-1794510252549336800", "event": "request_forwarded", "request_id": 2, "method": "tools/list", "tool": null}
+{"timestamp_unix": 1794510297.2864754, "execution_id": "corruption-001-1794510252549336800", "event": "upstream_response_received", "request_id": 2, "response_kind": "result"}
+{"timestamp_unix": 1794510297.2874758, "execution_id": "corruption-001-1794510252549336800", "event": "response_forwarded", "request_id": 2, "response_kind": "result"}
+{"timestamp_unix": 1794510297.2894762, "execution_id": "corruption-001-1794510252549336800", "event": "message_received", "request_id": 3, "method": "tools/call", "tool": "get_company_revenue"}
+{"timestamp_unix": 1794510297.2904756, "execution_id": "corruption-001-1794510252549336800", "event": "fault_injected", "request_id": 3, "tool": "get_company_revenue", "fault_type": "corruption", "call_number_for_tool": 1}
+{"timestamp_unix": 1794510297.291476, "execution_id": "corruption-001-1794510252549336800", "event": "request_forwarded", "request_id": 3, "method": "tools/call", "tool": "get_company_revenue"}
+{"timestamp_unix": 1794510297.2926717, "execution_id": "corruption-001-1794510252549336800", "event": "upstream_response_received", "request_id": 3, "response_kind": "result"}
+{"timestamp_unix": 1794510297.2926717, "execution_id": "corruption-001-1794510252549336800", "event": "corruption_applied", "request_id": 3, "tool": "get_company_revenue", "target_text": "\"revenue\": 120", "replacement_text": "\"revenue\": 999", "call_number_for_tool": 1}
+{"timestamp_unix": 1794510297.2926717, "execution_id": "corruption-001-1794510252549336800", "event": "response_forwarded", "request_id": 3, "response_kind": "result"}
+{"timestamp_unix": 1794510298.2617335, "execution_id": "corruption-002-1794510252549336800", "event": "message_received", "request_id": 1, "method": "initialize", "tool": null}
+{"timestamp_unix": 1794510298.2627332, "execution_id": "corruption-002-1794510252549336800", "event": "request_forwarded", "request_id": 1, "method": "initialize", "tool": null}
+{"timestamp_unix": 1794510300.9763825, "execution_id": "corruption-002-1794510252549336800", "event": "upstream_response_received", "request_id": 1, "response_kind": "result"}
+{"timestamp_unix": 1794510300.977385, "execution_id": "corruption-002-1794510252549336800", "event": "response_forwarded", "request_id": 1, "response_kind": "result"}
+{"timestamp_unix": 1794510300.9793837, "execution_id": "corruption-002-1794510252549336800", "event": "message_received", "request_id": null, "method": "notifications/initialized", "tool": null}
+{"timestamp_unix": 1794510300.9803834, "execution_id": "corruption-002-1794510252549336800", "event": "request_forwarded", "request_id": null, "method": "notifications/initialized", "tool": null}
+{"timestamp_unix": 1794510300.9813826, "execution_id": "corruption-002-1794510252549336800", "event": "message_received", "request_id": 2, "method": "tools/list", "tool": null}
+{"timestamp_unix": 1794510300.9823833, "execution_id": "corruption-002-1794510252549336800", "event": "request_forwarded", "request_id": 2, "method": "tools/list", "tool": null}
+{"timestamp_unix": 1794510300.9853828, "execution_id": "corruption-002-1794510252549336800", "event": "upstream_response_received", "request_id": 2, "response_kind": "result"}
+{"timestamp_unix": 1794510300.9863825, "execution_id": "corruption-002-1794510252549336800", "event": "response_forwarded", "request_id": 2, "response_kind": "result"}
+{"timestamp_unix": 1794510300.988382, "execution_id": "corruption-002-1794510252549336800", "event": "message_received", "request_id": 3, "method": "tools/call", "tool": "get_company_revenue"}
+{"timestamp_unix": 1794510300.9893825, "execution_id": "corruption-002-1794510252549336800", "event": "fault_injected", "request_id": 3, "tool": "get_company_revenue", "fault_type": "corruption", "call_number_for_tool": 1}
+{"timestamp_unix": 1794510300.9893825, "execution_id": "corruption-002-1794510252549336800", "event": "request_forwarded", "request_id": 3, "method": "tools/call", "tool": "get_company_revenue"}
+{"timestamp_unix": 1794510300.9924998, "execution_id": "corruption-002-1794510252549336800", "event": "upstream_response_received", "request_id": 3, "response_kind": "result"}
+{"timestamp_unix": 1794510300.9924998, "execution_id": "corruption-002-1794510252549336800", "event": "corruption_applied", "request_id": 3, "tool": "get_company_revenue", "target_text": "\"revenue\": 120", "replacement_text": "\"revenue\": 999", "call_number_for_tool": 1}
+{"timestamp_unix": 1794510300.9924998, "execution_id": "corruption-002-1794510252549336800", "event": "response_forwarded", "request_id": 3, "response_kind": "result"}
+{"timestamp_unix": 1794510301.8772352, "execution_id": "corruption-003-1794510252549336800", "event": "message_received", "request_id": 1, "method": "initialize", "tool": null}
+{"timestamp_unix": 1794510301.8782341, "execution_id": "corruption-003-1794510252549336800", "event": "request_forwarded", "request_id": 1, "method": "initialize", "tool": null}
+{"timestamp_unix": 1794510304.5923297, "execution_id": "corruption-003-1794510252549336800", "event": "upstream_response_received", "request_id": 1, "response_kind": "result"}
+{"timestamp_unix": 1794510304.5923297, "execution_id": "corruption-003-1794510252549336800", "event": "response_forwarded", "request_id": 1, "response_kind": "result"}
+{"timestamp_unix": 1794510304.607951, "execution_id": "corruption-003-1794510252549336800", "event": "message_received", "request_id": null, "method": "notifications/initialized", "tool": null}
+{"timestamp_unix": 1794510304.609429, "execution_id": "corruption-003-1794510252549336800", "event": "request_forwarded", "request_id": null, "method": "notifications/initialized", "tool": null}
+{"timestamp_unix": 1794510304.6104305, "execution_id": "corruption-003-1794510252549336800", "event": "message_received", "request_id": 2, "method": "tools/list", "tool": null}
+{"timestamp_unix": 1794510304.611431, "execution_id": "corruption-003-1794510252549336800", "event": "request_forwarded", "request_id": 2, "method": "tools/list", "tool": null}
+{"timestamp_unix": 1794510304.6144288, "execution_id": "corruption-003-1794510252549336800", "event": "upstream_response_received", "request_id": 2, "response_kind": "result"}
+{"timestamp_unix": 1794510304.6144288, "execution_id": "corruption-003-1794510252549336800", "event": "response_forwarded", "request_id": 2, "response_kind": "result"}
+{"timestamp_unix": 1794510304.617429, "execution_id": "corruption-003-1794510252549336800", "event": "message_received", "request_id": 3, "method": "tools/call", "tool": "get_company_revenue"}
+{"timestamp_unix": 1794510304.6184301, "execution_id": "corruption-003-1794510252549336800", "event": "fault_injected", "request_id": 3, "tool": "get_company_revenue", "fault_type": "corruption", "call_number_for_tool": 1}
+{"timestamp_unix": 1794510304.6184301, "execution_id": "corruption-003-1794510252549336800", "event": "request_forwarded", "request_id": 3, "method": "tools/call", "tool": "get_company_revenue"}
+{"timestamp_unix": 1794510304.6224291, "execution_id": "corruption-003-1794510252549336800", "event": "upstream_response_received", "request_id": 3, "response_kind": "result"}
+{"timestamp_unix": 1794510304.6234288, "execution_id": "corruption-003-1794510252549336800", "event": "corruption_applied", "request_id": 3, "tool": "get_company_revenue", "target_text": "\"revenue\": 120", "replacement_text": "\"revenue\": 999", "call_number_for_tool": 1}
+{"timestamp_unix": 1794510304.6234288, "execution_id": "corruption-003-1794510252549336800", "event": "response_forwarded", "request_id": 3, "response_kind": "result"}
+{"timestamp_unix": 1794510957.3544106, "execution_id": "corruption-001-1794510916181798000", "event": "message_received", "request_id": 1, "method": "initialize", "tool": null}
+{"timestamp_unix": 1794510957.3926218, "execution_id": "corruption-001-1794510916181798000", "event": "request_forwarded", "request_id": 1, "method": "initialize", "tool": null}
+{"timestamp_unix": 1794510960.0562265, "execution_id": "corruption-001-1794510916181798000", "event": "upstream_response_received", "request_id": 1, "response_kind": "result"}
+{"timestamp_unix": 1794510960.0572276, "execution_id": "corruption-001-1794510916181798000", "event": "response_forwarded", "request_id": 1, "response_kind": "result"}
+{"timestamp_unix": 1794510960.059228, "execution_id": "corruption-001-1794510916181798000", "event": "message_received", "request_id": null, "method": "notifications/initialized", "tool": null}
+{"timestamp_unix": 1794510960.0604148, "execution_id": "corruption-001-1794510916181798000", "event": "request_forwarded", "request_id": null, "method": "notifications/initialized", "tool": null}
+{"timestamp_unix": 1794510960.0604148, "execution_id": "corruption-001-1794510916181798000", "event": "message_received", "request_id": 2, "method": "tools/list", "tool": null}
+{"timestamp_unix": 1794510960.0604148, "execution_id": "corruption-001-1794510916181798000", "event": "request_forwarded", "request_id": 2, "method": "tools/list", "tool": null}
+{"timestamp_unix": 1794510960.0604148, "execution_id": "corruption-001-1794510916181798000", "event": "upstream_response_received", "request_id": 2, "response_kind": "result"}
+{"timestamp_unix": 1794510960.0604148, "execution_id": "corruption-001-1794510916181798000", "event": "response_forwarded", "request_id": 2, "response_kind": "result"}
+{"timestamp_unix": 1794510960.0604148, "execution_id": "corruption-001-1794510916181798000", "event": "message_received", "request_id": 3, "method": "tools/call", "tool": "get_company_revenue"}
+{"timestamp_unix": 1794510960.0604148, "execution_id": "corruption-001-1794510916181798000", "event": "fault_injected", "request_id": 3, "tool": "get_company_revenue", "fault_type": "corruption", "call_number_for_tool": 1}
+{"timestamp_unix": 1794510960.0604148, "execution_id": "corruption-001-1794510916181798000", "event": "request_forwarded", "request_id": 3, "method": "tools/call", "tool": "get_company_revenue"}
+{"timestamp_unix": 1794510960.0604148, "execution_id": "corruption-001-1794510916181798000", "event": "upstream_response_received", "request_id": 3, "response_kind": "result"}
+{"timestamp_unix": 1794510960.0772076, "execution_id": "corruption-001-1794510916181798000", "event": "corruption_applied", "request_id": 3, "tool": "get_company_revenue", "target_text": "\"revenue\": 120", "replacement_text": "\"revenue\": 999", "call_number_for_tool": 1}
+{"timestamp_unix": 1794510960.0775511, "execution_id": "corruption-001-1794510916181798000", "event": "response_forwarded", "request_id": 3, "response_kind": "result"}
+{"timestamp_unix": 1794510961.136455, "execution_id": "corruption-002-1794510916181798000", "event": "message_received", "request_id": 1, "method": "initialize", "tool": null}
+{"timestamp_unix": 1794510961.136455, "execution_id": "corruption-002-1794510916181798000", "event": "request_forwarded", "request_id": 1, "method": "initialize", "tool": null}
+{"timestamp_unix": 1794510963.8102238, "execution_id": "corruption-002-1794510916181798000", "event": "upstream_response_received", "request_id": 1, "response_kind": "result"}
+{"timestamp_unix": 1794510963.8102238, "execution_id": "corruption-002-1794510916181798000", "event": "response_forwarded", "request_id": 1, "response_kind": "result"}
+{"timestamp_unix": 1794510963.8102238, "execution_id": "corruption-002-1794510916181798000", "event": "message_received", "request_id": null, "method": "notifications/initialized", "tool": null}
+{"timestamp_unix": 1794510963.8102238, "execution_id": "corruption-002-1794510916181798000", "event": "request_forwarded", "request_id": null, "method": "notifications/initialized", "tool": null}
+{"timestamp_unix": 1794510963.8102238, "execution_id": "corruption-002-1794510916181798000", "event": "message_received", "request_id": 2, "method": "tools/list", "tool": null}
+{"timestamp_unix": 1794510963.8102238, "execution_id": "corruption-002-1794510916181798000", "event": "request_forwarded", "request_id": 2, "method": "tools/list", "tool": null}
+{"timestamp_unix": 1794510963.8102238, "execution_id": "corruption-002-1794510916181798000", "event": "upstream_response_received", "request_id": 2, "response_kind": "result"}
+{"timestamp_unix": 1794510963.8258448, "execution_id": "corruption-002-1794510916181798000", "event": "response_forwarded", "request_id": 2, "response_kind": "result"}
+{"timestamp_unix": 1794510963.8293068, "execution_id": "corruption-002-1794510916181798000", "event": "message_received", "request_id": 3, "method": "tools/call", "tool": "get_company_revenue"}
+{"timestamp_unix": 1794510963.8293068, "execution_id": "corruption-002-1794510916181798000", "event": "fault_injected", "request_id": 3, "tool": "get_company_revenue", "fault_type": "corruption", "call_number_for_tool": 1}
+{"timestamp_unix": 1794510963.830306, "execution_id": "corruption-002-1794510916181798000", "event": "request_forwarded", "request_id": 3, "method": "tools/call", "tool": "get_company_revenue"}
+{"timestamp_unix": 1794510963.8343055, "execution_id": "corruption-002-1794510916181798000", "event": "upstream_response_received", "request_id": 3, "response_kind": "result"}
+{"timestamp_unix": 1794510963.835306, "execution_id": "corruption-002-1794510916181798000", "event": "corruption_applied", "request_id": 3, "tool": "get_company_revenue", "target_text": "\"revenue\": 120", "replacement_text": "\"revenue\": 999", "call_number_for_tool": 1}
+{"timestamp_unix": 1794510963.8363054, "execution_id": "corruption-002-1794510916181798000", "event": "response_forwarded", "request_id": 3, "response_kind": "result"}
+{"timestamp_unix": 1794510964.7342494, "execution_id": "corruption-003-1794510916181798000", "event": "message_received", "request_id": 1, "method": "initialize", "tool": null}
+{"timestamp_unix": 1794510964.7342494, "execution_id": "corruption-003-1794510916181798000", "event": "request_forwarded", "request_id": 1, "method": "initialize", "tool": null}
+{"timestamp_unix": 1794510967.4771583, "execution_id": "corruption-003-1794510916181798000", "event": "upstream_response_received", "request_id": 1, "response_kind": "result"}
+{"timestamp_unix": 1794510967.4781585, "execution_id": "corruption-003-1794510916181798000", "event": "response_forwarded", "request_id": 1, "response_kind": "result"}
+{"timestamp_unix": 1794510967.48016, "execution_id": "corruption-003-1794510916181798000", "event": "message_received", "request_id": null, "method": "notifications/initialized", "tool": null}
+{"timestamp_unix": 1794510967.4811594, "execution_id": "corruption-003-1794510916181798000", "event": "request_forwarded", "request_id": null, "method": "notifications/initialized", "tool": null}
+{"timestamp_unix": 1794510967.482159, "execution_id": "corruption-003-1794510916181798000", "event": "message_received", "request_id": 2, "method": "tools/list", "tool": null}
+{"timestamp_unix": 1794510967.4831593, "execution_id": "corruption-003-1794510916181798000", "event": "request_forwarded", "request_id": 2, "method": "tools/list", "tool": null}
+{"timestamp_unix": 1794510967.486158, "execution_id": "corruption-003-1794510916181798000", "event": "upstream_response_received", "request_id": 2, "response_kind": "result"}
+{"timestamp_unix": 1794510967.4871593, "execution_id": "corruption-003-1794510916181798000", "event": "response_forwarded", "request_id": 2, "response_kind": "result"}
+{"timestamp_unix": 1794510967.4891582, "execution_id": "corruption-003-1794510916181798000", "event": "message_received", "request_id": 3, "method": "tools/call", "tool": "get_company_revenue"}
+{"timestamp_unix": 1794510967.490158, "execution_id": "corruption-003-1794510916181798000", "event": "fault_injected", "request_id": 3, "tool": "get_company_revenue", "fault_type": "corruption", "call_number_for_tool": 1}
+{"timestamp_unix": 1794510967.491158, "execution_id": "corruption-003-1794510916181798000", "event": "request_forwarded", "request_id": 3, "method": "tools/call", "tool": "get_company_revenue"}
+{"timestamp_unix": 1794510967.494844, "execution_id": "corruption-003-1794510916181798000", "event": "upstream_response_received", "request_id": 3, "response_kind": "result"}
+{"timestamp_unix": 1794510967.4958434, "execution_id": "corruption-003-1794510916181798000", "event": "corruption_applied", "request_id": 3, "tool": "get_company_revenue", "target_text": "\"revenue\": 120", "replacement_text": "\"revenue\": 999", "call_number_for_tool": 1}
+{"timestamp_unix": 1794510967.496843, "execution_id": "corruption-003-1794510916181798000", "event": "response_forwarded", "request_id": 3, "response_kind": "result"}
+{"timestamp_unix": 1794511338.9897885, "execution_id": "corruption-001-1794511298550398200", "event": "message_received", "request_id": 1, "method": "initialize", "tool": null}
+{"timestamp_unix": 1794511338.9907875, "execution_id": "corruption-001-1794511298550398200", "event": "request_forwarded", "request_id": 1, "method": "initialize", "tool": null}
+{"timestamp_unix": 1794511341.8584833, "execution_id": "corruption-001-1794511298550398200", "event": "upstream_response_received", "request_id": 1, "response_kind": "result"}
+{"timestamp_unix": 1794511341.8584833, "execution_id": "corruption-001-1794511298550398200", "event": "response_forwarded", "request_id": 1, "response_kind": "result"}
+{"timestamp_unix": 1794511341.8584833, "execution_id": "corruption-001-1794511298550398200", "event": "message_received", "request_id": null, "method": "notifications/initialized", "tool": null}
+{"timestamp_unix": 1794511341.8584833, "execution_id": "corruption-001-1794511298550398200", "event": "request_forwarded", "request_id": null, "method": "notifications/initialized", "tool": null}
+{"timestamp_unix": 1794511341.8584833, "execution_id": "corruption-001-1794511298550398200", "event": "message_received", "request_id": 2, "method": "tools/list", "tool": null}
+{"timestamp_unix": 1794511341.8584833, "execution_id": "corruption-001-1794511298550398200", "event": "request_forwarded", "request_id": 2, "method": "tools/list", "tool": null}
+{"timestamp_unix": 1794511341.8584833, "execution_id": "corruption-001-1794511298550398200", "event": "upstream_response_received", "request_id": 2, "response_kind": "result"}
+{"timestamp_unix": 1794511341.8584833, "execution_id": "corruption-001-1794511298550398200", "event": "response_forwarded", "request_id": 2, "response_kind": "result"}
+{"timestamp_unix": 1794511341.8757539, "execution_id": "corruption-001-1794511298550398200", "event": "message_received", "request_id": 3, "method": "tools/call", "tool": "get_company_revenue"}
+{"timestamp_unix": 1794511341.8767548, "execution_id": "corruption-001-1794511298550398200", "event": "fault_injected", "request_id": 3, "tool": "get_company_revenue", "fault_type": "corruption", "call_number_for_tool": 1}
+{"timestamp_unix": 1794511341.8777547, "execution_id": "corruption-001-1794511298550398200", "event": "request_forwarded", "request_id": 3, "method": "tools/call", "tool": "get_company_revenue"}
+{"timestamp_unix": 1794511341.8817544, "execution_id": "corruption-001-1794511298550398200", "event": "upstream_response_received", "request_id": 3, "response_kind": "result"}
+{"timestamp_unix": 1794511341.8817544, "execution_id": "corruption-001-1794511298550398200", "event": "corruption_applied", "request_id": 3, "tool": "get_company_revenue", "target_text": "\"revenue\": 120", "replacement_text": "\"revenue\": 999", "call_number_for_tool": 1}
+{"timestamp_unix": 1794511341.8827543, "execution_id": "corruption-001-1794511298550398200", "event": "response_forwarded", "request_id": 3, "response_kind": "result"}
+{"timestamp_unix": 1794511342.7584367, "execution_id": "corruption-002-1794511298550398200", "event": "message_received", "request_id": 1, "method": "initialize", "tool": null}
+{"timestamp_unix": 1794511342.7584367, "execution_id": "corruption-002-1794511298550398200", "event": "request_forwarded", "request_id": 1, "method": "initialize", "tool": null}
+{"timestamp_unix": 1794511345.4303832, "execution_id": "corruption-002-1794511298550398200", "event": "upstream_response_received", "request_id": 1, "response_kind": "result"}
+{"timestamp_unix": 1794511345.432384, "execution_id": "corruption-002-1794511298550398200", "event": "response_forwarded", "request_id": 1, "response_kind": "result"}
+{"timestamp_unix": 1794511345.4343858, "execution_id": "corruption-002-1794511298550398200", "event": "message_received", "request_id": null, "method": "notifications/initialized", "tool": null}
+{"timestamp_unix": 1794511345.4353845, "execution_id": "corruption-002-1794511298550398200", "event": "request_forwarded", "request_id": null, "method": "notifications/initialized", "tool": null}
+{"timestamp_unix": 1794511345.4363844, "execution_id": "corruption-002-1794511298550398200", "event": "message_received", "request_id": 2, "method": "tools/list", "tool": null}
+{"timestamp_unix": 1794511345.4363844, "execution_id": "corruption-002-1794511298550398200", "event": "request_forwarded", "request_id": 2, "method": "tools/list", "tool": null}
+{"timestamp_unix": 1794511345.4393842, "execution_id": "corruption-002-1794511298550398200", "event": "upstream_response_received", "request_id": 2, "response_kind": "result"}
+{"timestamp_unix": 1794511345.4403837, "execution_id": "corruption-002-1794511298550398200", "event": "response_forwarded", "request_id": 2, "response_kind": "result"}
+{"timestamp_unix": 1794511345.44309, "execution_id": "corruption-002-1794511298550398200", "event": "message_received", "request_id": 3, "method": "tools/call", "tool": "get_company_revenue"}
+{"timestamp_unix": 1794511345.44309, "execution_id": "corruption-002-1794511298550398200", "event": "fault_injected", "request_id": 3, "tool": "get_company_revenue", "fault_type": "corruption", "call_number_for_tool": 1}
+{"timestamp_unix": 1794511345.4440892, "execution_id": "corruption-002-1794511298550398200", "event": "request_forwarded", "request_id": 3, "method": "tools/call", "tool": "get_company_revenue"}
+{"timestamp_unix": 1794511345.4480891, "execution_id": "corruption-002-1794511298550398200", "event": "upstream_response_received", "request_id": 3, "response_kind": "result"}
+{"timestamp_unix": 1794511345.4490902, "execution_id": "corruption-002-1794511298550398200", "event": "corruption_applied", "request_id": 3, "tool": "get_company_revenue", "target_text": "\"revenue\": 120", "replacement_text": "\"revenue\": 999", "call_number_for_tool": 1}
+{"timestamp_unix": 1794511345.4490902, "execution_id": "corruption-002-1794511298550398200", "event": "response_forwarded", "request_id": 3, "response_kind": "result"}
+{"timestamp_unix": 1794511346.3091488, "execution_id": "corruption-003-1794511298550398200", "event": "message_received", "request_id": 1, "method": "initialize", "tool": null}
+{"timestamp_unix": 1794511346.3091488, "execution_id": "corruption-003-1794511298550398200", "event": "request_forwarded", "request_id": 1, "method": "initialize", "tool": null}
+{"timestamp_unix": 1794511348.9589736, "execution_id": "corruption-003-1794511298550398200", "event": "upstream_response_received", "request_id": 1, "response_kind": "result"}
+{"timestamp_unix": 1794511348.9589736, "execution_id": "corruption-003-1794511298550398200", "event": "response_forwarded", "request_id": 1, "response_kind": "result"}
+{"timestamp_unix": 1794511348.9589736, "execution_id": "corruption-003-1794511298550398200", "event": "message_received", "request_id": null, "method": "notifications/initialized", "tool": null}
+{"timestamp_unix": 1794511348.9589736, "execution_id": "corruption-003-1794511298550398200", "event": "request_forwarded", "request_id": null, "method": "notifications/initialized", "tool": null}
+{"timestamp_unix": 1794511348.9589736, "execution_id": "corruption-003-1794511298550398200", "event": "message_received", "request_id": 2, "method": "tools/list", "tool": null}
+{"timestamp_unix": 1794511348.9589736, "execution_id": "corruption-003-1794511298550398200", "event": "request_forwarded", "request_id": 2, "method": "tools/list", "tool": null}
+{"timestamp_unix": 1794511348.9589736, "execution_id": "corruption-003-1794511298550398200", "event": "upstream_response_received", "request_id": 2, "response_kind": "result"}
+{"timestamp_unix": 1794511348.9589736, "execution_id": "corruption-003-1794511298550398200", "event": "response_forwarded", "request_id": 2, "response_kind": "result"}
+{"timestamp_unix": 1794511348.9752753, "execution_id": "corruption-003-1794511298550398200", "event": "message_received", "request_id": 3, "method": "tools/call", "tool": "get_company_revenue"}
+{"timestamp_unix": 1794511348.9762762, "execution_id": "corruption-003-1794511298550398200", "event": "fault_injected", "request_id": 3, "tool": "get_company_revenue", "fault_type": "corruption", "call_number_for_tool": 1}
+{"timestamp_unix": 1794511348.9762762, "execution_id": "corruption-003-1794511298550398200", "event": "request_forwarded", "request_id": 3, "method": "tools/call", "tool": "get_company_revenue"}
+{"timestamp_unix": 1794511348.980275, "execution_id": "corruption-003-1794511298550398200", "event": "upstream_response_received", "request_id": 3, "response_kind": "result"}
+{"timestamp_unix": 1794511348.981275, "execution_id": "corruption-003-1794511298550398200", "event": "corruption_applied", "request_id": 3, "tool": "get_company_revenue", "target_text": "\"revenue\": 120", "replacement_text": "\"revenue\": 999", "call_number_for_tool": 1}
+{"timestamp_unix": 1794511348.9822764, "execution_id": "corruption-003-1794511298550398200", "event": "response_forwarded", "request_id": 3, "response_kind": "result"}
+{"timestamp_unix": 1794511623.5052485, "execution_id": "corruption-001-1794511578439920800", "event": "message_received", "request_id": 1, "method": "initialize", "tool": null}
+{"timestamp_unix": 1794511623.5062482, "execution_id": "corruption-001-1794511578439920800", "event": "request_forwarded", "request_id": 1, "method": "initialize", "tool": null}
+{"timestamp_unix": 1794511626.1613057, "execution_id": "corruption-001-1794511578439920800", "event": "upstream_response_received", "request_id": 1, "response_kind": "result"}
+{"timestamp_unix": 1794511626.1613057, "execution_id": "corruption-001-1794511578439920800", "event": "response_forwarded", "request_id": 1, "response_kind": "result"}
+{"timestamp_unix": 1794511626.1613057, "execution_id": "corruption-001-1794511578439920800", "event": "message_received", "request_id": null, "method": "notifications/initialized", "tool": null}
+{"timestamp_unix": 1794511626.1613057, "execution_id": "corruption-001-1794511578439920800", "event": "request_forwarded", "request_id": null, "method": "notifications/initialized", "tool": null}
+{"timestamp_unix": 1794511626.1769266, "execution_id": "corruption-001-1794511578439920800", "event": "message_received", "request_id": 2, "method": "tools/list", "tool": null}
+{"timestamp_unix": 1794511626.1780875, "execution_id": "corruption-001-1794511578439920800", "event": "request_forwarded", "request_id": 2, "method": "tools/list", "tool": null}
+{"timestamp_unix": 1794511626.1814337, "execution_id": "corruption-001-1794511578439920800", "event": "upstream_response_received", "request_id": 2, "response_kind": "result"}
+{"timestamp_unix": 1794511626.1824343, "execution_id": "corruption-001-1794511578439920800", "event": "response_forwarded", "request_id": 2, "response_kind": "result"}
+{"timestamp_unix": 1794511626.1834342, "execution_id": "corruption-001-1794511578439920800", "event": "message_received", "request_id": 3, "method": "tools/call", "tool": "get_company_revenue"}
+{"timestamp_unix": 1794511626.1844335, "execution_id": "corruption-001-1794511578439920800", "event": "fault_injected", "request_id": 3, "tool": "get_company_revenue", "fault_type": "corruption", "call_number_for_tool": 1}
+{"timestamp_unix": 1794511626.1854334, "execution_id": "corruption-001-1794511578439920800", "event": "request_forwarded", "request_id": 3, "method": "tools/call", "tool": "get_company_revenue"}
+{"timestamp_unix": 1794511626.1894336, "execution_id": "corruption-001-1794511578439920800", "event": "upstream_response_received", "request_id": 3, "response_kind": "result"}
+{"timestamp_unix": 1794511626.1904333, "execution_id": "corruption-001-1794511578439920800", "event": "corruption_applied", "request_id": 3, "tool": "get_company_revenue", "target_text": "\"revenue\": 120", "replacement_text": "\"revenue\": 999", "call_number_for_tool": 1}
+{"timestamp_unix": 1794511626.1904333, "execution_id": "corruption-001-1794511578439920800", "event": "response_forwarded", "request_id": 3, "response_kind": "result"}
+{"timestamp_unix": 1794511627.0510557, "execution_id": "corruption-002-1794511578439920800", "event": "message_received", "request_id": 1, "method": "initialize", "tool": null}
+{"timestamp_unix": 1794511627.0510557, "execution_id": "corruption-002-1794511578439920800", "event": "request_forwarded", "request_id": 1, "method": "initialize", "tool": null}
+{"timestamp_unix": 1794511629.6978862, "execution_id": "corruption-002-1794511578439920800", "event": "upstream_response_received", "request_id": 1, "response_kind": "result"}
+{"timestamp_unix": 1794511629.6978862, "execution_id": "corruption-002-1794511578439920800", "event": "response_forwarded", "request_id": 1, "response_kind": "result"}
+{"timestamp_unix": 1794511629.6978862, "execution_id": "corruption-002-1794511578439920800", "event": "message_received", "request_id": null, "method": "notifications/initialized", "tool": null}
+{"timestamp_unix": 1794511629.6978862, "execution_id": "corruption-002-1794511578439920800", "event": "request_forwarded", "request_id": null, "method": "notifications/initialized", "tool": null}
+{"timestamp_unix": 1794511629.6978862, "execution_id": "corruption-002-1794511578439920800", "event": "message_received", "request_id": 2, "method": "tools/list", "tool": null}
+{"timestamp_unix": 1794511629.6978862, "execution_id": "corruption-002-1794511578439920800", "event": "request_forwarded", "request_id": 2, "method": "tools/list", "tool": null}
+{"timestamp_unix": 1794511629.6978862, "execution_id": "corruption-002-1794511578439920800", "event": "upstream_response_received", "request_id": 2, "response_kind": "result"}
+{"timestamp_unix": 1794511629.7112372, "execution_id": "corruption-002-1794511578439920800", "event": "response_forwarded", "request_id": 2, "response_kind": "result"}
+{"timestamp_unix": 1794511629.7119806, "execution_id": "corruption-002-1794511578439920800", "event": "message_received", "request_id": 3, "method": "tools/call", "tool": "get_company_revenue"}
+{"timestamp_unix": 1794511629.7119806, "execution_id": "corruption-002-1794511578439920800", "event": "fault_injected", "request_id": 3, "tool": "get_company_revenue", "fault_type": "corruption", "call_number_for_tool": 1}
+{"timestamp_unix": 1794511629.7119806, "execution_id": "corruption-002-1794511578439920800", "event": "request_forwarded", "request_id": 3, "method": "tools/call", "tool": "get_company_revenue"}
+{"timestamp_unix": 1794511629.7119806, "execution_id": "corruption-002-1794511578439920800", "event": "upstream_response_received", "request_id": 3, "response_kind": "result"}
+{"timestamp_unix": 1794511629.7119806, "execution_id": "corruption-002-1794511578439920800", "event": "corruption_applied", "request_id": 3, "tool": "get_company_revenue", "target_text": "\"revenue\": 120", "replacement_text": "\"revenue\": 999", "call_number_for_tool": 1}
+{"timestamp_unix": 1794511629.7119806, "execution_id": "corruption-002-1794511578439920800", "event": "response_forwarded", "request_id": 3, "response_kind": "result"}
+{"timestamp_unix": 1794511630.72919, "execution_id": "corruption-003-1794511578439920800", "event": "message_received", "request_id": 1, "method": "initialize", "tool": null}
+{"timestamp_unix": 1794511630.7301893, "execution_id": "corruption-003-1794511578439920800", "event": "request_forwarded", "request_id": 1, "method": "initialize", "tool": null}
+{"timestamp_unix": 1794511633.435127, "execution_id": "corruption-003-1794511578439920800", "event": "upstream_response_received", "request_id": 1, "response_kind": "result"}
+{"timestamp_unix": 1794511633.4361274, "execution_id": "corruption-003-1794511578439920800", "event": "response_forwarded", "request_id": 1, "response_kind": "result"}
+{"timestamp_unix": 1794511633.4390929, "execution_id": "corruption-003-1794511578439920800", "event": "message_received", "request_id": null, "method": "notifications/initialized", "tool": null}
+{"timestamp_unix": 1794511633.4390929, "execution_id": "corruption-003-1794511578439920800", "event": "request_forwarded", "request_id": null, "method": "notifications/initialized", "tool": null}
+{"timestamp_unix": 1794511633.4400918, "execution_id": "corruption-003-1794511578439920800", "event": "message_received", "request_id": 2, "method": "tools/list", "tool": null}
+{"timestamp_unix": 1794511633.4410925, "execution_id": "corruption-003-1794511578439920800", "event": "request_forwarded", "request_id": 2, "method": "tools/list", "tool": null}
+{"timestamp_unix": 1794511633.4448283, "execution_id": "corruption-003-1794511578439920800", "event": "upstream_response_received", "request_id": 2, "response_kind": "result"}
+{"timestamp_unix": 1794511633.4458292, "execution_id": "corruption-003-1794511578439920800", "event": "response_forwarded", "request_id": 2, "response_kind": "result"}
+{"timestamp_unix": 1794511633.447829, "execution_id": "corruption-003-1794511578439920800", "event": "message_received", "request_id": 3, "method": "tools/call", "tool": "get_company_revenue"}
+{"timestamp_unix": 1794511633.447829, "execution_id": "corruption-003-1794511578439920800", "event": "fault_injected", "request_id": 3, "tool": "get_company_revenue", "fault_type": "corruption", "call_number_for_tool": 1}
+{"timestamp_unix": 1794511633.4488287, "execution_id": "corruption-003-1794511578439920800", "event": "request_forwarded", "request_id": 3, "method": "tools/call", "tool": "get_company_revenue"}
+{"timestamp_unix": 1794511633.452828, "execution_id": "corruption-003-1794511578439920800", "event": "upstream_response_received", "request_id": 3, "response_kind": "result"}
+{"timestamp_unix": 1794511633.4538283, "execution_id": "corruption-003-1794511578439920800", "event": "corruption_applied", "request_id": 3, "tool": "get_company_revenue", "target_text": "\"revenue\": 120", "replacement_text": "\"revenue\": 999", "call_number_for_tool": 1}
+{"timestamp_unix": 1794511633.4538283, "execution_id": "corruption-003-1794511578439920800", "event": "response_forwarded", "request_id": 3, "response_kind": "result"}
+{"timestamp_unix": 1794566382.0386157, "execution_id": "corruption-001-1794566294158736000", "event": "message_received", "request_id": 1, "method": "initialize", "tool": null}
+{"timestamp_unix": 1794566382.0758917, "execution_id": "corruption-001-1794566294158736000", "event": "request_forwarded", "request_id": 1, "method": "initialize", "tool": null}
+{"timestamp_unix": 1794566386.6164346, "execution_id": "corruption-001-1794566294158736000", "event": "upstream_response_received", "request_id": 1, "response_kind": "result"}
+{"timestamp_unix": 1794566386.6174352, "execution_id": "corruption-001-1794566294158736000", "event": "response_forwarded", "request_id": 1, "response_kind": "result"}
+{"timestamp_unix": 1794566386.618436, "execution_id": "corruption-001-1794566294158736000", "event": "message_received", "request_id": null, "method": "notifications/initialized", "tool": null}
+{"timestamp_unix": 1794566386.619436, "execution_id": "corruption-001-1794566294158736000", "event": "request_forwarded", "request_id": null, "method": "notifications/initialized", "tool": null}
+{"timestamp_unix": 1794566386.6204355, "execution_id": "corruption-001-1794566294158736000", "event": "message_received", "request_id": 2, "method": "tools/list", "tool": null}
+{"timestamp_unix": 1794566386.6222234, "execution_id": "corruption-001-1794566294158736000", "event": "request_forwarded", "request_id": 2, "method": "tools/list", "tool": null}
+{"timestamp_unix": 1794566386.6252253, "execution_id": "corruption-001-1794566294158736000", "event": "upstream_response_received", "request_id": 2, "response_kind": "result"}
+{"timestamp_unix": 1794566386.6262236, "execution_id": "corruption-001-1794566294158736000", "event": "response_forwarded", "request_id": 2, "response_kind": "result"}
+{"timestamp_unix": 1794566386.6282248, "execution_id": "corruption-001-1794566294158736000", "event": "message_received", "request_id": 3, "method": "tools/call", "tool": "get_company_revenue"}
+{"timestamp_unix": 1794566386.6292248, "execution_id": "corruption-001-1794566294158736000", "event": "fault_injected", "request_id": 3, "tool": "get_company_revenue", "fault_type": "corruption", "call_number_for_tool": 1}
+{"timestamp_unix": 1794566386.6302235, "execution_id": "corruption-001-1794566294158736000", "event": "request_forwarded", "request_id": 3, "method": "tools/call", "tool": "get_company_revenue"}
+{"timestamp_unix": 1794566386.6342232, "execution_id": "corruption-001-1794566294158736000", "event": "upstream_response_received", "request_id": 3, "response_kind": "result"}
+{"timestamp_unix": 1794566386.635225, "execution_id": "corruption-001-1794566294158736000", "event": "corruption_applied", "request_id": 3, "tool": "get_company_revenue", "target_text": "\"revenue\": 120", "replacement_text": "\"revenue\": 999", "call_number_for_tool": 1}
+{"timestamp_unix": 1794566386.635225, "execution_id": "corruption-001-1794566294158736000", "event": "response_forwarded", "request_id": 3, "response_kind": "result"}
+{"timestamp_unix": 1794566387.68164, "execution_id": "corruption-002-1794566294158736000", "event": "message_received", "request_id": 1, "method": "initialize", "tool": null}
+{"timestamp_unix": 1794566387.6826406, "execution_id": "corruption-002-1794566294158736000", "event": "request_forwarded", "request_id": 1, "method": "initialize", "tool": null}
+{"timestamp_unix": 1794566390.6381948, "execution_id": "corruption-002-1794566294158736000", "event": "upstream_response_received", "request_id": 1, "response_kind": "result"}
+{"timestamp_unix": 1794566390.6381948, "execution_id": "corruption-002-1794566294158736000", "event": "response_forwarded", "request_id": 1, "response_kind": "result"}
+{"timestamp_unix": 1794566390.6381948, "execution_id": "corruption-002-1794566294158736000", "event": "message_received", "request_id": null, "method": "notifications/initialized", "tool": null}
+{"timestamp_unix": 1794566390.6381948, "execution_id": "corruption-002-1794566294158736000", "event": "request_forwarded", "request_id": null, "method": "notifications/initialized", "tool": null}
+{"timestamp_unix": 1794566390.6381948, "execution_id": "corruption-002-1794566294158736000", "event": "message_received", "request_id": 2, "method": "tools/list", "tool": null}
+{"timestamp_unix": 1794566390.6381948, "execution_id": "corruption-002-1794566294158736000", "event": "request_forwarded", "request_id": 2, "method": "tools/list", "tool": null}
+{"timestamp_unix": 1794566390.6381948, "execution_id": "corruption-002-1794566294158736000", "event": "upstream_response_received", "request_id": 2, "response_kind": "result"}
+{"timestamp_unix": 1794566390.6381948, "execution_id": "corruption-002-1794566294158736000", "event": "response_forwarded", "request_id": 2, "response_kind": "result"}
+{"timestamp_unix": 1794566390.656401, "execution_id": "corruption-002-1794566294158736000", "event": "message_received", "request_id": 3, "method": "tools/call", "tool": "get_company_revenue"}
+{"timestamp_unix": 1794566390.656401, "execution_id": "corruption-002-1794566294158736000", "event": "fault_injected", "request_id": 3, "tool": "get_company_revenue", "fault_type": "corruption", "call_number_for_tool": 1}
+{"timestamp_unix": 1794566390.6574, "execution_id": "corruption-002-1794566294158736000", "event": "request_forwarded", "request_id": 3, "method": "tools/call", "tool": "get_company_revenue"}
+{"timestamp_unix": 1794566390.6614008, "execution_id": "corruption-002-1794566294158736000", "event": "upstream_response_received", "request_id": 3, "response_kind": "result"}
+{"timestamp_unix": 1794566390.6624005, "execution_id": "corruption-002-1794566294158736000", "event": "corruption_applied", "request_id": 3, "tool": "get_company_revenue", "target_text": "\"revenue\": 120", "replacement_text": "\"revenue\": 999", "call_number_for_tool": 1}
+{"timestamp_unix": 1794566390.6634011, "execution_id": "corruption-002-1794566294158736000", "event": "response_forwarded", "request_id": 3, "response_kind": "result"}
+{"timestamp_unix": 1794566391.676074, "execution_id": "corruption-003-1794566294158736000", "event": "message_received", "request_id": 1, "method": "initialize", "tool": null}
+{"timestamp_unix": 1794566391.6770723, "execution_id": "corruption-003-1794566294158736000", "event": "request_forwarded", "request_id": 1, "method": "initialize", "tool": null}
+{"timestamp_unix": 1794566394.661214, "execution_id": "corruption-003-1794566294158736000", "event": "upstream_response_received", "request_id": 1, "response_kind": "result"}
+{"timestamp_unix": 1794566394.6622148, "execution_id": "corruption-003-1794566294158736000", "event": "response_forwarded", "request_id": 1, "response_kind": "result"}
+{"timestamp_unix": 1794566394.6642148, "execution_id": "corruption-003-1794566294158736000", "event": "message_received", "request_id": null, "method": "notifications/initialized", "tool": null}
+{"timestamp_unix": 1794566394.6652153, "execution_id": "corruption-003-1794566294158736000", "event": "request_forwarded", "request_id": null, "method": "notifications/initialized", "tool": null}
+{"timestamp_unix": 1794566394.666214, "execution_id": "corruption-003-1794566294158736000", "event": "message_received", "request_id": 2, "method": "tools/list", "tool": null}
+{"timestamp_unix": 1794566394.667215, "execution_id": "corruption-003-1794566294158736000", "event": "request_forwarded", "request_id": 2, "method": "tools/list", "tool": null}
+{"timestamp_unix": 1794566394.670214, "execution_id": "corruption-003-1794566294158736000", "event": "upstream_response_received", "request_id": 2, "response_kind": "result"}
+{"timestamp_unix": 1794566394.671844, "execution_id": "corruption-003-1794566294158736000", "event": "response_forwarded", "request_id": 2, "response_kind": "result"}
+{"timestamp_unix": 1794566394.6738453, "execution_id": "corruption-003-1794566294158736000", "event": "message_received", "request_id": 3, "method": "tools/call", "tool": "get_company_revenue"}
+{"timestamp_unix": 1794566394.6738453, "execution_id": "corruption-003-1794566294158736000", "event": "fault_injected", "request_id": 3, "tool": "get_company_revenue", "fault_type": "corruption", "call_number_for_tool": 1}
+{"timestamp_unix": 1794566394.6748445, "execution_id": "corruption-003-1794566294158736000", "event": "request_forwarded", "request_id": 3, "method": "tools/call", "tool": "get_company_revenue"}
+{"timestamp_unix": 1794566394.6788447, "execution_id": "corruption-003-1794566294158736000", "event": "upstream_response_received", "request_id": 3, "response_kind": "result"}
+{"timestamp_unix": 1794566394.6798441, "execution_id": "corruption-003-1794566294158736000", "event": "corruption_applied", "request_id": 3, "tool": "get_company_revenue", "target_text": "\"revenue\": 120", "replacement_text": "\"revenue\": 999", "call_number_for_tool": 1}
+{"timestamp_unix": 1794566394.6798441, "execution_id": "corruption-003-1794566294158736000", "event": "response_forwarded", "request_id": 3, "response_kind": "result"}
+{"timestamp_unix": 1794566975.792594, "execution_id": "corruption-001-1794566911483802200", "event": "message_received", "request_id": 1, "method": "initialize", "tool": null}
+{"timestamp_unix": 1794566975.8618445, "execution_id": "corruption-001-1794566911483802200", "event": "request_forwarded", "request_id": 1, "method": "initialize", "tool": null}
+{"timestamp_unix": 1794566979.7008603, "execution_id": "corruption-001-1794566911483802200", "event": "upstream_response_received", "request_id": 1, "response_kind": "result"}
+{"timestamp_unix": 1794566979.7018607, "execution_id": "corruption-001-1794566911483802200", "event": "response_forwarded", "request_id": 1, "response_kind": "result"}
+{"timestamp_unix": 1794566979.704861, "execution_id": "corruption-001-1794566911483802200", "event": "message_received", "request_id": null, "method": "notifications/initialized", "tool": null}
+{"timestamp_unix": 1794566979.704861, "execution_id": "corruption-001-1794566911483802200", "event": "request_forwarded", "request_id": null, "method": "notifications/initialized", "tool": null}
+{"timestamp_unix": 1794566979.707861, "execution_id": "corruption-001-1794566911483802200", "event": "message_received", "request_id": 2, "method": "tools/list", "tool": null}
+{"timestamp_unix": 1794566979.707861, "execution_id": "corruption-001-1794566911483802200", "event": "request_forwarded", "request_id": 2, "method": "tools/list", "tool": null}
+{"timestamp_unix": 1794566979.7138596, "execution_id": "corruption-001-1794566911483802200", "event": "upstream_response_received", "request_id": 2, "response_kind": "result"}
+{"timestamp_unix": 1794566979.7148597, "execution_id": "corruption-001-1794566911483802200", "event": "response_forwarded", "request_id": 2, "response_kind": "result"}
+{"timestamp_unix": 1794566979.716861, "execution_id": "corruption-001-1794566911483802200", "event": "message_received", "request_id": 3, "method": "tools/call", "tool": "get_company_revenue"}
+{"timestamp_unix": 1794566979.716861, "execution_id": "corruption-001-1794566911483802200", "event": "fault_injected", "request_id": 3, "tool": "get_company_revenue", "fault_type": "corruption", "call_number_for_tool": 1}
+{"timestamp_unix": 1794566979.7178612, "execution_id": "corruption-001-1794566911483802200", "event": "request_forwarded", "request_id": 3, "method": "tools/call", "tool": "get_company_revenue"}
+{"timestamp_unix": 1794566979.7228603, "execution_id": "corruption-001-1794566911483802200", "event": "upstream_response_received", "request_id": 3, "response_kind": "result"}
+{"timestamp_unix": 1794566979.7238605, "execution_id": "corruption-001-1794566911483802200", "event": "corruption_applied", "request_id": 3, "tool": "get_company_revenue", "target_text": "\"revenue\": 120", "replacement_text": "\"revenue\": 999", "call_number_for_tool": 1}
+{"timestamp_unix": 1794566979.7238605, "execution_id": "corruption-001-1794566911483802200", "event": "response_forwarded", "request_id": 3, "response_kind": "result"}
+{"timestamp_unix": 1794566980.923111, "execution_id": "corruption-002-1794566911483802200", "event": "message_received", "request_id": 1, "method": "initialize", "tool": null}
+{"timestamp_unix": 1794566980.9241102, "execution_id": "corruption-002-1794566911483802200", "event": "request_forwarded", "request_id": 1, "method": "initialize", "tool": null}
+{"timestamp_unix": 1794566986.8213937, "execution_id": "corruption-002-1794566911483802200", "event": "upstream_response_received", "request_id": 1, "response_kind": "result"}
+{"timestamp_unix": 1794566986.8223941, "execution_id": "corruption-002-1794566911483802200", "event": "response_forwarded", "request_id": 1, "response_kind": "result"}
+{"timestamp_unix": 1794566986.8263357, "execution_id": "corruption-002-1794566911483802200", "event": "message_received", "request_id": null, "method": "notifications/initialized", "tool": null}
+{"timestamp_unix": 1794566986.8273365, "execution_id": "corruption-002-1794566911483802200", "event": "request_forwarded", "request_id": null, "method": "notifications/initialized", "tool": null}
+{"timestamp_unix": 1794566986.8303359, "execution_id": "corruption-002-1794566911483802200", "event": "message_received", "request_id": 2, "method": "tools/list", "tool": null}
+{"timestamp_unix": 1794566986.8303359, "execution_id": "corruption-002-1794566911483802200", "event": "request_forwarded", "request_id": 2, "method": "tools/list", "tool": null}
+{"timestamp_unix": 1794566986.834335, "execution_id": "corruption-002-1794566911483802200", "event": "upstream_response_received", "request_id": 2, "response_kind": "result"}
+{"timestamp_unix": 1794566986.835336, "execution_id": "corruption-002-1794566911483802200", "event": "response_forwarded", "request_id": 2, "response_kind": "result"}
+{"timestamp_unix": 1794566986.8373363, "execution_id": "corruption-002-1794566911483802200", "event": "message_received", "request_id": 3, "method": "tools/call", "tool": "get_company_revenue"}
+{"timestamp_unix": 1794566986.8373363, "execution_id": "corruption-002-1794566911483802200", "event": "fault_injected", "request_id": 3, "tool": "get_company_revenue", "fault_type": "corruption", "call_number_for_tool": 1}
+{"timestamp_unix": 1794566986.8383355, "execution_id": "corruption-002-1794566911483802200", "event": "request_forwarded", "request_id": 3, "method": "tools/call", "tool": "get_company_revenue"}
+{"timestamp_unix": 1794566986.8431404, "execution_id": "corruption-002-1794566911483802200", "event": "upstream_response_received", "request_id": 3, "response_kind": "result"}
+{"timestamp_unix": 1794566986.8441412, "execution_id": "corruption-002-1794566911483802200", "event": "corruption_applied", "request_id": 3, "tool": "get_company_revenue", "target_text": "\"revenue\": 120", "replacement_text": "\"revenue\": 999", "call_number_for_tool": 1}
+{"timestamp_unix": 1794566986.8451426, "execution_id": "corruption-002-1794566911483802200", "event": "response_forwarded", "request_id": 3, "response_kind": "result"}
+{"timestamp_unix": 1794566988.2071116, "execution_id": "corruption-003-1794566911483802200", "event": "message_received", "request_id": 1, "method": "initialize", "tool": null}
+{"timestamp_unix": 1794566988.2081122, "execution_id": "corruption-003-1794566911483802200", "event": "request_forwarded", "request_id": 1, "method": "initialize", "tool": null}
+{"timestamp_unix": 1794566992.6138637, "execution_id": "corruption-003-1794566911483802200", "event": "upstream_response_received", "request_id": 1, "response_kind": "result"}
+{"timestamp_unix": 1794566992.6158633, "execution_id": "corruption-003-1794566911483802200", "event": "response_forwarded", "request_id": 1, "response_kind": "result"}
+{"timestamp_unix": 1794566992.616863, "execution_id": "corruption-003-1794566911483802200", "event": "message_received", "request_id": null, "method": "notifications/initialized", "tool": null}
+{"timestamp_unix": 1794566992.617863, "execution_id": "corruption-003-1794566911483802200", "event": "request_forwarded", "request_id": null, "method": "notifications/initialized", "tool": null}
+{"timestamp_unix": 1794566992.6188633, "execution_id": "corruption-003-1794566911483802200", "event": "message_received", "request_id": 2, "method": "tools/list", "tool": null}
+{"timestamp_unix": 1794566992.6198633, "execution_id": "corruption-003-1794566911483802200", "event": "request_forwarded", "request_id": 2, "method": "tools/list", "tool": null}
+{"timestamp_unix": 1794566992.6288629, "execution_id": "corruption-003-1794566911483802200", "event": "upstream_response_received", "request_id": 2, "response_kind": "result"}
+{"timestamp_unix": 1794566992.6308637, "execution_id": "corruption-003-1794566911483802200", "event": "response_forwarded", "request_id": 2, "response_kind": "result"}
+{"timestamp_unix": 1794566992.6328626, "execution_id": "corruption-003-1794566911483802200", "event": "message_received", "request_id": 3, "method": "tools/call", "tool": "get_company_revenue"}
+{"timestamp_unix": 1794566992.6338632, "execution_id": "corruption-003-1794566911483802200", "event": "fault_injected", "request_id": 3, "tool": "get_company_revenue", "fault_type": "corruption", "call_number_for_tool": 1}
+{"timestamp_unix": 1794566992.6338632, "execution_id": "corruption-003-1794566911483802200", "event": "request_forwarded", "request_id": 3, "method": "tools/call", "tool": "get_company_revenue"}
+{"timestamp_unix": 1794566992.6408627, "execution_id": "corruption-003-1794566911483802200", "event": "upstream_response_received", "request_id": 3, "response_kind": "result"}
+{"timestamp_unix": 1794566992.6418622, "execution_id": "corruption-003-1794566911483802200", "event": "corruption_applied", "request_id": 3, "tool": "get_company_revenue", "target_text": "\"revenue\": 120", "replacement_text": "\"revenue\": 999", "call_number_for_tool": 1}
+{"timestamp_unix": 1794566992.643858, "execution_id": "corruption-003-1794566911483802200", "event": "response_forwarded", "request_id": 3, "response_kind": "result"}

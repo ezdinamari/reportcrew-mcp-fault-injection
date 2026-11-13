@@ -1,0 +1,8 @@
+{
+  "command": [
+    "$PYTHON",
+    "mcp_server.py"
+  ],
+  "log_file": "logs/proxy_sdk.jsonl",
+  "faults": []
+}

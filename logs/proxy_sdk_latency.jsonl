@@ -1,0 +1,531 @@
+{"timestamp_unix": 1794500515.9991126, "execution_id": "sdk-latency-001", "event": "message_received", "request_id": 1, "method": "initialize", "tool": null}
+{"timestamp_unix": 1794500516.0001132, "execution_id": "sdk-latency-001", "event": "request_forwarded", "request_id": 1, "method": "initialize", "tool": null}
+{"timestamp_unix": 1794500518.7021797, "execution_id": "sdk-latency-001", "event": "upstream_response_received", "request_id": 1, "response_kind": "result"}
+{"timestamp_unix": 1794500518.7021797, "execution_id": "sdk-latency-001", "event": "response_forwarded", "request_id": 1, "response_kind": "result"}
+{"timestamp_unix": 1794500518.7021797, "execution_id": "sdk-latency-001", "event": "message_received", "request_id": null, "method": "notifications/initialized", "tool": null}
+{"timestamp_unix": 1794500518.7021797, "execution_id": "sdk-latency-001", "event": "request_forwarded", "request_id": null, "method": "notifications/initialized", "tool": null}
+{"timestamp_unix": 1794500518.7021797, "execution_id": "sdk-latency-001", "event": "message_received", "request_id": 2, "method": "tools/list", "tool": null}
+{"timestamp_unix": 1794500518.7021797, "execution_id": "sdk-latency-001", "event": "request_forwarded", "request_id": 2, "method": "tools/list", "tool": null}
+{"timestamp_unix": 1794500518.7021797, "execution_id": "sdk-latency-001", "event": "upstream_response_received", "request_id": 2, "response_kind": "result"}
+{"timestamp_unix": 1794500518.7178016, "execution_id": "sdk-latency-001", "event": "response_forwarded", "request_id": 2, "response_kind": "result"}
+{"timestamp_unix": 1794500518.7264044, "execution_id": "sdk-latency-001", "event": "message_received", "request_id": 3, "method": "tools/call", "tool": "get_company_revenue"}
+{"timestamp_unix": 1794500518.727405, "execution_id": "sdk-latency-001", "event": "fault_injected", "delay_seconds": 1.5, "request_id": 3, "tool": "get_company_revenue", "fault_type": "latency", "call_number_for_tool": 1}
+{"timestamp_unix": 1794500520.234693, "execution_id": "sdk-latency-001", "event": "request_forwarded", "request_id": 3, "method": "tools/call", "tool": "get_company_revenue"}
+{"timestamp_unix": 1794500520.2358572, "execution_id": "sdk-latency-001", "event": "upstream_response_received", "request_id": 3, "response_kind": "result"}
+{"timestamp_unix": 1794500520.2358572, "execution_id": "sdk-latency-001", "event": "response_forwarded", "request_id": 3, "response_kind": "result"}
+{"timestamp_unix": 1794502088.4590561, "execution_id": "sdk-latency-001", "event": "message_received", "request_id": 1, "method": "initialize", "tool": null}
+{"timestamp_unix": 1794502088.5068514, "execution_id": "sdk-latency-001", "event": "request_forwarded", "request_id": 1, "method": "initialize", "tool": null}
+{"timestamp_unix": 1794502091.4923306, "execution_id": "sdk-latency-001", "event": "upstream_response_received", "request_id": 1, "response_kind": "result"}
+{"timestamp_unix": 1794502091.4937503, "execution_id": "sdk-latency-001", "event": "response_forwarded", "request_id": 1, "response_kind": "result"}
+{"timestamp_unix": 1794502091.4967506, "execution_id": "sdk-latency-001", "event": "message_received", "request_id": null, "method": "notifications/initialized", "tool": null}
+{"timestamp_unix": 1794502091.497751, "execution_id": "sdk-latency-001", "event": "request_forwarded", "request_id": null, "method": "notifications/initialized", "tool": null}
+{"timestamp_unix": 1794502091.4997516, "execution_id": "sdk-latency-001", "event": "message_received", "request_id": 2, "method": "tools/list", "tool": null}
+{"timestamp_unix": 1794502091.5007522, "execution_id": "sdk-latency-001", "event": "request_forwarded", "request_id": 2, "method": "tools/list", "tool": null}
+{"timestamp_unix": 1794502091.5037522, "execution_id": "sdk-latency-001", "event": "upstream_response_received", "request_id": 2, "response_kind": "result"}
+{"timestamp_unix": 1794502091.5047524, "execution_id": "sdk-latency-001", "event": "response_forwarded", "request_id": 2, "response_kind": "result"}
+{"timestamp_unix": 1794502091.5101883, "execution_id": "sdk-latency-001", "event": "message_received", "request_id": 3, "method": "tools/call", "tool": "get_company_revenue"}
+{"timestamp_unix": 1794502091.5109, "execution_id": "sdk-latency-001", "event": "fault_injected", "delay_seconds": 1.5, "request_id": 3, "tool": "get_company_revenue", "fault_type": "latency", "call_number_for_tool": 1}
+{"timestamp_unix": 1794502093.046105, "execution_id": "sdk-latency-001", "event": "request_forwarded", "request_id": 3, "method": "tools/call", "tool": "get_company_revenue"}
+{"timestamp_unix": 1794502093.0929651, "execution_id": "sdk-latency-001", "event": "upstream_response_received", "request_id": 3, "response_kind": "result"}
+{"timestamp_unix": 1794502093.0929651, "execution_id": "sdk-latency-001", "event": "response_forwarded", "request_id": 3, "response_kind": "result"}
+{"timestamp_unix": 1794502477.807721, "execution_id": "latency-001-1794502448577334600", "event": "message_received", "request_id": 1, "method": "initialize", "tool": null}
+{"timestamp_unix": 1794502477.807721, "execution_id": "latency-001-1794502448577334600", "event": "request_forwarded", "request_id": 1, "method": "initialize", "tool": null}
+{"timestamp_unix": 1794502481.3963737, "execution_id": "latency-001-1794502448577334600", "event": "upstream_response_received", "request_id": 1, "response_kind": "result"}
+{"timestamp_unix": 1794502481.397376, "execution_id": "latency-001-1794502448577334600", "event": "response_forwarded", "request_id": 1, "response_kind": "result"}
+{"timestamp_unix": 1794502481.3993745, "execution_id": "latency-001-1794502448577334600", "event": "message_received", "request_id": null, "method": "notifications/initialized", "tool": null}
+{"timestamp_unix": 1794502481.400375, "execution_id": "latency-001-1794502448577334600", "event": "request_forwarded", "request_id": null, "method": "notifications/initialized", "tool": null}
+{"timestamp_unix": 1794502481.402375, "execution_id": "latency-001-1794502448577334600", "event": "message_received", "request_id": 2, "method": "tools/list", "tool": null}
+{"timestamp_unix": 1794502481.402375, "execution_id": "latency-001-1794502448577334600", "event": "request_forwarded", "request_id": 2, "method": "tools/list", "tool": null}
+{"timestamp_unix": 1794502481.4063754, "execution_id": "latency-001-1794502448577334600", "event": "upstream_response_received", "request_id": 2, "response_kind": "result"}
+{"timestamp_unix": 1794502481.4071352, "execution_id": "latency-001-1794502448577334600", "event": "response_forwarded", "request_id": 2, "response_kind": "result"}
+{"timestamp_unix": 1794502481.4071352, "execution_id": "latency-001-1794502448577334600", "event": "message_received", "request_id": 3, "method": "tools/call", "tool": "get_company_revenue"}
+{"timestamp_unix": 1794502481.4071352, "execution_id": "latency-001-1794502448577334600", "event": "fault_injected", "delay_seconds": 1.5, "request_id": 3, "tool": "get_company_revenue", "fault_type": "latency", "call_number_for_tool": 1}
+{"timestamp_unix": 1794502482.909923, "execution_id": "latency-001-1794502448577334600", "event": "request_forwarded", "request_id": 3, "method": "tools/call", "tool": "get_company_revenue"}
+{"timestamp_unix": 1794502482.9168441, "execution_id": "latency-001-1794502448577334600", "event": "upstream_response_received", "request_id": 3, "response_kind": "result"}
+{"timestamp_unix": 1794502482.9168441, "execution_id": "latency-001-1794502448577334600", "event": "response_forwarded", "request_id": 3, "response_kind": "result"}
+{"timestamp_unix": 1794502484.4030523, "execution_id": "latency-002-1794502448577334600", "event": "message_received", "request_id": 1, "method": "initialize", "tool": null}
+{"timestamp_unix": 1794502484.418672, "execution_id": "latency-002-1794502448577334600", "event": "request_forwarded", "request_id": 1, "method": "initialize", "tool": null}
+{"timestamp_unix": 1794502499.061968, "execution_id": "latency-003-1794502448577334600", "event": "message_received", "request_id": 1, "method": "initialize", "tool": null}
+{"timestamp_unix": 1794502499.061968, "execution_id": "latency-003-1794502448577334600", "event": "request_forwarded", "request_id": 1, "method": "initialize", "tool": null}
+{"timestamp_unix": 1794502504.7066307, "execution_id": "latency-003-1794502448577334600", "event": "upstream_response_received", "request_id": 1, "response_kind": "result"}
+{"timestamp_unix": 1794502504.7066307, "execution_id": "latency-003-1794502448577334600", "event": "response_forwarded", "request_id": 1, "response_kind": "result"}
+{"timestamp_unix": 1794502504.7066307, "execution_id": "latency-003-1794502448577334600", "event": "message_received", "request_id": null, "method": "notifications/initialized", "tool": null}
+{"timestamp_unix": 1794502504.7066307, "execution_id": "latency-003-1794502448577334600", "event": "request_forwarded", "request_id": null, "method": "notifications/initialized", "tool": null}
+{"timestamp_unix": 1794502504.7066307, "execution_id": "latency-003-1794502448577334600", "event": "message_received", "request_id": 2, "method": "tools/list", "tool": null}
+{"timestamp_unix": 1794502504.7066307, "execution_id": "latency-003-1794502448577334600", "event": "request_forwarded", "request_id": 2, "method": "tools/list", "tool": null}
+{"timestamp_unix": 1794502504.7066307, "execution_id": "latency-003-1794502448577334600", "event": "upstream_response_received", "request_id": 2, "response_kind": "result"}
+{"timestamp_unix": 1794502504.7066307, "execution_id": "latency-003-1794502448577334600", "event": "response_forwarded", "request_id": 2, "response_kind": "result"}
+{"timestamp_unix": 1794502504.7223256, "execution_id": "latency-003-1794502448577334600", "event": "message_received", "request_id": 3, "method": "tools/call", "tool": "get_company_revenue"}
+{"timestamp_unix": 1794502504.7230523, "execution_id": "latency-003-1794502448577334600", "event": "fault_injected", "delay_seconds": 1.5, "request_id": 3, "tool": "get_company_revenue", "fault_type": "latency", "call_number_for_tool": 1}
+{"timestamp_unix": 1794502506.2257352, "execution_id": "latency-003-1794502448577334600", "event": "request_forwarded", "request_id": 3, "method": "tools/call", "tool": "get_company_revenue"}
+{"timestamp_unix": 1794502506.2271602, "execution_id": "latency-003-1794502448577334600", "event": "upstream_response_received", "request_id": 3, "response_kind": "result"}
+{"timestamp_unix": 1794502506.2271602, "execution_id": "latency-003-1794502448577334600", "event": "response_forwarded", "request_id": 3, "response_kind": "result"}
+{"timestamp_unix": 1794502834.8237705, "execution_id": "latency-001-1794502828828381000", "event": "message_received", "request_id": 1, "method": "initialize", "tool": null}
+{"timestamp_unix": 1794502834.8237705, "execution_id": "latency-001-1794502828828381000", "event": "request_forwarded", "request_id": 1, "method": "initialize", "tool": null}
+{"timestamp_unix": 1794503018.5144646, "execution_id": "latency-debug-001", "event": "message_received", "request_id": 1, "method": "initialize", "tool": null}
+{"timestamp_unix": 1794503018.5144646, "execution_id": "latency-debug-001", "event": "request_forwarded", "request_id": 1, "method": "initialize", "tool": null}
+{"timestamp_unix": 1794503022.5711977, "execution_id": "latency-debug-001", "event": "upstream_response_received", "request_id": 1, "response_kind": "result"}
+{"timestamp_unix": 1794503022.5729194, "execution_id": "latency-debug-001", "event": "response_forwarded", "request_id": 1, "response_kind": "result"}
+{"timestamp_unix": 1794503022.5729194, "execution_id": "latency-debug-001", "event": "message_received", "request_id": null, "method": "notifications/initialized", "tool": null}
+{"timestamp_unix": 1794503022.5729194, "execution_id": "latency-debug-001", "event": "request_forwarded", "request_id": null, "method": "notifications/initialized", "tool": null}
+{"timestamp_unix": 1794503022.5852957, "execution_id": "latency-debug-001", "event": "message_received", "request_id": 2, "method": "tools/list", "tool": null}
+{"timestamp_unix": 1794503022.5862942, "execution_id": "latency-debug-001", "event": "request_forwarded", "request_id": 2, "method": "tools/list", "tool": null}
+{"timestamp_unix": 1794503022.5902953, "execution_id": "latency-debug-001", "event": "upstream_response_received", "request_id": 2, "response_kind": "result"}
+{"timestamp_unix": 1794503022.5902953, "execution_id": "latency-debug-001", "event": "response_forwarded", "request_id": 2, "response_kind": "result"}
+{"timestamp_unix": 1794503022.601071, "execution_id": "latency-debug-001", "event": "message_received", "request_id": 3, "method": "tools/call", "tool": "get_company_revenue"}
+{"timestamp_unix": 1794503022.6020706, "execution_id": "latency-debug-001", "event": "fault_injected", "delay_seconds": 1.5, "request_id": 3, "tool": "get_company_revenue", "fault_type": "latency", "call_number_for_tool": 1}
+{"timestamp_unix": 1794503024.1122904, "execution_id": "latency-debug-001", "event": "request_forwarded", "request_id": 3, "method": "tools/call", "tool": "get_company_revenue"}
+{"timestamp_unix": 1794503024.113506, "execution_id": "latency-debug-001", "event": "upstream_response_received", "request_id": 3, "response_kind": "result"}
+{"timestamp_unix": 1794503024.113506, "execution_id": "latency-debug-001", "event": "response_forwarded", "request_id": 3, "response_kind": "result"}
+{"timestamp_unix": 1794503104.449374, "execution_id": "latency-001-1794503092779253500", "event": "message_received", "request_id": 1, "method": "initialize", "tool": null}
+{"timestamp_unix": 1794503104.4503744, "execution_id": "latency-001-1794503092779253500", "event": "request_forwarded", "request_id": 1, "method": "initialize", "tool": null}
+{"timestamp_unix": 1794503107.1094837, "execution_id": "latency-001-1794503092779253500", "event": "upstream_response_received", "request_id": 1, "response_kind": "result"}
+{"timestamp_unix": 1794503107.1094837, "execution_id": "latency-001-1794503092779253500", "event": "response_forwarded", "request_id": 1, "response_kind": "result"}
+{"timestamp_unix": 1794503107.1094837, "execution_id": "latency-001-1794503092779253500", "event": "message_received", "request_id": null, "method": "notifications/initialized", "tool": null}
+{"timestamp_unix": 1794503107.1094837, "execution_id": "latency-001-1794503092779253500", "event": "request_forwarded", "request_id": null, "method": "notifications/initialized", "tool": null}
+{"timestamp_unix": 1794503107.1094837, "execution_id": "latency-001-1794503092779253500", "event": "message_received", "request_id": 2, "method": "tools/list", "tool": null}
+{"timestamp_unix": 1794503107.1094837, "execution_id": "latency-001-1794503092779253500", "event": "request_forwarded", "request_id": 2, "method": "tools/list", "tool": null}
+{"timestamp_unix": 1794503107.125105, "execution_id": "latency-001-1794503092779253500", "event": "upstream_response_received", "request_id": 2, "response_kind": "result"}
+{"timestamp_unix": 1794503107.1265373, "execution_id": "latency-001-1794503092779253500", "event": "response_forwarded", "request_id": 2, "response_kind": "result"}
+{"timestamp_unix": 1794503107.1285384, "execution_id": "latency-001-1794503092779253500", "event": "message_received", "request_id": 3, "method": "tools/call", "tool": "get_company_revenue"}
+{"timestamp_unix": 1794503107.1295373, "execution_id": "latency-001-1794503092779253500", "event": "fault_injected", "delay_seconds": 1.5, "request_id": 3, "tool": "get_company_revenue", "fault_type": "latency", "call_number_for_tool": 1}
+{"timestamp_unix": 1794503108.6399937, "execution_id": "latency-001-1794503092779253500", "event": "request_forwarded", "request_id": 3, "method": "tools/call", "tool": "get_company_revenue"}
+{"timestamp_unix": 1794503108.6474628, "execution_id": "latency-001-1794503092779253500", "event": "upstream_response_received", "request_id": 3, "response_kind": "result"}
+{"timestamp_unix": 1794503108.6474628, "execution_id": "latency-001-1794503092779253500", "event": "response_forwarded", "request_id": 3, "response_kind": "result"}
+{"timestamp_unix": 1794503110.6316676, "execution_id": "latency-002-1794503092779253500", "event": "message_received", "request_id": 1, "method": "initialize", "tool": null}
+{"timestamp_unix": 1794503110.6316676, "execution_id": "latency-002-1794503092779253500", "event": "request_forwarded", "request_id": 1, "method": "initialize", "tool": null}
+{"timestamp_unix": 1794503117.4427876, "execution_id": "latency-002-1794503092779253500", "event": "upstream_response_received", "request_id": 1, "response_kind": "result"}
+{"timestamp_unix": 1794503117.4427876, "execution_id": "latency-002-1794503092779253500", "event": "response_forwarded", "request_id": 1, "response_kind": "result"}
+{"timestamp_unix": 1794503117.4427876, "execution_id": "latency-002-1794503092779253500", "event": "message_received", "request_id": null, "method": "notifications/initialized", "tool": null}
+{"timestamp_unix": 1794503117.4427876, "execution_id": "latency-002-1794503092779253500", "event": "request_forwarded", "request_id": null, "method": "notifications/initialized", "tool": null}
+{"timestamp_unix": 1794503117.4427876, "execution_id": "latency-002-1794503092779253500", "event": "message_received", "request_id": 2, "method": "tools/list", "tool": null}
+{"timestamp_unix": 1794503117.4427876, "execution_id": "latency-002-1794503092779253500", "event": "request_forwarded", "request_id": 2, "method": "tools/list", "tool": null}
+{"timestamp_unix": 1794503117.4427876, "execution_id": "latency-002-1794503092779253500", "event": "upstream_response_received", "request_id": 2, "response_kind": "result"}
+{"timestamp_unix": 1794503117.4427876, "execution_id": "latency-002-1794503092779253500", "event": "response_forwarded", "request_id": 2, "response_kind": "result"}
+{"timestamp_unix": 1794503117.4427876, "execution_id": "latency-002-1794503092779253500", "event": "message_received", "request_id": 3, "method": "tools/call", "tool": "get_company_revenue"}
+{"timestamp_unix": 1794503117.4584076, "execution_id": "latency-002-1794503092779253500", "event": "fault_injected", "delay_seconds": 1.5, "request_id": 3, "tool": "get_company_revenue", "fault_type": "latency", "call_number_for_tool": 1}
+{"timestamp_unix": 1794503118.9597507, "execution_id": "latency-002-1794503092779253500", "event": "request_forwarded", "request_id": 3, "method": "tools/call", "tool": "get_company_revenue"}
+{"timestamp_unix": 1794503118.9653869, "execution_id": "latency-002-1794503092779253500", "event": "upstream_response_received", "request_id": 3, "response_kind": "result"}
+{"timestamp_unix": 1794503118.9653869, "execution_id": "latency-002-1794503092779253500", "event": "response_forwarded", "request_id": 3, "response_kind": "result"}
+{"timestamp_unix": 1794503121.2609918, "execution_id": "latency-003-1794503092779253500", "event": "message_received", "request_id": 1, "method": "initialize", "tool": null}
+{"timestamp_unix": 1794503121.2619917, "execution_id": "latency-003-1794503092779253500", "event": "request_forwarded", "request_id": 1, "method": "initialize", "tool": null}
+{"timestamp_unix": 1794503124.635494, "execution_id": "latency-003-1794503092779253500", "event": "upstream_response_received", "request_id": 1, "response_kind": "result"}
+{"timestamp_unix": 1794503124.6364949, "execution_id": "latency-003-1794503092779253500", "event": "response_forwarded", "request_id": 1, "response_kind": "result"}
+{"timestamp_unix": 1794503124.6394944, "execution_id": "latency-003-1794503092779253500", "event": "message_received", "request_id": null, "method": "notifications/initialized", "tool": null}
+{"timestamp_unix": 1794503124.6394944, "execution_id": "latency-003-1794503092779253500", "event": "request_forwarded", "request_id": null, "method": "notifications/initialized", "tool": null}
+{"timestamp_unix": 1794503124.6404946, "execution_id": "latency-003-1794503092779253500", "event": "message_received", "request_id": 2, "method": "tools/list", "tool": null}
+{"timestamp_unix": 1794503124.6434948, "execution_id": "latency-003-1794503092779253500", "event": "request_forwarded", "request_id": 2, "method": "tools/list", "tool": null}
+{"timestamp_unix": 1794503124.6474934, "execution_id": "latency-003-1794503092779253500", "event": "upstream_response_received", "request_id": 2, "response_kind": "result"}
+{"timestamp_unix": 1794503124.6484938, "execution_id": "latency-003-1794503092779253500", "event": "response_forwarded", "request_id": 2, "response_kind": "result"}
+{"timestamp_unix": 1794503124.6524942, "execution_id": "latency-003-1794503092779253500", "event": "message_received", "request_id": 3, "method": "tools/call", "tool": "get_company_revenue"}
+{"timestamp_unix": 1794503124.653493, "execution_id": "latency-003-1794503092779253500", "event": "fault_injected", "delay_seconds": 1.5, "request_id": 3, "tool": "get_company_revenue", "fault_type": "latency", "call_number_for_tool": 1}
+{"timestamp_unix": 1794503126.155362, "execution_id": "latency-003-1794503092779253500", "event": "request_forwarded", "request_id": 3, "method": "tools/call", "tool": "get_company_revenue"}
+{"timestamp_unix": 1794503126.165671, "execution_id": "latency-003-1794503092779253500", "event": "upstream_response_received", "request_id": 3, "response_kind": "result"}
+{"timestamp_unix": 1794503126.166673, "execution_id": "latency-003-1794503092779253500", "event": "response_forwarded", "request_id": 3, "response_kind": "result"}
+{"timestamp_unix": 1794503303.5411158, "execution_id": "latency-001-1794503288940779900", "event": "message_received", "request_id": 1, "method": "initialize", "tool": null}
+{"timestamp_unix": 1794503303.5421152, "execution_id": "latency-001-1794503288940779900", "event": "request_forwarded", "request_id": 1, "method": "initialize", "tool": null}
+{"timestamp_unix": 1794503309.3785977, "execution_id": "latency-001-1794503288940779900", "event": "upstream_response_received", "request_id": 1, "response_kind": "result"}
+{"timestamp_unix": 1794503309.3795967, "execution_id": "latency-001-1794503288940779900", "event": "response_forwarded", "request_id": 1, "response_kind": "result"}
+{"timestamp_unix": 1794503309.383598, "execution_id": "latency-001-1794503288940779900", "event": "message_received", "request_id": null, "method": "notifications/initialized", "tool": null}
+{"timestamp_unix": 1794503309.384598, "execution_id": "latency-001-1794503288940779900", "event": "request_forwarded", "request_id": null, "method": "notifications/initialized", "tool": null}
+{"timestamp_unix": 1794503309.3865979, "execution_id": "latency-001-1794503288940779900", "event": "message_received", "request_id": 2, "method": "tools/list", "tool": null}
+{"timestamp_unix": 1794503309.3875973, "execution_id": "latency-001-1794503288940779900", "event": "request_forwarded", "request_id": 2, "method": "tools/list", "tool": null}
+{"timestamp_unix": 1794503309.3905969, "execution_id": "latency-001-1794503288940779900", "event": "upstream_response_received", "request_id": 2, "response_kind": "result"}
+{"timestamp_unix": 1794503309.3915963, "execution_id": "latency-001-1794503288940779900", "event": "response_forwarded", "request_id": 2, "response_kind": "result"}
+{"timestamp_unix": 1794503309.3945968, "execution_id": "latency-001-1794503288940779900", "event": "message_received", "request_id": 3, "method": "tools/call", "tool": "get_company_revenue"}
+{"timestamp_unix": 1794503309.3955963, "execution_id": "latency-001-1794503288940779900", "event": "fault_injected", "delay_seconds": 1.5, "request_id": 3, "tool": "get_company_revenue", "fault_type": "latency", "call_number_for_tool": 1}
+{"timestamp_unix": 1794503310.8986638, "execution_id": "latency-001-1794503288940779900", "event": "request_forwarded", "request_id": 3, "method": "tools/call", "tool": "get_company_revenue"}
+{"timestamp_unix": 1794503310.90374, "execution_id": "latency-001-1794503288940779900", "event": "upstream_response_received", "request_id": 3, "response_kind": "result"}
+{"timestamp_unix": 1794503310.904739, "execution_id": "latency-001-1794503288940779900", "event": "response_forwarded", "request_id": 3, "response_kind": "result"}
+{"timestamp_unix": 1794503311.9505997, "execution_id": "latency-002-1794503288940779900", "event": "message_received", "request_id": 1, "method": "initialize", "tool": null}
+{"timestamp_unix": 1794503311.9505997, "execution_id": "latency-002-1794503288940779900", "event": "request_forwarded", "request_id": 1, "method": "initialize", "tool": null}
+{"timestamp_unix": 1794503315.4464726, "execution_id": "latency-002-1794503288940779900", "event": "upstream_response_received", "request_id": 1, "response_kind": "result"}
+{"timestamp_unix": 1794503315.447472, "execution_id": "latency-002-1794503288940779900", "event": "response_forwarded", "request_id": 1, "response_kind": "result"}
+{"timestamp_unix": 1794503315.4493332, "execution_id": "latency-002-1794503288940779900", "event": "message_received", "request_id": null, "method": "notifications/initialized", "tool": null}
+{"timestamp_unix": 1794503315.4493332, "execution_id": "latency-002-1794503288940779900", "event": "request_forwarded", "request_id": null, "method": "notifications/initialized", "tool": null}
+{"timestamp_unix": 1794503315.4493332, "execution_id": "latency-002-1794503288940779900", "event": "message_received", "request_id": 2, "method": "tools/list", "tool": null}
+{"timestamp_unix": 1794503315.4493332, "execution_id": "latency-002-1794503288940779900", "event": "request_forwarded", "request_id": 2, "method": "tools/list", "tool": null}
+{"timestamp_unix": 1794503315.4493332, "execution_id": "latency-002-1794503288940779900", "event": "upstream_response_received", "request_id": 2, "response_kind": "result"}
+{"timestamp_unix": 1794503315.4493332, "execution_id": "latency-002-1794503288940779900", "event": "response_forwarded", "request_id": 2, "response_kind": "result"}
+{"timestamp_unix": 1794503315.4493332, "execution_id": "latency-002-1794503288940779900", "event": "message_received", "request_id": 3, "method": "tools/call", "tool": "get_company_revenue"}
+{"timestamp_unix": 1794503315.4493332, "execution_id": "latency-002-1794503288940779900", "event": "fault_injected", "delay_seconds": 1.5, "request_id": 3, "tool": "get_company_revenue", "fault_type": "latency", "call_number_for_tool": 1}
+{"timestamp_unix": 1794503316.965207, "execution_id": "latency-002-1794503288940779900", "event": "request_forwarded", "request_id": 3, "method": "tools/call", "tool": "get_company_revenue"}
+{"timestamp_unix": 1794503316.9699028, "execution_id": "latency-002-1794503288940779900", "event": "upstream_response_received", "request_id": 3, "response_kind": "result"}
+{"timestamp_unix": 1794503316.9709034, "execution_id": "latency-002-1794503288940779900", "event": "response_forwarded", "request_id": 3, "response_kind": "result"}
+{"timestamp_unix": 1794503320.016933, "execution_id": "latency-003-1794503288940779900", "event": "message_received", "request_id": 1, "method": "initialize", "tool": null}
+{"timestamp_unix": 1794503320.016933, "execution_id": "latency-003-1794503288940779900", "event": "request_forwarded", "request_id": 1, "method": "initialize", "tool": null}
+{"timestamp_unix": 1794503324.8144922, "execution_id": "latency-003-1794503288940779900", "event": "upstream_response_received", "request_id": 1, "response_kind": "result"}
+{"timestamp_unix": 1794503324.8144922, "execution_id": "latency-003-1794503288940779900", "event": "response_forwarded", "request_id": 1, "response_kind": "result"}
+{"timestamp_unix": 1794503324.8330646, "execution_id": "latency-003-1794503288940779900", "event": "message_received", "request_id": null, "method": "notifications/initialized", "tool": null}
+{"timestamp_unix": 1794503324.834066, "execution_id": "latency-003-1794503288940779900", "event": "request_forwarded", "request_id": null, "method": "notifications/initialized", "tool": null}
+{"timestamp_unix": 1794503324.8350656, "execution_id": "latency-003-1794503288940779900", "event": "message_received", "request_id": 2, "method": "tools/list", "tool": null}
+{"timestamp_unix": 1794503324.8350656, "execution_id": "latency-003-1794503288940779900", "event": "request_forwarded", "request_id": 2, "method": "tools/list", "tool": null}
+{"timestamp_unix": 1794503324.840065, "execution_id": "latency-003-1794503288940779900", "event": "upstream_response_received", "request_id": 2, "response_kind": "result"}
+{"timestamp_unix": 1794503324.840065, "execution_id": "latency-003-1794503288940779900", "event": "response_forwarded", "request_id": 2, "response_kind": "result"}
+{"timestamp_unix": 1794503324.843065, "execution_id": "latency-003-1794503288940779900", "event": "message_received", "request_id": 3, "method": "tools/call", "tool": "get_company_revenue"}
+{"timestamp_unix": 1794503324.844066, "execution_id": "latency-003-1794503288940779900", "event": "fault_injected", "delay_seconds": 1.5, "request_id": 3, "tool": "get_company_revenue", "fault_type": "latency", "call_number_for_tool": 1}
+{"timestamp_unix": 1794503326.3647153, "execution_id": "latency-003-1794503288940779900", "event": "request_forwarded", "request_id": 3, "method": "tools/call", "tool": "get_company_revenue"}
+{"timestamp_unix": 1794503326.3647153, "execution_id": "latency-003-1794503288940779900", "event": "upstream_response_received", "request_id": 3, "response_kind": "result"}
+{"timestamp_unix": 1794503326.3647153, "execution_id": "latency-003-1794503288940779900", "event": "response_forwarded", "request_id": 3, "response_kind": "result"}
+{"timestamp_unix": 1794508676.084077, "execution_id": "latency-001-1794508666874882500", "event": "message_received", "request_id": 1, "method": "initialize", "tool": null}
+{"timestamp_unix": 1794508676.1049562, "execution_id": "latency-001-1794508666874882500", "event": "request_forwarded", "request_id": 1, "method": "initialize", "tool": null}
+{"timestamp_unix": 1794508680.0395699, "execution_id": "latency-001-1794508666874882500", "event": "upstream_response_received", "request_id": 1, "response_kind": "result"}
+{"timestamp_unix": 1794508680.040569, "execution_id": "latency-001-1794508666874882500", "event": "response_forwarded", "request_id": 1, "response_kind": "result"}
+{"timestamp_unix": 1794508680.0425704, "execution_id": "latency-001-1794508666874882500", "event": "message_received", "request_id": null, "method": "notifications/initialized", "tool": null}
+{"timestamp_unix": 1794508680.0435693, "execution_id": "latency-001-1794508666874882500", "event": "request_forwarded", "request_id": null, "method": "notifications/initialized", "tool": null}
+{"timestamp_unix": 1794508680.0445688, "execution_id": "latency-001-1794508666874882500", "event": "message_received", "request_id": 2, "method": "tools/list", "tool": null}
+{"timestamp_unix": 1794508680.045568, "execution_id": "latency-001-1794508666874882500", "event": "request_forwarded", "request_id": 2, "method": "tools/list", "tool": null}
+{"timestamp_unix": 1794508680.050569, "execution_id": "latency-001-1794508666874882500", "event": "upstream_response_received", "request_id": 2, "response_kind": "result"}
+{"timestamp_unix": 1794508680.0515687, "execution_id": "latency-001-1794508666874882500", "event": "response_forwarded", "request_id": 2, "response_kind": "result"}
+{"timestamp_unix": 1794508680.054757, "execution_id": "latency-001-1794508666874882500", "event": "message_received", "request_id": 3, "method": "tools/call", "tool": "get_company_revenue"}
+{"timestamp_unix": 1794508680.054757, "execution_id": "latency-001-1794508666874882500", "event": "fault_injected", "delay_seconds": 1.5, "request_id": 3, "tool": "get_company_revenue", "fault_type": "latency", "call_number_for_tool": 1}
+{"timestamp_unix": 1794508681.554882, "execution_id": "latency-001-1794508666874882500", "event": "request_forwarded", "request_id": 3, "method": "tools/call", "tool": "get_company_revenue"}
+{"timestamp_unix": 1794508681.554882, "execution_id": "latency-001-1794508666874882500", "event": "upstream_response_received", "request_id": 3, "response_kind": "result"}
+{"timestamp_unix": 1794508681.554882, "execution_id": "latency-001-1794508666874882500", "event": "response_forwarded", "request_id": 3, "response_kind": "result"}
+{"timestamp_unix": 1794509615.292552, "execution_id": "latency-001-1794509600254866100", "event": "message_received", "request_id": 1, "method": "initialize", "tool": null}
+{"timestamp_unix": 1794509615.292552, "execution_id": "latency-001-1794509600254866100", "event": "request_forwarded", "request_id": 1, "method": "initialize", "tool": null}
+{"timestamp_unix": 1794509618.2656174, "execution_id": "latency-001-1794509600254866100", "event": "upstream_response_received", "request_id": 1, "response_kind": "result"}
+{"timestamp_unix": 1794509618.2656174, "execution_id": "latency-001-1794509600254866100", "event": "response_forwarded", "request_id": 1, "response_kind": "result"}
+{"timestamp_unix": 1794509618.268619, "execution_id": "latency-001-1794509600254866100", "event": "message_received", "request_id": null, "method": "notifications/initialized", "tool": null}
+{"timestamp_unix": 1794509618.268619, "execution_id": "latency-001-1794509600254866100", "event": "request_forwarded", "request_id": null, "method": "notifications/initialized", "tool": null}
+{"timestamp_unix": 1794509618.2696176, "execution_id": "latency-001-1794509600254866100", "event": "message_received", "request_id": 2, "method": "tools/list", "tool": null}
+{"timestamp_unix": 1794509618.2716184, "execution_id": "latency-001-1794509600254866100", "event": "request_forwarded", "request_id": 2, "method": "tools/list", "tool": null}
+{"timestamp_unix": 1794509618.2746186, "execution_id": "latency-001-1794509600254866100", "event": "upstream_response_received", "request_id": 2, "response_kind": "result"}
+{"timestamp_unix": 1794509618.2761984, "execution_id": "latency-001-1794509600254866100", "event": "response_forwarded", "request_id": 2, "response_kind": "result"}
+{"timestamp_unix": 1794509618.2792, "execution_id": "latency-001-1794509600254866100", "event": "message_received", "request_id": 3, "method": "tools/call", "tool": "get_company_revenue"}
+{"timestamp_unix": 1794509618.2792, "execution_id": "latency-001-1794509600254866100", "event": "fault_injected", "delay_seconds": 1.5, "request_id": 3, "tool": "get_company_revenue", "fault_type": "latency", "call_number_for_tool": 1}
+{"timestamp_unix": 1794509619.7917042, "execution_id": "latency-001-1794509600254866100", "event": "request_forwarded", "request_id": 3, "method": "tools/call", "tool": "get_company_revenue"}
+{"timestamp_unix": 1794509619.793168, "execution_id": "latency-001-1794509600254866100", "event": "upstream_response_received", "request_id": 3, "response_kind": "result"}
+{"timestamp_unix": 1794509619.793168, "execution_id": "latency-001-1794509600254866100", "event": "response_forwarded", "request_id": 3, "response_kind": "result"}
+{"timestamp_unix": 1794509620.6693954, "execution_id": "latency-002-1794509600254866100", "event": "message_received", "request_id": 1, "method": "initialize", "tool": null}
+{"timestamp_unix": 1794509620.670396, "execution_id": "latency-002-1794509600254866100", "event": "request_forwarded", "request_id": 1, "method": "initialize", "tool": null}
+{"timestamp_unix": 1794509623.7421482, "execution_id": "latency-002-1794509600254866100", "event": "upstream_response_received", "request_id": 1, "response_kind": "result"}
+{"timestamp_unix": 1794509623.7421482, "execution_id": "latency-002-1794509600254866100", "event": "response_forwarded", "request_id": 1, "response_kind": "result"}
+{"timestamp_unix": 1794509623.7421482, "execution_id": "latency-002-1794509600254866100", "event": "message_received", "request_id": null, "method": "notifications/initialized", "tool": null}
+{"timestamp_unix": 1794509623.7421482, "execution_id": "latency-002-1794509600254866100", "event": "request_forwarded", "request_id": null, "method": "notifications/initialized", "tool": null}
+{"timestamp_unix": 1794509623.7421482, "execution_id": "latency-002-1794509600254866100", "event": "message_received", "request_id": 2, "method": "tools/list", "tool": null}
+{"timestamp_unix": 1794509623.7421482, "execution_id": "latency-002-1794509600254866100", "event": "request_forwarded", "request_id": 2, "method": "tools/list", "tool": null}
+{"timestamp_unix": 1794509623.759252, "execution_id": "latency-002-1794509600254866100", "event": "upstream_response_received", "request_id": 2, "response_kind": "result"}
+{"timestamp_unix": 1794509623.7602527, "execution_id": "latency-002-1794509600254866100", "event": "response_forwarded", "request_id": 2, "response_kind": "result"}
+{"timestamp_unix": 1794509623.7632525, "execution_id": "latency-002-1794509600254866100", "event": "message_received", "request_id": 3, "method": "tools/call", "tool": "get_company_revenue"}
+{"timestamp_unix": 1794509623.764252, "execution_id": "latency-002-1794509600254866100", "event": "fault_injected", "delay_seconds": 1.5, "request_id": 3, "tool": "get_company_revenue", "fault_type": "latency", "call_number_for_tool": 1}
+{"timestamp_unix": 1794509625.273294, "execution_id": "latency-002-1794509600254866100", "event": "request_forwarded", "request_id": 3, "method": "tools/call", "tool": "get_company_revenue"}
+{"timestamp_unix": 1794509625.2783868, "execution_id": "latency-002-1794509600254866100", "event": "upstream_response_received", "request_id": 3, "response_kind": "result"}
+{"timestamp_unix": 1794509625.2783868, "execution_id": "latency-002-1794509600254866100", "event": "response_forwarded", "request_id": 3, "response_kind": "result"}
+{"timestamp_unix": 1794509626.3779838, "execution_id": "latency-003-1794509600254866100", "event": "message_received", "request_id": 1, "method": "initialize", "tool": null}
+{"timestamp_unix": 1794509626.3779838, "execution_id": "latency-003-1794509600254866100", "event": "request_forwarded", "request_id": 1, "method": "initialize", "tool": null}
+{"timestamp_unix": 1794509629.5641084, "execution_id": "latency-003-1794509600254866100", "event": "upstream_response_received", "request_id": 1, "response_kind": "result"}
+{"timestamp_unix": 1794509629.5661085, "execution_id": "latency-003-1794509600254866100", "event": "response_forwarded", "request_id": 1, "response_kind": "result"}
+{"timestamp_unix": 1794509629.5681095, "execution_id": "latency-003-1794509600254866100", "event": "message_received", "request_id": null, "method": "notifications/initialized", "tool": null}
+{"timestamp_unix": 1794509629.569108, "execution_id": "latency-003-1794509600254866100", "event": "request_forwarded", "request_id": null, "method": "notifications/initialized", "tool": null}
+{"timestamp_unix": 1794509629.5711088, "execution_id": "latency-003-1794509600254866100", "event": "message_received", "request_id": 2, "method": "tools/list", "tool": null}
+{"timestamp_unix": 1794509629.5897477, "execution_id": "latency-003-1794509600254866100", "event": "request_forwarded", "request_id": 2, "method": "tools/list", "tool": null}
+{"timestamp_unix": 1794509629.591908, "execution_id": "latency-003-1794509600254866100", "event": "upstream_response_received", "request_id": 2, "response_kind": "result"}
+{"timestamp_unix": 1794509629.591908, "execution_id": "latency-003-1794509600254866100", "event": "response_forwarded", "request_id": 2, "response_kind": "result"}
+{"timestamp_unix": 1794509629.591908, "execution_id": "latency-003-1794509600254866100", "event": "message_received", "request_id": 3, "method": "tools/call", "tool": "get_company_revenue"}
+{"timestamp_unix": 1794509629.591908, "execution_id": "latency-003-1794509600254866100", "event": "fault_injected", "delay_seconds": 1.5, "request_id": 3, "tool": "get_company_revenue", "fault_type": "latency", "call_number_for_tool": 1}
+{"timestamp_unix": 1794509631.1076095, "execution_id": "latency-003-1794509600254866100", "event": "request_forwarded", "request_id": 3, "method": "tools/call", "tool": "get_company_revenue"}
+{"timestamp_unix": 1794509631.1129253, "execution_id": "latency-003-1794509600254866100", "event": "upstream_response_received", "request_id": 3, "response_kind": "result"}
+{"timestamp_unix": 1794509631.1139252, "execution_id": "latency-003-1794509600254866100", "event": "response_forwarded", "request_id": 3, "response_kind": "result"}
+{"timestamp_unix": 1794509928.9272969, "execution_id": "latency-001-1794509912928058500", "event": "message_received", "request_id": 1, "method": "initialize", "tool": null}
+{"timestamp_unix": 1794509928.9272969, "execution_id": "latency-001-1794509912928058500", "event": "request_forwarded", "request_id": 1, "method": "initialize", "tool": null}
+{"timestamp_unix": 1794509932.8733091, "execution_id": "latency-001-1794509912928058500", "event": "upstream_response_received", "request_id": 1, "response_kind": "result"}
+{"timestamp_unix": 1794509932.8753223, "execution_id": "latency-001-1794509912928058500", "event": "response_forwarded", "request_id": 1, "response_kind": "result"}
+{"timestamp_unix": 1794509932.8770816, "execution_id": "latency-001-1794509912928058500", "event": "message_received", "request_id": null, "method": "notifications/initialized", "tool": null}
+{"timestamp_unix": 1794509932.8770816, "execution_id": "latency-001-1794509912928058500", "event": "request_forwarded", "request_id": null, "method": "notifications/initialized", "tool": null}
+{"timestamp_unix": 1794509932.8770816, "execution_id": "latency-001-1794509912928058500", "event": "message_received", "request_id": 2, "method": "tools/list", "tool": null}
+{"timestamp_unix": 1794509932.8770816, "execution_id": "latency-001-1794509912928058500", "event": "request_forwarded", "request_id": 2, "method": "tools/list", "tool": null}
+{"timestamp_unix": 1794509932.8770816, "execution_id": "latency-001-1794509912928058500", "event": "upstream_response_received", "request_id": 2, "response_kind": "result"}
+{"timestamp_unix": 1794509932.8770816, "execution_id": "latency-001-1794509912928058500", "event": "response_forwarded", "request_id": 2, "response_kind": "result"}
+{"timestamp_unix": 1794509932.8770816, "execution_id": "latency-001-1794509912928058500", "event": "message_received", "request_id": 3, "method": "tools/call", "tool": "get_company_revenue"}
+{"timestamp_unix": 1794509932.8770816, "execution_id": "latency-001-1794509912928058500", "event": "fault_injected", "delay_seconds": 1.5, "request_id": 3, "tool": "get_company_revenue", "fault_type": "latency", "call_number_for_tool": 1}
+{"timestamp_unix": 1794509934.3804572, "execution_id": "latency-001-1794509912928058500", "event": "request_forwarded", "request_id": 3, "method": "tools/call", "tool": "get_company_revenue"}
+{"timestamp_unix": 1794509934.3864586, "execution_id": "latency-001-1794509912928058500", "event": "upstream_response_received", "request_id": 3, "response_kind": "result"}
+{"timestamp_unix": 1794509934.3864586, "execution_id": "latency-001-1794509912928058500", "event": "response_forwarded", "request_id": 3, "response_kind": "result"}
+{"timestamp_unix": 1794509935.4973328, "execution_id": "latency-002-1794509912928058500", "event": "message_received", "request_id": 1, "method": "initialize", "tool": null}
+{"timestamp_unix": 1794509935.4983323, "execution_id": "latency-002-1794509912928058500", "event": "request_forwarded", "request_id": 1, "method": "initialize", "tool": null}
+{"timestamp_unix": 1794509939.1221929, "execution_id": "latency-002-1794509912928058500", "event": "upstream_response_received", "request_id": 1, "response_kind": "result"}
+{"timestamp_unix": 1794509939.1231942, "execution_id": "latency-002-1794509912928058500", "event": "response_forwarded", "request_id": 1, "response_kind": "result"}
+{"timestamp_unix": 1794509939.126794, "execution_id": "latency-002-1794509912928058500", "event": "message_received", "request_id": null, "method": "notifications/initialized", "tool": null}
+{"timestamp_unix": 1794509939.126794, "execution_id": "latency-002-1794509912928058500", "event": "request_forwarded", "request_id": null, "method": "notifications/initialized", "tool": null}
+{"timestamp_unix": 1794509939.126794, "execution_id": "latency-002-1794509912928058500", "event": "message_received", "request_id": 2, "method": "tools/list", "tool": null}
+{"timestamp_unix": 1794509939.126794, "execution_id": "latency-002-1794509912928058500", "event": "request_forwarded", "request_id": 2, "method": "tools/list", "tool": null}
+{"timestamp_unix": 1794509939.126794, "execution_id": "latency-002-1794509912928058500", "event": "upstream_response_received", "request_id": 2, "response_kind": "result"}
+{"timestamp_unix": 1794509939.126794, "execution_id": "latency-002-1794509912928058500", "event": "response_forwarded", "request_id": 2, "response_kind": "result"}
+{"timestamp_unix": 1794509939.126794, "execution_id": "latency-002-1794509912928058500", "event": "message_received", "request_id": 3, "method": "tools/call", "tool": "get_company_revenue"}
+{"timestamp_unix": 1794509939.126794, "execution_id": "latency-002-1794509912928058500", "event": "fault_injected", "delay_seconds": 1.5, "request_id": 3, "tool": "get_company_revenue", "fault_type": "latency", "call_number_for_tool": 1}
+{"timestamp_unix": 1794509940.647775, "execution_id": "latency-002-1794509912928058500", "event": "request_forwarded", "request_id": 3, "method": "tools/call", "tool": "get_company_revenue"}
+{"timestamp_unix": 1794509940.6613076, "execution_id": "latency-002-1794509912928058500", "event": "upstream_response_received", "request_id": 3, "response_kind": "result"}
+{"timestamp_unix": 1794509940.6623104, "execution_id": "latency-002-1794509912928058500", "event": "response_forwarded", "request_id": 3, "response_kind": "result"}
+{"timestamp_unix": 1794509943.5972555, "execution_id": "latency-003-1794509912928058500", "event": "message_received", "request_id": 1, "method": "initialize", "tool": null}
+{"timestamp_unix": 1794509943.5972555, "execution_id": "latency-003-1794509912928058500", "event": "request_forwarded", "request_id": 1, "method": "initialize", "tool": null}
+{"timestamp_unix": 1794509950.4660234, "execution_id": "latency-003-1794509912928058500", "event": "upstream_response_received", "request_id": 1, "response_kind": "result"}
+{"timestamp_unix": 1794509950.4670236, "execution_id": "latency-003-1794509912928058500", "event": "response_forwarded", "request_id": 1, "response_kind": "result"}
+{"timestamp_unix": 1794509950.4700253, "execution_id": "latency-003-1794509912928058500", "event": "message_received", "request_id": null, "method": "notifications/initialized", "tool": null}
+{"timestamp_unix": 1794509950.471024, "execution_id": "latency-003-1794509912928058500", "event": "request_forwarded", "request_id": null, "method": "notifications/initialized", "tool": null}
+{"timestamp_unix": 1794509950.4720242, "execution_id": "latency-003-1794509912928058500", "event": "message_received", "request_id": 2, "method": "tools/list", "tool": null}
+{"timestamp_unix": 1794509950.4720242, "execution_id": "latency-003-1794509912928058500", "event": "request_forwarded", "request_id": 2, "method": "tools/list", "tool": null}
+{"timestamp_unix": 1794509950.475024, "execution_id": "latency-003-1794509912928058500", "event": "upstream_response_received", "request_id": 2, "response_kind": "result"}
+{"timestamp_unix": 1794509950.4766865, "execution_id": "latency-003-1794509912928058500", "event": "response_forwarded", "request_id": 2, "response_kind": "result"}
+{"timestamp_unix": 1794509950.4796882, "execution_id": "latency-003-1794509912928058500", "event": "message_received", "request_id": 3, "method": "tools/call", "tool": "get_company_revenue"}
+{"timestamp_unix": 1794509950.4796882, "execution_id": "latency-003-1794509912928058500", "event": "fault_injected", "delay_seconds": 1.5, "request_id": 3, "tool": "get_company_revenue", "fault_type": "latency", "call_number_for_tool": 1}
+{"timestamp_unix": 1794509951.994137, "execution_id": "latency-003-1794509912928058500", "event": "request_forwarded", "request_id": 3, "method": "tools/call", "tool": "get_company_revenue"}
+{"timestamp_unix": 1794509951.9956188, "execution_id": "latency-003-1794509912928058500", "event": "upstream_response_received", "request_id": 3, "response_kind": "result"}
+{"timestamp_unix": 1794509951.9956188, "execution_id": "latency-003-1794509912928058500", "event": "response_forwarded", "request_id": 3, "response_kind": "result"}
+{"timestamp_unix": 1794510267.460792, "execution_id": "latency-001-1794510252549336800", "event": "message_received", "request_id": 1, "method": "initialize", "tool": null}
+{"timestamp_unix": 1794510267.4612775, "execution_id": "latency-001-1794510252549336800", "event": "request_forwarded", "request_id": 1, "method": "initialize", "tool": null}
+{"timestamp_unix": 1794510270.5073326, "execution_id": "latency-001-1794510252549336800", "event": "upstream_response_received", "request_id": 1, "response_kind": "result"}
+{"timestamp_unix": 1794510270.5083325, "execution_id": "latency-001-1794510252549336800", "event": "response_forwarded", "request_id": 1, "response_kind": "result"}
+{"timestamp_unix": 1794510270.5107458, "execution_id": "latency-001-1794510252549336800", "event": "message_received", "request_id": null, "method": "notifications/initialized", "tool": null}
+{"timestamp_unix": 1794510270.5117486, "execution_id": "latency-001-1794510252549336800", "event": "request_forwarded", "request_id": null, "method": "notifications/initialized", "tool": null}
+{"timestamp_unix": 1794510270.5147462, "execution_id": "latency-001-1794510252549336800", "event": "message_received", "request_id": 2, "method": "tools/list", "tool": null}
+{"timestamp_unix": 1794510270.5157464, "execution_id": "latency-001-1794510252549336800", "event": "request_forwarded", "request_id": 2, "method": "tools/list", "tool": null}
+{"timestamp_unix": 1794510270.519747, "execution_id": "latency-001-1794510252549336800", "event": "upstream_response_received", "request_id": 2, "response_kind": "result"}
+{"timestamp_unix": 1794510270.5211003, "execution_id": "latency-001-1794510252549336800", "event": "response_forwarded", "request_id": 2, "response_kind": "result"}
+{"timestamp_unix": 1794510270.5211003, "execution_id": "latency-001-1794510252549336800", "event": "message_received", "request_id": 3, "method": "tools/call", "tool": "get_company_revenue"}
+{"timestamp_unix": 1794510270.5211003, "execution_id": "latency-001-1794510252549336800", "event": "fault_injected", "delay_seconds": 1.5, "request_id": 3, "tool": "get_company_revenue", "fault_type": "latency", "call_number_for_tool": 1}
+{"timestamp_unix": 1794510272.0284135, "execution_id": "latency-001-1794510252549336800", "event": "request_forwarded", "request_id": 3, "method": "tools/call", "tool": "get_company_revenue"}
+{"timestamp_unix": 1794510272.0284135, "execution_id": "latency-001-1794510252549336800", "event": "upstream_response_received", "request_id": 3, "response_kind": "result"}
+{"timestamp_unix": 1794510272.0284135, "execution_id": "latency-001-1794510252549336800", "event": "response_forwarded", "request_id": 3, "response_kind": "result"}
+{"timestamp_unix": 1794510272.9271958, "execution_id": "latency-002-1794510252549336800", "event": "message_received", "request_id": 1, "method": "initialize", "tool": null}
+{"timestamp_unix": 1794510272.9271958, "execution_id": "latency-002-1794510252549336800", "event": "request_forwarded", "request_id": 1, "method": "initialize", "tool": null}
+{"timestamp_unix": 1794510275.6638937, "execution_id": "latency-002-1794510252549336800", "event": "upstream_response_received", "request_id": 1, "response_kind": "result"}
+{"timestamp_unix": 1794510275.6648922, "execution_id": "latency-002-1794510252549336800", "event": "response_forwarded", "request_id": 1, "response_kind": "result"}
+{"timestamp_unix": 1794510275.6678934, "execution_id": "latency-002-1794510252549336800", "event": "message_received", "request_id": null, "method": "notifications/initialized", "tool": null}
+{"timestamp_unix": 1794510275.6678934, "execution_id": "latency-002-1794510252549336800", "event": "request_forwarded", "request_id": null, "method": "notifications/initialized", "tool": null}
+{"timestamp_unix": 1794510275.6698933, "execution_id": "latency-002-1794510252549336800", "event": "message_received", "request_id": 2, "method": "tools/list", "tool": null}
+{"timestamp_unix": 1794510275.6698933, "execution_id": "latency-002-1794510252549336800", "event": "request_forwarded", "request_id": 2, "method": "tools/list", "tool": null}
+{"timestamp_unix": 1794510275.6728916, "execution_id": "latency-002-1794510252549336800", "event": "upstream_response_received", "request_id": 2, "response_kind": "result"}
+{"timestamp_unix": 1794510275.6738918, "execution_id": "latency-002-1794510252549336800", "event": "response_forwarded", "request_id": 2, "response_kind": "result"}
+{"timestamp_unix": 1794510275.6758926, "execution_id": "latency-002-1794510252549336800", "event": "message_received", "request_id": 3, "method": "tools/call", "tool": "get_company_revenue"}
+{"timestamp_unix": 1794510275.6770606, "execution_id": "latency-002-1794510252549336800", "event": "fault_injected", "delay_seconds": 1.5, "request_id": 3, "tool": "get_company_revenue", "fault_type": "latency", "call_number_for_tool": 1}
+{"timestamp_unix": 1794510277.1922345, "execution_id": "latency-002-1794510252549336800", "event": "request_forwarded", "request_id": 3, "method": "tools/call", "tool": "get_company_revenue"}
+{"timestamp_unix": 1794510277.197304, "execution_id": "latency-002-1794510252549336800", "event": "upstream_response_received", "request_id": 3, "response_kind": "result"}
+{"timestamp_unix": 1794510277.197304, "execution_id": "latency-002-1794510252549336800", "event": "response_forwarded", "request_id": 3, "response_kind": "result"}
+{"timestamp_unix": 1794510278.1482155, "execution_id": "latency-003-1794510252549336800", "event": "message_received", "request_id": 1, "method": "initialize", "tool": null}
+{"timestamp_unix": 1794510278.1492152, "execution_id": "latency-003-1794510252549336800", "event": "request_forwarded", "request_id": 1, "method": "initialize", "tool": null}
+{"timestamp_unix": 1794510280.9768238, "execution_id": "latency-003-1794510252549336800", "event": "upstream_response_received", "request_id": 1, "response_kind": "result"}
+{"timestamp_unix": 1794510280.9924452, "execution_id": "latency-003-1794510252549336800", "event": "response_forwarded", "request_id": 1, "response_kind": "result"}
+{"timestamp_unix": 1794510280.995943, "execution_id": "latency-003-1794510252549336800", "event": "message_received", "request_id": null, "method": "notifications/initialized", "tool": null}
+{"timestamp_unix": 1794510280.9969425, "execution_id": "latency-003-1794510252549336800", "event": "request_forwarded", "request_id": null, "method": "notifications/initialized", "tool": null}
+{"timestamp_unix": 1794510280.9979422, "execution_id": "latency-003-1794510252549336800", "event": "message_received", "request_id": 2, "method": "tools/list", "tool": null}
+{"timestamp_unix": 1794510280.9979422, "execution_id": "latency-003-1794510252549336800", "event": "request_forwarded", "request_id": 2, "method": "tools/list", "tool": null}
+{"timestamp_unix": 1794510281.0009427, "execution_id": "latency-003-1794510252549336800", "event": "upstream_response_received", "request_id": 2, "response_kind": "result"}
+{"timestamp_unix": 1794510281.0019426, "execution_id": "latency-003-1794510252549336800", "event": "response_forwarded", "request_id": 2, "response_kind": "result"}
+{"timestamp_unix": 1794510281.003943, "execution_id": "latency-003-1794510252549336800", "event": "message_received", "request_id": 3, "method": "tools/call", "tool": "get_company_revenue"}
+{"timestamp_unix": 1794510281.0049427, "execution_id": "latency-003-1794510252549336800", "event": "fault_injected", "delay_seconds": 1.5, "request_id": 3, "tool": "get_company_revenue", "fault_type": "latency", "call_number_for_tool": 1}
+{"timestamp_unix": 1794510282.5095441, "execution_id": "latency-003-1794510252549336800", "event": "request_forwarded", "request_id": 3, "method": "tools/call", "tool": "get_company_revenue"}
+{"timestamp_unix": 1794510282.5151477, "execution_id": "latency-003-1794510252549336800", "event": "upstream_response_received", "request_id": 3, "response_kind": "result"}
+{"timestamp_unix": 1794510282.5151477, "execution_id": "latency-003-1794510252549336800", "event": "response_forwarded", "request_id": 3, "response_kind": "result"}
+{"timestamp_unix": 1794510930.3300211, "execution_id": "latency-001-1794510916181798000", "event": "message_received", "request_id": 1, "method": "initialize", "tool": null}
+{"timestamp_unix": 1794510930.361863, "execution_id": "latency-001-1794510916181798000", "event": "request_forwarded", "request_id": 1, "method": "initialize", "tool": null}
+{"timestamp_unix": 1794510932.99761, "execution_id": "latency-001-1794510916181798000", "event": "upstream_response_received", "request_id": 1, "response_kind": "result"}
+{"timestamp_unix": 1794510932.9986103, "execution_id": "latency-001-1794510916181798000", "event": "response_forwarded", "request_id": 1, "response_kind": "result"}
+{"timestamp_unix": 1794510933.0006104, "execution_id": "latency-001-1794510916181798000", "event": "message_received", "request_id": null, "method": "notifications/initialized", "tool": null}
+{"timestamp_unix": 1794510933.0016108, "execution_id": "latency-001-1794510916181798000", "event": "request_forwarded", "request_id": null, "method": "notifications/initialized", "tool": null}
+{"timestamp_unix": 1794510933.0026107, "execution_id": "latency-001-1794510916181798000", "event": "message_received", "request_id": 2, "method": "tools/list", "tool": null}
+{"timestamp_unix": 1794510933.0036118, "execution_id": "latency-001-1794510916181798000", "event": "request_forwarded", "request_id": 2, "method": "tools/list", "tool": null}
+{"timestamp_unix": 1794510933.0066106, "execution_id": "latency-001-1794510916181798000", "event": "upstream_response_received", "request_id": 2, "response_kind": "result"}
+{"timestamp_unix": 1794510933.0066106, "execution_id": "latency-001-1794510916181798000", "event": "response_forwarded", "request_id": 2, "response_kind": "result"}
+{"timestamp_unix": 1794510933.0096104, "execution_id": "latency-001-1794510916181798000", "event": "message_received", "request_id": 3, "method": "tools/call", "tool": "get_company_revenue"}
+{"timestamp_unix": 1794510933.0096104, "execution_id": "latency-001-1794510916181798000", "event": "fault_injected", "delay_seconds": 1.5, "request_id": 3, "tool": "get_company_revenue", "fault_type": "latency", "call_number_for_tool": 1}
+{"timestamp_unix": 1794510934.5118783, "execution_id": "latency-001-1794510916181798000", "event": "request_forwarded", "request_id": 3, "method": "tools/call", "tool": "get_company_revenue"}
+{"timestamp_unix": 1794510934.5118783, "execution_id": "latency-001-1794510916181798000", "event": "upstream_response_received", "request_id": 3, "response_kind": "result"}
+{"timestamp_unix": 1794510934.5118783, "execution_id": "latency-001-1794510916181798000", "event": "response_forwarded", "request_id": 3, "response_kind": "result"}
+{"timestamp_unix": 1794510935.9627514, "execution_id": "latency-002-1794510916181798000", "event": "message_received", "request_id": 1, "method": "initialize", "tool": null}
+{"timestamp_unix": 1794510935.9627514, "execution_id": "latency-002-1794510916181798000", "event": "request_forwarded", "request_id": 1, "method": "initialize", "tool": null}
+{"timestamp_unix": 1794510938.6504238, "execution_id": "latency-002-1794510916181798000", "event": "upstream_response_received", "request_id": 1, "response_kind": "result"}
+{"timestamp_unix": 1794510938.6514242, "execution_id": "latency-002-1794510916181798000", "event": "response_forwarded", "request_id": 1, "response_kind": "result"}
+{"timestamp_unix": 1794510938.6544244, "execution_id": "latency-002-1794510916181798000", "event": "message_received", "request_id": null, "method": "notifications/initialized", "tool": null}
+{"timestamp_unix": 1794510938.655423, "execution_id": "latency-002-1794510916181798000", "event": "request_forwarded", "request_id": null, "method": "notifications/initialized", "tool": null}
+{"timestamp_unix": 1794510938.6564229, "execution_id": "latency-002-1794510916181798000", "event": "message_received", "request_id": 2, "method": "tools/list", "tool": null}
+{"timestamp_unix": 1794510938.6564229, "execution_id": "latency-002-1794510916181798000", "event": "request_forwarded", "request_id": 2, "method": "tools/list", "tool": null}
+{"timestamp_unix": 1794510938.6604228, "execution_id": "latency-002-1794510916181798000", "event": "upstream_response_received", "request_id": 2, "response_kind": "result"}
+{"timestamp_unix": 1794510938.6604228, "execution_id": "latency-002-1794510916181798000", "event": "response_forwarded", "request_id": 2, "response_kind": "result"}
+{"timestamp_unix": 1794510938.661477, "execution_id": "latency-002-1794510916181798000", "event": "message_received", "request_id": 3, "method": "tools/call", "tool": "get_company_revenue"}
+{"timestamp_unix": 1794510938.661477, "execution_id": "latency-002-1794510916181798000", "event": "fault_injected", "delay_seconds": 1.5, "request_id": 3, "tool": "get_company_revenue", "fault_type": "latency", "call_number_for_tool": 1}
+{"timestamp_unix": 1794510940.1624837, "execution_id": "latency-002-1794510916181798000", "event": "request_forwarded", "request_id": 3, "method": "tools/call", "tool": "get_company_revenue"}
+{"timestamp_unix": 1794510940.163352, "execution_id": "latency-002-1794510916181798000", "event": "upstream_response_received", "request_id": 3, "response_kind": "result"}
+{"timestamp_unix": 1794510940.163352, "execution_id": "latency-002-1794510916181798000", "event": "response_forwarded", "request_id": 3, "response_kind": "result"}
+{"timestamp_unix": 1794510941.0815897, "execution_id": "latency-003-1794510916181798000", "event": "message_received", "request_id": 1, "method": "initialize", "tool": null}
+{"timestamp_unix": 1794510941.0825894, "execution_id": "latency-003-1794510916181798000", "event": "request_forwarded", "request_id": 1, "method": "initialize", "tool": null}
+{"timestamp_unix": 1794510943.8611898, "execution_id": "latency-003-1794510916181798000", "event": "upstream_response_received", "request_id": 1, "response_kind": "result"}
+{"timestamp_unix": 1794510943.8611898, "execution_id": "latency-003-1794510916181798000", "event": "response_forwarded", "request_id": 1, "response_kind": "result"}
+{"timestamp_unix": 1794510943.879462, "execution_id": "latency-003-1794510916181798000", "event": "message_received", "request_id": null, "method": "notifications/initialized", "tool": null}
+{"timestamp_unix": 1794510943.880461, "execution_id": "latency-003-1794510916181798000", "event": "request_forwarded", "request_id": null, "method": "notifications/initialized", "tool": null}
+{"timestamp_unix": 1794510943.881461, "execution_id": "latency-003-1794510916181798000", "event": "message_received", "request_id": 2, "method": "tools/list", "tool": null}
+{"timestamp_unix": 1794510943.8824615, "execution_id": "latency-003-1794510916181798000", "event": "request_forwarded", "request_id": 2, "method": "tools/list", "tool": null}
+{"timestamp_unix": 1794510943.8854601, "execution_id": "latency-003-1794510916181798000", "event": "upstream_response_received", "request_id": 2, "response_kind": "result"}
+{"timestamp_unix": 1794510943.8864603, "execution_id": "latency-003-1794510916181798000", "event": "response_forwarded", "request_id": 2, "response_kind": "result"}
+{"timestamp_unix": 1794510943.8884609, "execution_id": "latency-003-1794510916181798000", "event": "message_received", "request_id": 3, "method": "tools/call", "tool": "get_company_revenue"}
+{"timestamp_unix": 1794510943.88946, "execution_id": "latency-003-1794510916181798000", "event": "fault_injected", "delay_seconds": 1.5, "request_id": 3, "tool": "get_company_revenue", "fault_type": "latency", "call_number_for_tool": 1}
+{"timestamp_unix": 1794510945.3947623, "execution_id": "latency-003-1794510916181798000", "event": "request_forwarded", "request_id": 3, "method": "tools/call", "tool": "get_company_revenue"}
+{"timestamp_unix": 1794510945.399214, "execution_id": "latency-003-1794510916181798000", "event": "upstream_response_received", "request_id": 3, "response_kind": "result"}
+{"timestamp_unix": 1794510945.4002147, "execution_id": "latency-003-1794510916181798000", "event": "response_forwarded", "request_id": 3, "response_kind": "result"}
+{"timestamp_unix": 1794511312.7829635, "execution_id": "latency-001-1794511298550398200", "event": "message_received", "request_id": 1, "method": "initialize", "tool": null}
+{"timestamp_unix": 1794511312.7839634, "execution_id": "latency-001-1794511298550398200", "event": "request_forwarded", "request_id": 1, "method": "initialize", "tool": null}
+{"timestamp_unix": 1794511315.6328492, "execution_id": "latency-001-1794511298550398200", "event": "upstream_response_received", "request_id": 1, "response_kind": "result"}
+{"timestamp_unix": 1794511315.6338499, "execution_id": "latency-001-1794511298550398200", "event": "response_forwarded", "request_id": 1, "response_kind": "result"}
+{"timestamp_unix": 1794511315.636849, "execution_id": "latency-001-1794511298550398200", "event": "message_received", "request_id": null, "method": "notifications/initialized", "tool": null}
+{"timestamp_unix": 1794511315.6378493, "execution_id": "latency-001-1794511298550398200", "event": "request_forwarded", "request_id": null, "method": "notifications/initialized", "tool": null}
+{"timestamp_unix": 1794511315.6388495, "execution_id": "latency-001-1794511298550398200", "event": "message_received", "request_id": 2, "method": "tools/list", "tool": null}
+{"timestamp_unix": 1794511315.6388495, "execution_id": "latency-001-1794511298550398200", "event": "request_forwarded", "request_id": 2, "method": "tools/list", "tool": null}
+{"timestamp_unix": 1794511315.641848, "execution_id": "latency-001-1794511298550398200", "event": "upstream_response_received", "request_id": 2, "response_kind": "result"}
+{"timestamp_unix": 1794511315.6435957, "execution_id": "latency-001-1794511298550398200", "event": "response_forwarded", "request_id": 2, "response_kind": "result"}
+{"timestamp_unix": 1794511315.6455972, "execution_id": "latency-001-1794511298550398200", "event": "message_received", "request_id": 3, "method": "tools/call", "tool": "get_company_revenue"}
+{"timestamp_unix": 1794511315.6465964, "execution_id": "latency-001-1794511298550398200", "event": "fault_injected", "delay_seconds": 1.5, "request_id": 3, "tool": "get_company_revenue", "fault_type": "latency", "call_number_for_tool": 1}
+{"timestamp_unix": 1794511317.16076, "execution_id": "latency-001-1794511298550398200", "event": "request_forwarded", "request_id": 3, "method": "tools/call", "tool": "get_company_revenue"}
+{"timestamp_unix": 1794511317.16076, "execution_id": "latency-001-1794511298550398200", "event": "upstream_response_received", "request_id": 3, "response_kind": "result"}
+{"timestamp_unix": 1794511317.16076, "execution_id": "latency-001-1794511298550398200", "event": "response_forwarded", "request_id": 3, "response_kind": "result"}
+{"timestamp_unix": 1794511318.0879703, "execution_id": "latency-002-1794511298550398200", "event": "message_received", "request_id": 1, "method": "initialize", "tool": null}
+{"timestamp_unix": 1794511318.0889697, "execution_id": "latency-002-1794511298550398200", "event": "request_forwarded", "request_id": 1, "method": "initialize", "tool": null}
+{"timestamp_unix": 1794511320.8285856, "execution_id": "latency-002-1794511298550398200", "event": "upstream_response_received", "request_id": 1, "response_kind": "result"}
+{"timestamp_unix": 1794511320.829585, "execution_id": "latency-002-1794511298550398200", "event": "response_forwarded", "request_id": 1, "response_kind": "result"}
+{"timestamp_unix": 1794511320.8315868, "execution_id": "latency-002-1794511298550398200", "event": "message_received", "request_id": null, "method": "notifications/initialized", "tool": null}
+{"timestamp_unix": 1794511320.8325865, "execution_id": "latency-002-1794511298550398200", "event": "request_forwarded", "request_id": null, "method": "notifications/initialized", "tool": null}
+{"timestamp_unix": 1794511320.8335862, "execution_id": "latency-002-1794511298550398200", "event": "message_received", "request_id": 2, "method": "tools/list", "tool": null}
+{"timestamp_unix": 1794511320.8345869, "execution_id": "latency-002-1794511298550398200", "event": "request_forwarded", "request_id": 2, "method": "tools/list", "tool": null}
+{"timestamp_unix": 1794511320.8375852, "execution_id": "latency-002-1794511298550398200", "event": "upstream_response_received", "request_id": 2, "response_kind": "result"}
+{"timestamp_unix": 1794511320.8385859, "execution_id": "latency-002-1794511298550398200", "event": "response_forwarded", "request_id": 2, "response_kind": "result"}
+{"timestamp_unix": 1794511320.839586, "execution_id": "latency-002-1794511298550398200", "event": "message_received", "request_id": 3, "method": "tools/call", "tool": "get_company_revenue"}
+{"timestamp_unix": 1794511320.840586, "execution_id": "latency-002-1794511298550398200", "event": "fault_injected", "delay_seconds": 1.5, "request_id": 3, "tool": "get_company_revenue", "fault_type": "latency", "call_number_for_tool": 1}
+{"timestamp_unix": 1794511322.3431017, "execution_id": "latency-002-1794511298550398200", "event": "request_forwarded", "request_id": 3, "method": "tools/call", "tool": "get_company_revenue"}
+{"timestamp_unix": 1794511322.347452, "execution_id": "latency-002-1794511298550398200", "event": "upstream_response_received", "request_id": 3, "response_kind": "result"}
+{"timestamp_unix": 1794511322.3484523, "execution_id": "latency-002-1794511298550398200", "event": "response_forwarded", "request_id": 3, "response_kind": "result"}
+{"timestamp_unix": 1794511323.2404778, "execution_id": "latency-003-1794511298550398200", "event": "message_received", "request_id": 1, "method": "initialize", "tool": null}
+{"timestamp_unix": 1794511323.241479, "execution_id": "latency-003-1794511298550398200", "event": "request_forwarded", "request_id": 1, "method": "initialize", "tool": null}
+{"timestamp_unix": 1794511325.9092536, "execution_id": "latency-003-1794511298550398200", "event": "upstream_response_received", "request_id": 1, "response_kind": "result"}
+{"timestamp_unix": 1794511325.9092536, "execution_id": "latency-003-1794511298550398200", "event": "response_forwarded", "request_id": 1, "response_kind": "result"}
+{"timestamp_unix": 1794511325.9263773, "execution_id": "latency-003-1794511298550398200", "event": "message_received", "request_id": null, "method": "notifications/initialized", "tool": null}
+{"timestamp_unix": 1794511325.9273782, "execution_id": "latency-003-1794511298550398200", "event": "request_forwarded", "request_id": null, "method": "notifications/initialized", "tool": null}
+{"timestamp_unix": 1794511325.9283786, "execution_id": "latency-003-1794511298550398200", "event": "message_received", "request_id": 2, "method": "tools/list", "tool": null}
+{"timestamp_unix": 1794511325.9293783, "execution_id": "latency-003-1794511298550398200", "event": "request_forwarded", "request_id": 2, "method": "tools/list", "tool": null}
+{"timestamp_unix": 1794511325.932377, "execution_id": "latency-003-1794511298550398200", "event": "upstream_response_received", "request_id": 2, "response_kind": "result"}
+{"timestamp_unix": 1794511325.933377, "execution_id": "latency-003-1794511298550398200", "event": "response_forwarded", "request_id": 2, "response_kind": "result"}
+{"timestamp_unix": 1794511325.9353783, "execution_id": "latency-003-1794511298550398200", "event": "message_received", "request_id": 3, "method": "tools/call", "tool": "get_company_revenue"}
+{"timestamp_unix": 1794511325.9353783, "execution_id": "latency-003-1794511298550398200", "event": "fault_injected", "delay_seconds": 1.5, "request_id": 3, "tool": "get_company_revenue", "fault_type": "latency", "call_number_for_tool": 1}
+{"timestamp_unix": 1794511327.4427009, "execution_id": "latency-003-1794511298550398200", "event": "request_forwarded", "request_id": 3, "method": "tools/call", "tool": "get_company_revenue"}
+{"timestamp_unix": 1794511327.4473119, "execution_id": "latency-003-1794511298550398200", "event": "upstream_response_received", "request_id": 3, "response_kind": "result"}
+{"timestamp_unix": 1794511327.4483514, "execution_id": "latency-003-1794511298550398200", "event": "response_forwarded", "request_id": 3, "response_kind": "result"}
+{"timestamp_unix": 1794511596.6127527, "execution_id": "latency-001-1794511578439920800", "event": "message_received", "request_id": 1, "method": "initialize", "tool": null}
+{"timestamp_unix": 1794511596.6283739, "execution_id": "latency-001-1794511578439920800", "event": "request_forwarded", "request_id": 1, "method": "initialize", "tool": null}
+{"timestamp_unix": 1794511599.299417, "execution_id": "latency-001-1794511578439920800", "event": "upstream_response_received", "request_id": 1, "response_kind": "result"}
+{"timestamp_unix": 1794511599.3004162, "execution_id": "latency-001-1794511578439920800", "event": "response_forwarded", "request_id": 1, "response_kind": "result"}
+{"timestamp_unix": 1794511599.3024182, "execution_id": "latency-001-1794511578439920800", "event": "message_received", "request_id": null, "method": "notifications/initialized", "tool": null}
+{"timestamp_unix": 1794511599.3034174, "execution_id": "latency-001-1794511578439920800", "event": "request_forwarded", "request_id": null, "method": "notifications/initialized", "tool": null}
+{"timestamp_unix": 1794511599.3044171, "execution_id": "latency-001-1794511578439920800", "event": "message_received", "request_id": 2, "method": "tools/list", "tool": null}
+{"timestamp_unix": 1794511599.3044171, "execution_id": "latency-001-1794511578439920800", "event": "request_forwarded", "request_id": 2, "method": "tools/list", "tool": null}
+{"timestamp_unix": 1794511599.3074172, "execution_id": "latency-001-1794511578439920800", "event": "upstream_response_received", "request_id": 2, "response_kind": "result"}
+{"timestamp_unix": 1794511599.3084166, "execution_id": "latency-001-1794511578439920800", "event": "response_forwarded", "request_id": 2, "response_kind": "result"}
+{"timestamp_unix": 1794511599.3104177, "execution_id": "latency-001-1794511578439920800", "event": "message_received", "request_id": 3, "method": "tools/call", "tool": "get_company_revenue"}
+{"timestamp_unix": 1794511599.3114169, "execution_id": "latency-001-1794511578439920800", "event": "fault_injected", "delay_seconds": 1.5, "request_id": 3, "tool": "get_company_revenue", "fault_type": "latency", "call_number_for_tool": 1}
+{"timestamp_unix": 1794511600.8127606, "execution_id": "latency-001-1794511578439920800", "event": "request_forwarded", "request_id": 3, "method": "tools/call", "tool": "get_company_revenue"}
+{"timestamp_unix": 1794511600.8127606, "execution_id": "latency-001-1794511578439920800", "event": "upstream_response_received", "request_id": 3, "response_kind": "result"}
+{"timestamp_unix": 1794511600.8127606, "execution_id": "latency-001-1794511578439920800", "event": "response_forwarded", "request_id": 3, "response_kind": "result"}
+{"timestamp_unix": 1794511601.712488, "execution_id": "latency-002-1794511578439920800", "event": "message_received", "request_id": 1, "method": "initialize", "tool": null}
+{"timestamp_unix": 1794511601.712488, "execution_id": "latency-002-1794511578439920800", "event": "request_forwarded", "request_id": 1, "method": "initialize", "tool": null}
+{"timestamp_unix": 1794511604.3874576, "execution_id": "latency-002-1794511578439920800", "event": "upstream_response_received", "request_id": 1, "response_kind": "result"}
+{"timestamp_unix": 1794511604.3884563, "execution_id": "latency-002-1794511578439920800", "event": "response_forwarded", "request_id": 1, "response_kind": "result"}
+{"timestamp_unix": 1794511604.3914583, "execution_id": "latency-002-1794511578439920800", "event": "message_received", "request_id": null, "method": "notifications/initialized", "tool": null}
+{"timestamp_unix": 1794511604.3924575, "execution_id": "latency-002-1794511578439920800", "event": "request_forwarded", "request_id": null, "method": "notifications/initialized", "tool": null}
+{"timestamp_unix": 1794511604.3934565, "execution_id": "latency-002-1794511578439920800", "event": "message_received", "request_id": 2, "method": "tools/list", "tool": null}
+{"timestamp_unix": 1794511604.3934565, "execution_id": "latency-002-1794511578439920800", "event": "request_forwarded", "request_id": 2, "method": "tools/list", "tool": null}
+{"timestamp_unix": 1794511604.3971345, "execution_id": "latency-002-1794511578439920800", "event": "upstream_response_received", "request_id": 2, "response_kind": "result"}
+{"timestamp_unix": 1794511604.3981347, "execution_id": "latency-002-1794511578439920800", "event": "response_forwarded", "request_id": 2, "response_kind": "result"}
+{"timestamp_unix": 1794511604.4001348, "execution_id": "latency-002-1794511578439920800", "event": "message_received", "request_id": 3, "method": "tools/call", "tool": "get_company_revenue"}
+{"timestamp_unix": 1794511604.4001348, "execution_id": "latency-002-1794511578439920800", "event": "fault_injected", "delay_seconds": 1.5, "request_id": 3, "tool": "get_company_revenue", "fault_type": "latency", "call_number_for_tool": 1}
+{"timestamp_unix": 1794511605.9111097, "execution_id": "latency-002-1794511578439920800", "event": "request_forwarded", "request_id": 3, "method": "tools/call", "tool": "get_company_revenue"}
+{"timestamp_unix": 1794511605.9164662, "execution_id": "latency-002-1794511578439920800", "event": "upstream_response_received", "request_id": 3, "response_kind": "result"}
+{"timestamp_unix": 1794511605.9174645, "execution_id": "latency-002-1794511578439920800", "event": "response_forwarded", "request_id": 3, "response_kind": "result"}
+{"timestamp_unix": 1794511606.9622457, "execution_id": "latency-003-1794511578439920800", "event": "message_received", "request_id": 1, "method": "initialize", "tool": null}
+{"timestamp_unix": 1794511606.9622457, "execution_id": "latency-003-1794511578439920800", "event": "request_forwarded", "request_id": 1, "method": "initialize", "tool": null}
+{"timestamp_unix": 1794511609.6519005, "execution_id": "latency-003-1794511578439920800", "event": "upstream_response_received", "request_id": 1, "response_kind": "result"}
+{"timestamp_unix": 1794511609.6528995, "execution_id": "latency-003-1794511578439920800", "event": "response_forwarded", "request_id": 1, "response_kind": "result"}
+{"timestamp_unix": 1794511609.6549013, "execution_id": "latency-003-1794511578439920800", "event": "message_received", "request_id": null, "method": "notifications/initialized", "tool": null}
+{"timestamp_unix": 1794511609.6559007, "execution_id": "latency-003-1794511578439920800", "event": "request_forwarded", "request_id": null, "method": "notifications/initialized", "tool": null}
+{"timestamp_unix": 1794511609.6568997, "execution_id": "latency-003-1794511578439920800", "event": "message_received", "request_id": 2, "method": "tools/list", "tool": null}
+{"timestamp_unix": 1794511609.6579013, "execution_id": "latency-003-1794511578439920800", "event": "request_forwarded", "request_id": 2, "method": "tools/list", "tool": null}
+{"timestamp_unix": 1794511609.6609, "execution_id": "latency-003-1794511578439920800", "event": "upstream_response_received", "request_id": 2, "response_kind": "result"}
+{"timestamp_unix": 1794511609.6609, "execution_id": "latency-003-1794511578439920800", "event": "response_forwarded", "request_id": 2, "response_kind": "result"}
+{"timestamp_unix": 1794511609.6621141, "execution_id": "latency-003-1794511578439920800", "event": "message_received", "request_id": 3, "method": "tools/call", "tool": "get_company_revenue"}
+{"timestamp_unix": 1794511609.6621141, "execution_id": "latency-003-1794511578439920800", "event": "fault_injected", "delay_seconds": 1.5, "request_id": 3, "tool": "get_company_revenue", "fault_type": "latency", "call_number_for_tool": 1}
+{"timestamp_unix": 1794511611.1779296, "execution_id": "latency-003-1794511578439920800", "event": "request_forwarded", "request_id": 3, "method": "tools/call", "tool": "get_company_revenue"}
+{"timestamp_unix": 1794511611.1831388, "execution_id": "latency-003-1794511578439920800", "event": "upstream_response_received", "request_id": 3, "response_kind": "result"}
+{"timestamp_unix": 1794511611.1831388, "execution_id": "latency-003-1794511578439920800", "event": "response_forwarded", "request_id": 3, "response_kind": "result"}
+{"timestamp_unix": 1794566321.0841882, "execution_id": "latency-001-1794566294158736000", "event": "message_received", "request_id": 1, "method": "initialize", "tool": null}
+{"timestamp_unix": 1794566321.1528769, "execution_id": "latency-001-1794566294158736000", "event": "request_forwarded", "request_id": 1, "method": "initialize", "tool": null}
+{"timestamp_unix": 1794566326.5456567, "execution_id": "latency-001-1794566294158736000", "event": "upstream_response_received", "request_id": 1, "response_kind": "result"}
+{"timestamp_unix": 1794566326.5466566, "execution_id": "latency-001-1794566294158736000", "event": "response_forwarded", "request_id": 1, "response_kind": "result"}
+{"timestamp_unix": 1794566326.5486562, "execution_id": "latency-001-1794566294158736000", "event": "message_received", "request_id": null, "method": "notifications/initialized", "tool": null}
+{"timestamp_unix": 1794566326.5496569, "execution_id": "latency-001-1794566294158736000", "event": "request_forwarded", "request_id": null, "method": "notifications/initialized", "tool": null}
+{"timestamp_unix": 1794566326.5506568, "execution_id": "latency-001-1794566294158736000", "event": "message_received", "request_id": 2, "method": "tools/list", "tool": null}
+{"timestamp_unix": 1794566326.5516598, "execution_id": "latency-001-1794566294158736000", "event": "request_forwarded", "request_id": 2, "method": "tools/list", "tool": null}
+{"timestamp_unix": 1794566326.554656, "execution_id": "latency-001-1794566294158736000", "event": "upstream_response_received", "request_id": 2, "response_kind": "result"}
+{"timestamp_unix": 1794566326.554656, "execution_id": "latency-001-1794566294158736000", "event": "response_forwarded", "request_id": 2, "response_kind": "result"}
+{"timestamp_unix": 1794566326.556657, "execution_id": "latency-001-1794566294158736000", "event": "message_received", "request_id": 3, "method": "tools/call", "tool": "get_company_revenue"}
+{"timestamp_unix": 1794566326.558428, "execution_id": "latency-001-1794566294158736000", "event": "fault_injected", "delay_seconds": 1.5, "request_id": 3, "tool": "get_company_revenue", "fault_type": "latency", "call_number_for_tool": 1}
+{"timestamp_unix": 1794566328.059919, "execution_id": "latency-001-1794566294158736000", "event": "request_forwarded", "request_id": 3, "method": "tools/call", "tool": "get_company_revenue"}
+{"timestamp_unix": 1794566328.0639195, "execution_id": "latency-001-1794566294158736000", "event": "upstream_response_received", "request_id": 3, "response_kind": "result"}
+{"timestamp_unix": 1794566328.06592, "execution_id": "latency-001-1794566294158736000", "event": "response_forwarded", "request_id": 3, "response_kind": "result"}
+{"timestamp_unix": 1794566339.9218957, "execution_id": "latency-002-1794566294158736000", "event": "message_received", "request_id": 1, "method": "initialize", "tool": null}
+{"timestamp_unix": 1794566339.9218957, "execution_id": "latency-002-1794566294158736000", "event": "request_forwarded", "request_id": 1, "method": "initialize", "tool": null}
+{"timestamp_unix": 1794566344.606209, "execution_id": "latency-003-1794566294158736000", "event": "message_received", "request_id": 1, "method": "initialize", "tool": null}
+{"timestamp_unix": 1794566344.606209, "execution_id": "latency-003-1794566294158736000", "event": "request_forwarded", "request_id": 1, "method": "initialize", "tool": null}
+{"timestamp_unix": 1794566349.4799278, "execution_id": "latency-003-1794566294158736000", "event": "upstream_response_received", "request_id": 1, "response_kind": "result"}
+{"timestamp_unix": 1794566349.4799278, "execution_id": "latency-003-1794566294158736000", "event": "response_forwarded", "request_id": 1, "response_kind": "result"}
+{"timestamp_unix": 1794566349.4799278, "execution_id": "latency-003-1794566294158736000", "event": "message_received", "request_id": null, "method": "notifications/initialized", "tool": null}
+{"timestamp_unix": 1794566349.4799278, "execution_id": "latency-003-1794566294158736000", "event": "request_forwarded", "request_id": null, "method": "notifications/initialized", "tool": null}
+{"timestamp_unix": 1794566349.4799278, "execution_id": "latency-003-1794566294158736000", "event": "message_received", "request_id": 2, "method": "tools/list", "tool": null}
+{"timestamp_unix": 1794566349.4799278, "execution_id": "latency-003-1794566294158736000", "event": "request_forwarded", "request_id": 2, "method": "tools/list", "tool": null}
+{"timestamp_unix": 1794566349.495545, "execution_id": "latency-003-1794566294158736000", "event": "upstream_response_received", "request_id": 2, "response_kind": "result"}
+{"timestamp_unix": 1794566349.495545, "execution_id": "latency-003-1794566294158736000", "event": "response_forwarded", "request_id": 2, "response_kind": "result"}
+{"timestamp_unix": 1794566349.495545, "execution_id": "latency-003-1794566294158736000", "event": "message_received", "request_id": 3, "method": "tools/call", "tool": "get_company_revenue"}
+{"timestamp_unix": 1794566349.5892642, "execution_id": "latency-003-1794566294158736000", "event": "fault_injected", "delay_seconds": 1.5, "request_id": 3, "tool": "get_company_revenue", "fault_type": "latency", "call_number_for_tool": 1}
+{"timestamp_unix": 1794566351.0907292, "execution_id": "latency-003-1794566294158736000", "event": "request_forwarded", "request_id": 3, "method": "tools/call", "tool": "get_company_revenue"}
+{"timestamp_unix": 1794566351.09473, "execution_id": "latency-003-1794566294158736000", "event": "upstream_response_received", "request_id": 3, "response_kind": "result"}
+{"timestamp_unix": 1794566351.0957289, "execution_id": "latency-003-1794566294158736000", "event": "response_forwarded", "request_id": 3, "response_kind": "result"}
+{"timestamp_unix": 1794566929.8009398, "execution_id": "latency-001-1794566911483802200", "event": "message_received", "request_id": 1, "method": "initialize", "tool": null}
+{"timestamp_unix": 1794566929.8109388, "execution_id": "latency-001-1794566911483802200", "event": "request_forwarded", "request_id": 1, "method": "initialize", "tool": null}
+{"timestamp_unix": 1794566936.8632889, "execution_id": "latency-001-1794566911483802200", "event": "upstream_response_received", "request_id": 1, "response_kind": "result"}
+{"timestamp_unix": 1794566936.8642886, "execution_id": "latency-001-1794566911483802200", "event": "response_forwarded", "request_id": 1, "response_kind": "result"}
+{"timestamp_unix": 1794566936.8662894, "execution_id": "latency-001-1794566911483802200", "event": "message_received", "request_id": null, "method": "notifications/initialized", "tool": null}
+{"timestamp_unix": 1794566936.8672884, "execution_id": "latency-001-1794566911483802200", "event": "request_forwarded", "request_id": null, "method": "notifications/initialized", "tool": null}
+{"timestamp_unix": 1794566936.868289, "execution_id": "latency-001-1794566911483802200", "event": "message_received", "request_id": 2, "method": "tools/list", "tool": null}
+{"timestamp_unix": 1794566936.8692892, "execution_id": "latency-001-1794566911483802200", "event": "request_forwarded", "request_id": 2, "method": "tools/list", "tool": null}
+{"timestamp_unix": 1794566936.8722885, "execution_id": "latency-001-1794566911483802200", "event": "upstream_response_received", "request_id": 2, "response_kind": "result"}
+{"timestamp_unix": 1794566936.8732882, "execution_id": "latency-001-1794566911483802200", "event": "response_forwarded", "request_id": 2, "response_kind": "result"}
+{"timestamp_unix": 1794566936.8762887, "execution_id": "latency-001-1794566911483802200", "event": "message_received", "request_id": 3, "method": "tools/call", "tool": "get_company_revenue"}
+{"timestamp_unix": 1794566936.877288, "execution_id": "latency-001-1794566911483802200", "event": "fault_injected", "delay_seconds": 1.5, "request_id": 3, "tool": "get_company_revenue", "fault_type": "latency", "call_number_for_tool": 1}
+{"timestamp_unix": 1794566938.3801546, "execution_id": "latency-001-1794566911483802200", "event": "request_forwarded", "request_id": 3, "method": "tools/call", "tool": "get_company_revenue"}
+{"timestamp_unix": 1794566938.3851554, "execution_id": "latency-001-1794566911483802200", "event": "upstream_response_received", "request_id": 3, "response_kind": "result"}
+{"timestamp_unix": 1794566938.3861554, "execution_id": "latency-001-1794566911483802200", "event": "response_forwarded", "request_id": 3, "response_kind": "result"}
+{"timestamp_unix": 1794566941.4918823, "execution_id": "latency-002-1794566911483802200", "event": "message_received", "request_id": 1, "method": "initialize", "tool": null}
+{"timestamp_unix": 1794566941.4928825, "execution_id": "latency-002-1794566911483802200", "event": "request_forwarded", "request_id": 1, "method": "initialize", "tool": null}
+{"timestamp_unix": 1794566946.5938985, "execution_id": "latency-002-1794566911483802200", "event": "upstream_response_received", "request_id": 1, "response_kind": "result"}
+{"timestamp_unix": 1794566946.5938985, "execution_id": "latency-002-1794566911483802200", "event": "response_forwarded", "request_id": 1, "response_kind": "result"}
+{"timestamp_unix": 1794566946.5938985, "execution_id": "latency-002-1794566911483802200", "event": "message_received", "request_id": null, "method": "notifications/initialized", "tool": null}
+{"timestamp_unix": 1794566946.5938985, "execution_id": "latency-002-1794566911483802200", "event": "request_forwarded", "request_id": null, "method": "notifications/initialized", "tool": null}
+{"timestamp_unix": 1794566946.5938985, "execution_id": "latency-002-1794566911483802200", "event": "message_received", "request_id": 2, "method": "tools/list", "tool": null}
+{"timestamp_unix": 1794566946.5938985, "execution_id": "latency-002-1794566911483802200", "event": "request_forwarded", "request_id": 2, "method": "tools/list", "tool": null}
+{"timestamp_unix": 1794566946.611648, "execution_id": "latency-002-1794566911483802200", "event": "upstream_response_received", "request_id": 2, "response_kind": "result"}
+{"timestamp_unix": 1794566946.61265, "execution_id": "latency-002-1794566911483802200", "event": "response_forwarded", "request_id": 2, "response_kind": "result"}
+{"timestamp_unix": 1794566946.6146488, "execution_id": "latency-002-1794566911483802200", "event": "message_received", "request_id": 3, "method": "tools/call", "tool": "get_company_revenue"}
+{"timestamp_unix": 1794566946.6156485, "execution_id": "latency-002-1794566911483802200", "event": "fault_injected", "delay_seconds": 1.5, "request_id": 3, "tool": "get_company_revenue", "fault_type": "latency", "call_number_for_tool": 1}
+{"timestamp_unix": 1794566948.1217663, "execution_id": "latency-002-1794566911483802200", "event": "request_forwarded", "request_id": 3, "method": "tools/call", "tool": "get_company_revenue"}
+{"timestamp_unix": 1794566948.126767, "execution_id": "latency-002-1794566911483802200", "event": "upstream_response_received", "request_id": 3, "response_kind": "result"}
+{"timestamp_unix": 1794566948.1294818, "execution_id": "latency-002-1794566911483802200", "event": "response_forwarded", "request_id": 3, "response_kind": "result"}
+{"timestamp_unix": 1794566949.9921737, "execution_id": "latency-003-1794566911483802200", "event": "message_received", "request_id": 1, "method": "initialize", "tool": null}
+{"timestamp_unix": 1794566949.9931726, "execution_id": "latency-003-1794566911483802200", "event": "request_forwarded", "request_id": 1, "method": "initialize", "tool": null}
+{"timestamp_unix": 1794566954.012913, "execution_id": "latency-003-1794566911483802200", "event": "upstream_response_received", "request_id": 1, "response_kind": "result"}
+{"timestamp_unix": 1794566954.0139115, "execution_id": "latency-003-1794566911483802200", "event": "response_forwarded", "request_id": 1, "response_kind": "result"}
+{"timestamp_unix": 1794566954.015911, "execution_id": "latency-003-1794566911483802200", "event": "message_received", "request_id": null, "method": "notifications/initialized", "tool": null}
+{"timestamp_unix": 1794566954.0169125, "execution_id": "latency-003-1794566911483802200", "event": "request_forwarded", "request_id": null, "method": "notifications/initialized", "tool": null}
+{"timestamp_unix": 1794566954.017912, "execution_id": "latency-003-1794566911483802200", "event": "message_received", "request_id": 2, "method": "tools/list", "tool": null}
+{"timestamp_unix": 1794566954.0199118, "execution_id": "latency-003-1794566911483802200", "event": "request_forwarded", "request_id": 2, "method": "tools/list", "tool": null}
+{"timestamp_unix": 1794566954.0239112, "execution_id": "latency-003-1794566911483802200", "event": "upstream_response_received", "request_id": 2, "response_kind": "result"}
+{"timestamp_unix": 1794566954.0249112, "execution_id": "latency-003-1794566911483802200", "event": "response_forwarded", "request_id": 2, "response_kind": "result"}
+{"timestamp_unix": 1794566954.026912, "execution_id": "latency-003-1794566911483802200", "event": "message_received", "request_id": 3, "method": "tools/call", "tool": "get_company_revenue"}
+{"timestamp_unix": 1794566954.028223, "execution_id": "latency-003-1794566911483802200", "event": "fault_injected", "delay_seconds": 1.5, "request_id": 3, "tool": "get_company_revenue", "fault_type": "latency", "call_number_for_tool": 1}
+{"timestamp_unix": 1794566955.541419, "execution_id": "latency-003-1794566911483802200", "event": "request_forwarded", "request_id": 3, "method": "tools/call", "tool": "get_company_revenue"}
+{"timestamp_unix": 1794566955.54402, "execution_id": "latency-003-1794566911483802200", "event": "upstream_response_received", "request_id": 3, "response_kind": "result"}
+{"timestamp_unix": 1794566955.54402, "execution_id": "latency-003-1794566911483802200", "event": "response_forwarded", "request_id": 3, "response_kind": "result"}

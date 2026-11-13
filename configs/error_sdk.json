@@ -1,0 +1,16 @@
+{
+  "command": [
+    "$PYTHON",
+    "mcp_server.py"
+  ],
+  "log_file": "logs/proxy_sdk_error.jsonl",
+  "faults": [
+    {
+      "type": "error",
+      "tool": "get_company_revenue",
+      "every_n": 1,
+      "error_code": -32001,
+      "message": "Injected temporary tool failure"
+    }
+  ]
+}
